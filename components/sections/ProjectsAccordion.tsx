@@ -11,7 +11,7 @@ export type AccordionProject = {
 };
 
 type Props = {
-  projects: AccordionProject[];
+  projects?: AccordionProject[];
   title?: string;
   titleVariant?: "small" | "large";
   rounded?: boolean;
