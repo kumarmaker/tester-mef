@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "localhost",
         pathname: "/mfound-local/**",
       },
+      {
+        protocol: "https",
+        hostname: "massivefoundation.org",
+        pathname: "/**",
+      },
     ],
   },
 };

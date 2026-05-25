@@ -74,15 +74,23 @@ const SOCIALS = [
 export default function Footer() {
   return (
     <footer
-      className="text-white mt-auto"
-      style={{ backgroundColor: "#091929" }}
+      className="relative text-white mt-auto"
+      style={{
+        backgroundImage: "url(https://massivefoundation.org/wp-content/uploads/2024/08/Frame160281.webp)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
+      <div className="absolute inset-0 bg-black/35" />
       {/* Connect With Us */}
-      <div className="mx-auto max-w-7xl px-4 pt-14 pb-10 border-b border-white/10">
-        <h2 className="text-3xl font-extrabold uppercase tracking-wide mb-2">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 pt-14 pb-10 border-b border-white/10">
+        <h2
+          className="font-bold uppercase tracking-wide text-white mb-2"
+          style={{ fontFamily: "var(--font-oswald)", fontSize: "39px" }}
+        >
           Connect With Us
         </h2>
-        <p className="text-sm text-gray-300 mb-6 max-w-sm">
+        <p className="text-sm text-gray-300 mb-6 max-w-sm" style={{ fontFamily: "var(--font-inter)" }}>
           Please use the contact information present below to write to us, and
           we will get back to you shortly.
         </p>
@@ -93,15 +101,18 @@ export default function Footer() {
             type="text"
             placeholder="Please enter your name here"
             className="flex-1 px-4 py-3 bg-transparent border border-white/30 text-white placeholder-gray-400 text-sm focus:outline-none focus:border-white"
+            style={{ borderRadius: "8px" }}
           />
           <input
             type="email"
             placeholder="Please enter your email here"
             className="flex-1 px-4 py-3 bg-transparent border border-white/30 text-white placeholder-gray-400 text-sm focus:outline-none focus:border-white"
+            style={{ borderRadius: "8px" }}
           />
           <button
             type="submit"
-            className="px-10 py-3 bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-widest text-sm transition-colors"
+            className="px-10 py-3 bg-red-600 hover:bg-red-700 text-white font-bold uppercase transition-colors"
+            style={{ fontFamily: "var(--font-oswald)", fontSize: "16px", letterSpacing: "0.05em", borderRadius: "8px" }}
           >
             Connect
           </button>
@@ -109,16 +120,19 @@ export default function Footer() {
       </div>
 
       {/* Main footer body */}
-      <div className="mx-auto max-w-7xl px-4 py-10">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 py-10">
         <div className="flex flex-col md:flex-row justify-between gap-10">
 
           {/* Logo + contact — swap <div> for <Image> once logo file is ready */}
           <div className="max-w-xs shrink-0">
-            {/* ASSET NEEDED: replace this block with next/image pointing to the MEF logo */}
             <div className="mb-6">
-              <p className="text-red-500 font-black text-2xl uppercase leading-tight">
-                massive<br />earth<br />foundation
-              </p>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://massivefoundation.org/wp-content/uploads/2024/08/Group-27481-1.webp"
+                alt="Massive Earth Foundation"
+                className="h-20 w-auto object-contain"
+                draggable={false}
+              />
             </div>
 
             <div className="text-sm text-gray-300 space-y-1">
@@ -170,10 +184,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div
-        className="border-t border-white/10 py-4"
-        style={{ backgroundColor: "#050d18" }}
-      >
+      <div className="relative z-10 border-t border-white/10 py-4 bg-black/30">
         <div className="mx-auto max-w-7xl px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
           <p>© 2019 Massive Earth Foundation | All Rights Reserved</p>
 

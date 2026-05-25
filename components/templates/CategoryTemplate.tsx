@@ -1,4 +1,5 @@
 import type { WPArchive, PostCard } from "@/lib/types";
+import { resolveMedia } from "@/lib/media";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,7 +14,7 @@ function PostCard({ post }: { post: PostCard }) {
       {post.featuredImage ? (
         <div className="relative aspect-video w-full">
           <Image
-            src={post.featuredImage.node.sourceUrl}
+            src={resolveMedia(post.featuredImage.node.sourceUrl)}
             alt={post.featuredImage.node.altText || post.title}
             fill
             className="object-cover"

@@ -1,6 +1,22 @@
+export const RELATED_POSTS_QUERY = `
+  query RelatedPosts($categoryName: String!, $notIn: [ID]) {
+    posts(first: 3, where: { categoryName: $categoryName, notIn: $notIn, status: PUBLISH }) {
+      nodes {
+        title
+        slug
+        excerpt
+        date
+        categories { nodes { name slug } }
+        featuredImage { node { sourceUrl altText } }
+        author { node { name } }
+      }
+    }
+  }
+`;
+
 export const BLOG_LISTING_QUERY = `
-  query BlogListing($first: Int!, $after: String) {
-    posts(first: $first, after: $after, where: { status: PUBLISH }) {
+  query BlogListing($first: Int!, $after: String, $search: String) {
+    posts(first: $first, after: $after, where: { status: PUBLISH, search: $search }) {
       pageInfo {
         hasNextPage
         endCursor

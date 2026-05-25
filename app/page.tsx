@@ -1,16 +1,19 @@
-import { notFound } from "next/navigation";
-import { wpQuery } from "@/lib/graphql";
-import { NODE_BY_URI_QUERY } from "@/lib/queries";
-import type { WPNode } from "@/lib/types";
-import PageTemplate from "@/components/templates/PageTemplate";
+import Hero from "@/components/sections/Hero";
+import PlanetaryVision from "@/components/sections/PlanetaryVision";
+import WhatWeDo from "@/components/sections/WhatWeDo";
+import ProjectsAccordion from "@/components/sections/ProjectsAccordion";
+import RecentEvents from "@/components/sections/RecentEvents";
+import OurPartners from "@/components/sections/OurPartners";
 
-export default async function HomePage() {
-  const data = await wpQuery<{ nodeByUri: WPNode | null }>(NODE_BY_URI_QUERY, {
-    uri: "/",
-  });
-
-  const node = data.nodeByUri;
-  if (!node || node.__typename !== "Page") notFound();
-
-  return <PageTemplate page={node} />;
+export default function HomePage() {
+  return (
+    <>
+      <Hero />
+      <PlanetaryVision />
+      <WhatWeDo />
+      <ProjectsAccordion rounded title="Massive Earth Foundation Projects" titleVariant="large" />
+      <RecentEvents />
+      <OurPartners />
+    </>
+  );
 }
