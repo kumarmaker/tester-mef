@@ -13,6 +13,7 @@ export type PostCard = {
   date: string;
   categories: { nodes: { name: string; slug: string }[] };
   featuredImage: { node: { sourceUrl: string; altText: string } } | null;
+  author?: { node: { name: string } };
 };
 
 export type WPPost = {
