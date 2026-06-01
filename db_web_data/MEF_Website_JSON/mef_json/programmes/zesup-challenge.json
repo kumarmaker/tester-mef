@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "slug": "zesup-challenge",
+    "url": "/programmes/zesup-challenge",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "ZESUP Challenge",
+    "short_name": "ZeSUP",
+    "type": "accelerator",
+    "status": "completed",
+    "year_launched": 2022,
+    "region": "Southeast Asia",
+    "description": "Zero Single-Use Plastic Challenge. Remove SUP from Food & Beverage industry in South East Asia. With The Incubation Network."
+  },
+  "sectors": {
+    "primary": [
+      "Circular Economy & Waste"
+    ],
+    "secondary": []
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 12",
+        "policy_full": "SDG 12 \u2014 Responsible Consumption",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "ZeSUP directly delivers SDG 12 responsible consumption by removing single-use plastics from F&B industry.",
+        "slug": "sdg-12-responsible-consumption"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "Plastic reduction is climate action. SDG 13 alignment.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "PWMR",
+        "policy_full": "Plastic Waste Management Rules",
+        "level": "national",
+        "type": "regulation",
+        "strength": "strong",
+        "notes": "ZeSUP helps F&B operators prepare for EPR compliance under PWMR 2016.",
+        "slug": "plastic-waste-management-rules"
+      },
+      {
+        "policy": "AEPW",
+        "policy_full": "Alliance to End Plastic Waste Framework",
+        "level": "global",
+        "type": "framework",
+        "strength": "strong",
+        "notes": "ZeSUP's mandate mirrors AEPW framework goals on plastic waste elimination.",
+        "slug": "alliance-to-end-plastic-waste-framework"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "The Incubation Network",
+        "short_name": "TIN",
+        "type": "ngo_civil_society",
+        "slug": "the-incubation-network"
+      },
+      {
+        "name": "Rebel Foods",
+        "short_name": "Rebel Foods",
+        "type": "corporate_partner",
+        "slug": "rebel-foods"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "The Incubation Network",
+      "type": "mou",
+      "status": "active",
+      "year": 2021,
+      "notes": "MEF\u2013TIN MoU also enables ZeSUP Challenge",
+      "slug": "the-incubation-network"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": []
+}

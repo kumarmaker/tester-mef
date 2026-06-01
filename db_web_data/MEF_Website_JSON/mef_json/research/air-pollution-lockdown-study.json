@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "slug": "air-pollution-lockdown-study",
+    "url": "/research/air-pollution-lockdown-study",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "Air Pollution & Lockdown Study",
+    "short_name": "AQI",
+    "sector_focus": "Air Quality & Pollution",
+    "release_date": "2020",
+    "status": "published",
+    "accessibility": "Website",
+    "description": "AQI correlation with COVID-19 lockdown. Multiple editions (2020, 2022). Covers Bangalore, Chennai, Delhi. Links transportation activity to air quality."
+  },
+  "produced_by": null,
+  "sector_tag": {
+    "name": "Air Quality & Pollution",
+    "slug": "air-quality-pollution"
+  },
+  "policy_relations": {
+    "evidence": [
+      {
+        "policy": "SDG 13",
+        "level": "global",
+        "notes": "Lockdown AQI correlation demonstrates pollution-transport link relevant to climate action.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "SDG 3",
+        "level": "global",
+        "notes": "Air pollution health impacts directly evidence SDG 3 good health mandate.",
+        "slug": "sdg-3-good-health-and-well-being"
+      },
+      {
+        "policy": "NCAP",
+        "level": "national",
+        "notes": "AQI studies provide empirical evidence base for NCAP non-attainment city targets.",
+        "slug": "national-clean-air-programme"
+      }
+    ],
+    "alignment": [],
+    "advocacy": []
+  },
+  "related_reports": [
+    {
+      "name": "Dust & Its Impact",
+      "short_name": "Dust",
+      "slug": "dust-its-impact"
+    },
+    {
+      "name": "Delhi Clean Air Report",
+      "short_name": "Delhi Air",
+      "slug": "delhi-clean-air-report"
+    }
+  ]
+}

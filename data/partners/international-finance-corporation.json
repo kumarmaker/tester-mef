@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "slug": "international-finance-corporation",
+    "url": "/partners/international-finance-corporation",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "International Finance Corporation",
+    "short_name": "IFC",
+    "type": "multilateral",
+    "description": "World Bank Group arm. Partner on ICAP India Climate Accelerator Platform."
+  },
+  "partnership": {
+    "formalisation_type": "framework_agreement",
+    "status": "active",
+    "signed_year": 2023,
+    "notes": "MEF\u2013IFC partnership for ICAP India Climate Accelerator Platform."
+  },
+  "programmes": [
+    {
+      "name": "ICAP \u2014 India Climate Accelerator Platform",
+      "short_name": "ICAP",
+      "type": "dialogue",
+      "status": "active",
+      "role": "co-creator",
+      "slug": "icap-india-climate-accelerator-platform"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "ICAP \u2014 India Climate Accelerator Platform",
+      "notes": "MEF\u2013IFC agreement is the enabling framework for ICAP",
+      "slug": "icap-india-climate-accelerator-platform"
+    }
+  ],
+  "policies_implemented": []
+}

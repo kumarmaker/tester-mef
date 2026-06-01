@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "slug": "smart-waste-management",
+    "url": "/programmes/smart-waste-management",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "Smart Waste Management",
+    "short_name": "SWM",
+    "type": "project",
+    "status": "ongoing",
+    "year_launched": 2020,
+    "region": "India",
+    "description": "Advisory, consultancy, research and auditing on circular economy, EPR compliance, waste audits, decentralised solid waste management. Currently with Agra Municipal Corporation."
+  },
+  "sectors": {
+    "primary": [
+      "Circular Economy & Waste"
+    ],
+    "secondary": [
+      "Sustainable Built Environment"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 12",
+        "policy_full": "SDG 12 \u2014 Responsible Consumption",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "SWM advances SDG 12 responsible consumption through corporate waste audit and advisory.",
+        "slug": "sdg-12-responsible-consumption"
+      },
+      {
+        "policy": "PWMR",
+        "policy_full": "Plastic Waste Management Rules",
+        "level": "national",
+        "type": "regulation",
+        "strength": "strong",
+        "notes": "SWM is the direct operational delivery of PWMR 2016 EPR obligations for corporate clients.",
+        "slug": "plastic-waste-management-rules"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 11",
+        "policy_full": "SDG 11 \u2014 Sustainable Cities",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "Municipal solid waste advisory work serves SDG 11 sustainable cities.",
+        "slug": "sdg-11-sustainable-cities"
+      },
+      {
+        "policy": "NMSH",
+        "policy_full": "National Mission on Sustainable Habitat",
+        "level": "national",
+        "type": "mission",
+        "strength": "strong",
+        "notes": "SWM's decentralised municipal solid waste work aligns with NAPCC Sustainable Habitat Mission.",
+        "slug": "national-mission-on-sustainable-habitat"
+      }
+    ],
+    "advocacy": [
+      {
+        "policy": "PWMR",
+        "policy_full": "Plastic Waste Management Rules",
+        "level": "national",
+        "type": "regulation",
+        "strength": "partial",
+        "notes": "SWM ground operations build evidence base that informs PWMR regulatory evolution.",
+        "slug": "plastic-waste-management-rules"
+      }
+    ],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "GIZ",
+        "short_name": "GIZ",
+        "type": "multilateral",
+        "slug": "giz"
+      },
+      {
+        "name": "Agra Municipal Corporation",
+        "short_name": "Agra MC",
+        "type": "government",
+        "slug": "agra-municipal-corporation"
+      },
+      {
+        "name": "Alliance to End Plastic Waste",
+        "short_name": "AEPW",
+        "type": "ngo_civil_society",
+        "slug": "alliance-to-end-plastic-waste"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "GIZ",
+      "type": "mou",
+      "status": "unknown",
+      "year": 2020,
+      "notes": "MEF\u2013GIZ engagement supports waste management advisory work",
+      "slug": "giz"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": []
+}

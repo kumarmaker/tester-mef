@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "slug": "saffal",
+    "url": "/programmes/saffal",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "SAFFAL",
+    "short_name": "SAFFAL",
+    "type": "accelerator",
+    "status": "active",
+    "year_launched": 2025,
+    "region": "South Asia",
+    "description": "South Asia Finance Facility for Acceleration and Leverage. 5th edition of LCE. Women-led SMEs across South Asia. $6M blended finance facility. Under EmPower (UNEP + UN Women)."
+  },
+  "sectors": {
+    "primary": [
+      "Climate Finance & Innovation",
+      "Gender & Social Equity"
+    ],
+    "secondary": [
+      "Clean Energy",
+      "Circular Economy & Waste",
+      "Sustainable Agriculture",
+      "Forests & Biodiversity"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 5",
+        "policy_full": "SDG 5 \u2014 Gender Equality",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "SAFFAL's entire architecture is designed to deliver SDG 5 gender equality in the climate finance context.",
+        "slug": "sdg-5-gender-equality"
+      },
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "SAFFAL accelerates women-led climate SMEs, directly serving SDG 13 through gender lens.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "EmPower P2",
+        "policy_full": "EmPower: Women for Climate-Resilient Societies Phase 2",
+        "level": "programme",
+        "type": "programme",
+        "strength": "strong",
+        "notes": "SAFFAL is the named delivery programme under EmPower Phase 2. Co-designed with UNEP and UN Women.",
+        "slug": "empower-women-for-climate-resilient-societies-phase-2"
+      }
+    ],
+    "mandate": [
+      {
+        "policy": "NDC 3.0",
+        "policy_full": "India NDC 3.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "strong",
+        "notes": "India NDC 3.0 requires gender-responsive climate finance mechanisms. SAFFAL is that mechanism.",
+        "slug": "india-ndc-3-0"
+      },
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "partial",
+        "notes": "NDC 2.0 calls for frameworks enabling women-led climate enterprises. SAFFAL directly responds.",
+        "slug": "india-ndc-2-0"
+      }
+    ],
+    "alignment": [
+      {
+        "policy": "Paris",
+        "policy_full": "Paris Agreement",
+        "level": "global",
+        "type": "treaty",
+        "strength": "strong",
+        "notes": "SAFFAL's $6M blended finance facility is a direct response to the Paris Agreement's finance mobilisation imperative.",
+        "slug": "paris-agreement"
+      },
+      {
+        "policy": "B2B",
+        "policy_full": "Baku to Bel\u00e9m Roadmap",
+        "level": "global",
+        "type": "framework",
+        "strength": "strong",
+        "notes": "SAFFAL is designed to channel Baku-Bel\u00e9m finance commitments toward EMDCs at the SME level.",
+        "slug": "baku-to-bel-m-roadmap"
+      },
+      {
+        "policy": "SDG 9",
+        "policy_full": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "SAFFAL builds innovation and investment infrastructure in South Asia. SDG 9 in practice.",
+        "slug": "sdg-9-industry-innovation-infrastructure"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [
+      {
+        "name": "Ministry of Sweden",
+        "short_name": "Sweden",
+        "type": "government",
+        "slug": "ministry-of-sweden"
+      }
+    ],
+    "partners": [
+      {
+        "name": "United Nations Environment Programme",
+        "short_name": "UNEP",
+        "type": "multilateral",
+        "slug": "united-nations-environment-programme"
+      },
+      {
+        "name": "UN Women",
+        "short_name": "UN Women",
+        "type": "multilateral",
+        "slug": "un-women"
+      },
+      {
+        "name": "Google Cloud",
+        "short_name": "Google Cloud",
+        "type": "tech_partner",
+        "slug": "google-cloud"
+      },
+      {
+        "name": "HubSpot for Startups",
+        "short_name": "HubSpot",
+        "type": "tech_partner",
+        "slug": "hubspot-for-startups"
+      },
+      {
+        "name": "Microsoft for Startups",
+        "short_name": "Microsoft",
+        "type": "tech_partner",
+        "slug": "microsoft-for-startups"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "United Nations Environment Programme",
+      "type": "mou",
+      "status": "active",
+      "year": 2021,
+      "notes": "MEF-UNEP MoU also enables SAFFAL alongside EmPower programme",
+      "slug": "united-nations-environment-programme"
+    },
+    {
+      "partner": "UN Women",
+      "type": "mou",
+      "status": "active",
+      "year": 2023,
+      "notes": "MEF\u2013UN Women partnership directly enables SAFFAL delivery",
+      "slug": "un-women"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": [
+    {
+      "name": "ClimateNXT 2025",
+      "date": "5 Jun 2025",
+      "location": "Bangalore",
+      "relationship": "launch",
+      "slug": "climatenxt-2025"
+    },
+    {
+      "name": "SAFFAL Investor & Donor Summit",
+      "date": "5 Mar 2026",
+      "location": "Singapore",
+      "relationship": "milestone",
+      "slug": "saffal-investor-donor-summit"
+    }
+  ]
+}

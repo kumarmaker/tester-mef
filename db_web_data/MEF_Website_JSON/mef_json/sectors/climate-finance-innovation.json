@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "slug": "climate-finance-innovation",
+    "url": "/sectors/climate-finance-innovation",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Climate Finance & Innovation",
+    "description": "Risk capital, blended finance, climate-tech investment ecosystem"
+  },
+  "stats": {
+    "programme_count": 6,
+    "policy_count": 6,
+    "report_count": 0
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "MEF\u2013UNEP Institutional Partnership",
+        "short_name": "MEF-UNEP",
+        "type": "partnership",
+        "status": "active",
+        "year": 2021,
+        "region": "Global",
+        "slug": "mef-unep-institutional-partnership"
+      },
+      {
+        "name": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "year": 2021,
+        "region": "Asia-Pacific",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "name": "ICAP \u2014 India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "active",
+        "year": 2023,
+        "region": "India",
+        "slug": "icap-india-climate-accelerator-platform"
+      },
+      {
+        "name": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "year": 2023,
+        "region": "Global",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "name": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "year": 2025,
+        "region": "South Asia",
+        "slug": "saffal"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Sustainable Forests / Smriti Van",
+        "short_name": "Smriti Van",
+        "type": "project",
+        "status": "ongoing",
+        "slug": "sustainable-forests-smriti-van"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "Paris Agreement",
+        "short_name": "Paris",
+        "year": 2015,
+        "role": "primary",
+        "slug": "paris-agreement"
+      },
+      {
+        "name": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+        "short_name": "SDG 9",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-9-industry-innovation-infrastructure"
+      },
+      {
+        "name": "SDG 13 \u2014 Climate Action",
+        "short_name": "SDG 13",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "name": "Article 6 \u2014 Paris Agreement Carbon Markets",
+        "short_name": "Article 6",
+        "year": 2021,
+        "role": "secondary",
+        "slug": "article-6-paris-agreement-carbon-markets"
+      }
+    ],
+    "national": [
+      {
+        "name": "Carbon Credit Trading Scheme",
+        "short_name": "CCTS",
+        "year": 2023,
+        "role": "secondary",
+        "slug": "carbon-credit-trading-scheme"
+      }
+    ]
+  },
+  "reports": []
+}

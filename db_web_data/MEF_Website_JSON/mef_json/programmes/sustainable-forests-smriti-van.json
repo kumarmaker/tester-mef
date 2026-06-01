@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "slug": "sustainable-forests-smriti-van",
+    "url": "/programmes/sustainable-forests-smriti-van",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "Sustainable Forests / Smriti Van",
+    "short_name": "Smriti Van",
+    "type": "project",
+    "status": "ongoing",
+    "year_launched": 2022,
+    "region": "India",
+    "description": "Biodiversity-focused forest building, not monoculture planting. Carbon offsets for corporates. Improved Forest Management Carbon Credits."
+  },
+  "sectors": {
+    "primary": [
+      "Forests & Biodiversity"
+    ],
+    "secondary": [
+      "Climate Finance & Innovation"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 15",
+        "policy_full": "SDG 15 \u2014 Life on Land",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "Smriti Van directly delivers SDG 15 life on land through biodiversity-focused forest building.",
+        "slug": "sdg-15-life-on-land"
+      },
+      {
+        "policy": "GIM",
+        "policy_full": "National Mission for a Green India",
+        "level": "national",
+        "type": "mission",
+        "strength": "strong",
+        "notes": "Smriti Van directly contributes to NAPCC Green India Mission carbon sink targets.",
+        "slug": "national-mission-for-a-green-india"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "Carbon sequestration through forests is direct climate action. SDG 13.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "CCTS",
+        "policy_full": "Carbon Credit Trading Scheme",
+        "level": "national",
+        "type": "regulation",
+        "strength": "strong",
+        "notes": "Smriti Van generates carbon credits relevant to India's Carbon Credit Trading Scheme.",
+        "slug": "carbon-credit-trading-scheme"
+      },
+      {
+        "policy": "Article 6",
+        "policy_full": "Article 6 \u2014 Paris Agreement Carbon Markets",
+        "level": "global",
+        "type": "framework",
+        "strength": "strong",
+        "notes": "MEF forest carbon credits align with Article 6 voluntary carbon market mechanisms.",
+        "slug": "article-6-paris-agreement-carbon-markets"
+      },
+      {
+        "policy": "TFFF",
+        "policy_full": "Tropical Forest Forever Facility",
+        "level": "global",
+        "type": "framework",
+        "strength": "partial",
+        "notes": "Smriti Van's approach aligns with TFFF's biodiversity-focused forest finance principles.",
+        "slug": "tropical-forest-forever-facility"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": [
+      {
+        "name": "Ministry of Environment, Forest and Climate Change",
+        "short_name": "MoEFCC",
+        "type": "government",
+        "slug": "ministry-of-environment-forest-and-climate-change"
+      }
+    ]
+  },
+  "enabling_mous": [],
+  "reports_produced": [
+    {
+      "name": "Biochar Report",
+      "short_name": "Biochar",
+      "sector": "Carbon Removal",
+      "date": null,
+      "status": "published",
+      "slug": "biochar-report"
+    }
+  ],
+  "linked_events": []
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "slug": "empower-women-for-climate-resilient-societies-phase-2",
+    "url": "/policy/empower-women-for-climate-resilient-societies-phase-2",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "EmPower: Women for Climate-Resilient Societies Phase 2",
+    "short_name": "EmPower P2",
+    "year": 2023,
+    "level": "programme",
+    "issuing_body": "UNEP + UN Women",
+    "type": "programme",
+    "description": "Jointly implemented by UN Women and UNEP. Funded by Germany, Sweden, New Zealand, Switzerland. 2023\u20132027. Gender-responsive climate action across Asia-Pacific. MEF is a delivery partner through SAFFAL.",
+    "parent_policy": null
+  },
+  "sectors": {
+    "primary": [
+      "Gender & Social Equity"
+    ],
+    "secondary": [
+      "Clean Energy",
+      "Climate Finance & Innovation"
+    ]
+  },
+  "programme_relations": {
+    "delivery": [
+      {
+        "programme": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "SAFFAL is the named delivery programme under EmPower Phase 2. Co-designed with UNEP and UN Women.",
+        "slug": "saffal"
+      }
+    ],
+    "mandate": [],
+    "alignment": [],
+    "advocacy": [],
+    "problem": []
+  },
+  "reports": [],
+  "stakeholders": [
+    {
+      "name": "United Nations Environment Programme",
+      "type": "multilateral",
+      "role": "implementing_body",
+      "slug": "united-nations-environment-programme"
+    },
+    {
+      "name": "UN Women",
+      "type": "multilateral",
+      "role": "implementing_body",
+      "slug": "un-women"
+    },
+    {
+      "name": "Ministry of Sweden",
+      "type": "government",
+      "role": "funder",
+      "slug": "ministry-of-sweden"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "slug": "alliance-to-end-plastic-waste",
+    "url": "/partners/alliance-to-end-plastic-waste",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "Alliance to End Plastic Waste",
+    "short_name": "AEPW",
+    "type": "ngo_civil_society",
+    "description": "Industry-led. MEF submitted Ayodhya and Noida city proposals."
+  },
+  "partnership": {
+    "formalisation_type": "framework_agreement",
+    "status": "lapsed",
+    "signed_year": 2020,
+    "notes": "MEF\u2013AEPW. Cities RFP submissions for Ayodhya and Noida."
+  },
+  "programmes": [
+    {
+      "name": "Smart Waste Management",
+      "short_name": "SWM",
+      "type": "project",
+      "status": "ongoing",
+      "role": "partner",
+      "slug": "smart-waste-management"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "Agra Innovation Lab",
+      "notes": "AEPW framework directly referenced in Agra city proposals",
+      "slug": "agra-innovation-lab"
+    }
+  ],
+  "policies_implemented": []
+}

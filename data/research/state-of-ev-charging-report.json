@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "slug": "state-of-ev-charging-report",
+    "url": "/research/state-of-ev-charging-report",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "State of EV Charging Report",
+    "short_name": "EV Report",
+    "sector_focus": "Clean Mobility",
+    "release_date": "2024",
+    "status": "published",
+    "accessibility": "Website",
+    "description": "Electric vehicle charging infrastructure landscape in India. Policy recommendations for EV transition."
+  },
+  "produced_by": {
+    "name": "EV Rickshaw Transition",
+    "type": "project",
+    "status": "ongoing",
+    "slug": "ev-rickshaw-transition"
+  },
+  "sector_tag": {
+    "name": "Clean Mobility",
+    "slug": "clean-mobility"
+  },
+  "policy_relations": {
+    "evidence": [
+      {
+        "policy": "NDC 2.0",
+        "level": "national",
+        "notes": "Report informs NDC 2.0 EV manufacturing and adoption policy design.",
+        "slug": "india-ndc-2-0"
+      },
+      {
+        "policy": "FAME II",
+        "level": "national",
+        "notes": "EV report provides evidence base for FAME II implementation and gaps.",
+        "slug": "fame-ii-faster-adoption-of-evs"
+      }
+    ],
+    "alignment": [
+      {
+        "policy": "SDG 7",
+        "level": "global",
+        "slug": "sdg-7-affordable-and-clean-energy"
+      }
+    ],
+    "advocacy": []
+  },
+  "related_reports": []
+}

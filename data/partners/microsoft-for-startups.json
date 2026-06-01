@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "slug": "microsoft-for-startups",
+    "url": "/partners/microsoft-for-startups",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "Microsoft for Startups",
+    "short_name": "Microsoft",
+    "type": "tech_partner",
+    "description": "Up to USD 150,000 in Azure credits per SAFFAL cohort enterprise."
+  },
+  "partnership": null,
+  "programmes": [
+    {
+      "name": "SAFFAL",
+      "short_name": "SAFFAL",
+      "type": "accelerator",
+      "status": "active",
+      "role": "partner",
+      "slug": "saffal"
+    }
+  ],
+  "mou_enabled_programmes": [],
+  "policies_implemented": []
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "slug": "air-pollution-event-india",
+    "url": "/events/air-pollution-event-india",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "Air Pollution Event India",
+    "date": "9 August",
+    "location": "India Habitat Centre",
+    "region": "Delhi-NCR",
+    "theme": "Air Pollution",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "Annual air pollution awareness and research event at India Habitat Centre, Delhi.",
+  "media_note": null,
+  "linked_programmes": [],
+  "series": [
+    {
+      "name": "Japan Air Pollution Event",
+      "date": "March 2025",
+      "location": "Japan",
+      "slug": "japan-air-pollution-event"
+    }
+  ]
+}

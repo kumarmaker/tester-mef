@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "slug": "sdg-11-sustainable-cities",
+    "url": "/policy/sdg-11-sustainable-cities",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "SDG 11 \u2014 Sustainable Cities",
+    "short_name": "SDG 11",
+    "year": 2015,
+    "level": "global",
+    "issuing_body": "United Nations",
+    "type": "sdg",
+    "description": "Make cities inclusive, safe, resilient and sustainable.",
+    "parent_policy": "UN Sustainable Development Goals"
+  },
+  "sectors": {
+    "primary": [
+      "Sustainable Built Environment"
+    ],
+    "secondary": [
+      "Circular Economy & Waste"
+    ]
+  },
+  "programme_relations": {
+    "delivery": [
+      {
+        "programme": "Net Zero Sarojini Nagar",
+        "short_name": "NZ-Sarojini",
+        "type": "project",
+        "status": "active",
+        "strength": "strong",
+        "notes": "Net zero constituency is SDG 11 sustainable cities made concrete.",
+        "slug": "net-zero-sarojini-nagar"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "programme": "Zero Waste Cities",
+        "short_name": "ZWC",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "ZWC's urban focus serves SDG 11 sustainable cities mandate.",
+        "slug": "zero-waste-cities"
+      },
+      {
+        "programme": "Agra Innovation Lab",
+        "short_name": "AIL",
+        "type": "project",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "AIL's urban waste focus serves SDG 11 sustainable cities.",
+        "slug": "agra-innovation-lab"
+      },
+      {
+        "programme": "Smart Waste Management",
+        "short_name": "SWM",
+        "type": "project",
+        "status": "ongoing",
+        "strength": "strong",
+        "notes": "Municipal solid waste advisory work serves SDG 11 sustainable cities.",
+        "slug": "smart-waste-management"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "reports": [],
+  "stakeholders": []
+}

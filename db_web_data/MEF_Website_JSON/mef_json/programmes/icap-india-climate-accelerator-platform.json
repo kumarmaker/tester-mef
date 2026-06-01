@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "slug": "icap-india-climate-accelerator-platform",
+    "url": "/programmes/icap-india-climate-accelerator-platform",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "ICAP \u2014 India Climate Accelerator Platform",
+    "short_name": "ICAP",
+    "type": "dialogue",
+    "status": "active",
+    "year_launched": 2023,
+    "region": "India",
+    "description": "MEF\u2013IFC partnership. Accelerator of accelerators. Three modules: Investment Acceleration, Blended Finance enabling, Building Enabling Ecosystem. Builds climate-tech investing ecosystem in India."
+  },
+  "sectors": {
+    "primary": [
+      "Climate Finance & Innovation"
+    ],
+    "secondary": [
+      "Clean Energy",
+      "Clean Mobility",
+      "Circular Economy & Waste",
+      "Sustainable Agriculture"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 9",
+        "policy_full": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "ICAP directly builds innovation infrastructure for climate-tech in India. SDG 9 core delivery.",
+        "slug": "sdg-9-industry-innovation-infrastructure"
+      },
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "ICAP's entire mandate is mobilising climate action through investment. SDG 13.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "SDG 17",
+        "policy_full": "SDG 17 \u2014 Partnerships for Goals",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "ICAP's multi-stakeholder platform model \u2014 IFC, MEF, investors, corporates, donors \u2014 is SDG 17 in institutional form.",
+        "slug": "sdg-17-partnerships-for-goals"
+      },
+      {
+        "policy": "NMSKCC",
+        "policy_full": "National Mission for Strategic Knowledge for Climate Change",
+        "level": "national",
+        "type": "mission",
+        "strength": "strong",
+        "notes": "ICAP's Module 3 ecosystem building aligns directly with NAPCC strategic knowledge mission.",
+        "slug": "national-mission-for-strategic-knowledge-for-climate-change"
+      }
+    ],
+    "mandate": [],
+    "alignment": [],
+    "advocacy": [
+      {
+        "policy": "B2B",
+        "policy_full": "Baku to Bel\u00e9m Roadmap",
+        "level": "global",
+        "type": "framework",
+        "strength": "strong",
+        "notes": "ICAP Module 2 explicitly aims to shift policy \u2014 enabling R&D grants for private sector climate startups, blended finance legal frameworks.",
+        "slug": "baku-to-bel-m-roadmap"
+      },
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "strong",
+        "notes": "ICAP advocates for India to create a DARPA-equivalent structure for climate tech R&D grants.",
+        "slug": "india-ndc-2-0"
+      }
+    ],
+    "problem": [
+      {
+        "policy": "Paris",
+        "policy_full": "Paris Agreement",
+        "level": "global",
+        "type": "treaty",
+        "strength": "strong",
+        "notes": "Paris Agreement commits India to $10.1T net zero by 2070 \u2014 but no domestic mechanism exists to channel risk capital. ICAP exists because of this gap.",
+        "slug": "paris-agreement"
+      },
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "strong",
+        "notes": "NDC 2.0 requires climate-tech investment ecosystem. No accelerator-of-accelerators exists in India. ICAP is the answer.",
+        "slug": "india-ndc-2-0"
+      }
+    ]
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "United Nations Environment Programme",
+        "short_name": "UNEP",
+        "type": "multilateral",
+        "slug": "united-nations-environment-programme"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [
+      {
+        "name": "International Finance Corporation",
+        "short_name": "IFC",
+        "type": "multilateral",
+        "slug": "international-finance-corporation"
+      }
+    ],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "International Finance Corporation",
+      "type": "framework_agreement",
+      "status": "active",
+      "year": 2023,
+      "notes": "MEF\u2013IFC agreement is the enabling framework for ICAP",
+      "slug": "international-finance-corporation"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": [
+    {
+      "name": "ClimateNXT Bangalore",
+      "date": "August 2022",
+      "location": "Hyatt Bangalore",
+      "relationship": "milestone",
+      "slug": "climatenxt-bangalore"
+    }
+  ]
+}

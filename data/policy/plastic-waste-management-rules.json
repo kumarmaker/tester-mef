@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "slug": "plastic-waste-management-rules",
+    "url": "/policy/plastic-waste-management-rules",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "Plastic Waste Management Rules",
+    "short_name": "PWMR",
+    "year": 2016,
+    "level": "national",
+    "issuing_body": "GoI MoEFCC",
+    "type": "regulation",
+    "description": "EPR obligations for producers, importers, brand owners. Framework for plastic waste consultancy work.",
+    "parent_policy": null
+  },
+  "sectors": {
+    "primary": [
+      "Circular Economy & Waste"
+    ],
+    "secondary": []
+  },
+  "programme_relations": {
+    "delivery": [
+      {
+        "programme": "Smart Waste Management",
+        "short_name": "SWM",
+        "type": "project",
+        "status": "ongoing",
+        "strength": "strong",
+        "notes": "SWM is the direct operational delivery of PWMR 2016 EPR obligations for corporate clients.",
+        "slug": "smart-waste-management"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "programme": "ZESUP Challenge",
+        "short_name": "ZeSUP",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "ZeSUP helps F&B operators prepare for EPR compliance under PWMR 2016.",
+        "slug": "zesup-challenge"
+      },
+      {
+        "programme": "Agra Innovation Lab",
+        "short_name": "AIL",
+        "type": "project",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "AIL's solutions architecture directly supports EPR obligations under PWMR 2016.",
+        "slug": "agra-innovation-lab"
+      }
+    ],
+    "advocacy": [
+      {
+        "programme": "Zero Waste Cities",
+        "short_name": "ZWC",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "partial",
+        "notes": "ZWC builds ground evidence base that informs plastic waste regulation.",
+        "slug": "zero-waste-cities"
+      },
+      {
+        "programme": "Smart Waste Management",
+        "short_name": "SWM",
+        "type": "project",
+        "status": "ongoing",
+        "strength": "partial",
+        "notes": "SWM ground operations build evidence base that informs PWMR regulatory evolution.",
+        "slug": "smart-waste-management"
+      }
+    ],
+    "problem": []
+  },
+  "reports": [
+    {
+      "name": "Chemical Recycling & Plastic Pollution",
+      "relationship": "advocacy",
+      "notes": "Chemical recycling report argues for regulatory evolution of PWMR 2016.",
+      "slug": "chemical-recycling-plastic-pollution"
+    }
+  ],
+  "stakeholders": [
+    {
+      "name": "Ministry of Environment, Forest and Climate Change",
+      "type": "government",
+      "role": "implementing_body",
+      "slug": "ministry-of-environment-forest-and-climate-change"
+    }
+  ]
+}

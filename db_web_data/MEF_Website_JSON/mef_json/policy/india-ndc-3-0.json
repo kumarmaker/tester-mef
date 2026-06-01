@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "slug": "india-ndc-3-0",
+    "url": "/policy/india-ndc-3-0",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "India NDC 3.0",
+    "short_name": "NDC 3.0",
+    "year": 2026,
+    "level": "national",
+    "issuing_body": "GoI MoEFCC",
+    "type": "national_plan",
+    "description": "2031\u20132035 period. 47% emissions intensity cut by 2035. 60% non-fossil capacity by 2035. Guided by Viksit Bharat vision.",
+    "parent_policy": null
+  },
+  "sectors": {
+    "primary": [],
+    "secondary": []
+  },
+  "programme_relations": {
+    "delivery": [],
+    "mandate": [
+      {
+        "programme": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "India NDC 3.0 requires gender-responsive climate finance mechanisms. SAFFAL is that mechanism.",
+        "slug": "saffal"
+      }
+    ],
+    "alignment": [
+      {
+        "programme": "Net Zero Sarojini Nagar",
+        "short_name": "NZ-Sarojini",
+        "type": "project",
+        "status": "active",
+        "strength": "strong",
+        "notes": "NZ Sarojini is a direct constituency-level demonstration of NDC 3.0 implementation.",
+        "slug": "net-zero-sarojini-nagar"
+      }
+    ],
+    "advocacy": [
+      {
+        "programme": "Net Zero Sarojini Nagar",
+        "short_name": "NZ-Sarojini",
+        "type": "project",
+        "status": "active",
+        "strength": "aspirational",
+        "notes": "Sarojini Nagar model designed to be replicable \u2014 MEF advocates for scaling this across constituencies.",
+        "slug": "net-zero-sarojini-nagar"
+      }
+    ],
+    "problem": []
+  },
+  "reports": [],
+  "stakeholders": [
+    {
+      "name": "Ministry of Environment, Forest and Climate Change",
+      "type": "government",
+      "role": "implementing_body",
+      "slug": "ministry-of-environment-forest-and-climate-change"
+    }
+  ]
+}

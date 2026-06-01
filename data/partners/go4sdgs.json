@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "slug": "go4sdgs",
+    "url": "/partners/go4sdgs",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "Go4SDGs",
+    "short_name": "Go4SDGs",
+    "type": "multilateral",
+    "description": "UN initiative. Partner on LowCarbon.Earth. Supports SDG-aligned startup outreach."
+  },
+  "partnership": null,
+  "programmes": [
+    {
+      "name": "LowCarbon.Earth Accelerator",
+      "short_name": "LCE",
+      "type": "accelerator",
+      "status": "active",
+      "role": "partner",
+      "slug": "lowcarbon-earth-accelerator"
+    }
+  ],
+  "mou_enabled_programmes": [],
+  "policies_implemented": []
+}

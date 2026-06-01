@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "delhi-clean-air-report",
+    "url": "/research/delhi-clean-air-report",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "Delhi Clean Air Report",
+    "short_name": "Delhi Air",
+    "sector_focus": "Air Quality & Pollution",
+    "release_date": "2023",
+    "status": "published",
+    "accessibility": "Website",
+    "description": "What is choking Delhi's air? Paddy burning, vehicular emissions, industrial activity, fugitive dust. Comprehensive urban pollution analysis."
+  },
+  "produced_by": null,
+  "sector_tag": {
+    "name": "Air Quality & Pollution",
+    "slug": "air-quality-pollution"
+  },
+  "policy_relations": {
+    "evidence": [
+      {
+        "policy": "SDG 3",
+        "level": "global",
+        "notes": "Health co-benefits of clean air directly serve SDG 3.",
+        "slug": "sdg-3-good-health-and-well-being"
+      },
+      {
+        "policy": "NCAP",
+        "level": "national",
+        "notes": "Delhi Clean Air is the foundational evidence document for NCAP implementation in Delhi.",
+        "slug": "national-clean-air-programme"
+      }
+    ],
+    "alignment": [],
+    "advocacy": [
+      {
+        "policy": "SDG 13",
+        "level": "global",
+        "notes": "Report argues for urgent climate and pollution policy action. SDG 13 advocacy.",
+        "slug": "sdg-13-climate-action"
+      }
+    ]
+  },
+  "related_reports": [
+    {
+      "name": "Air Pollution & Lockdown Study",
+      "short_name": "AQI",
+      "slug": "air-pollution-lockdown-study"
+    },
+    {
+      "name": "Dust & Its Impact",
+      "short_name": "Dust",
+      "slug": "dust-its-impact"
+    }
+  ]
+}

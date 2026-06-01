@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "slug": "climatenxt-2023",
+    "url": "/events/climatenxt-2023",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "ClimateNXT 2023",
+    "date": "5 Jun 2023",
+    "location": "Quorum, Gurgaon",
+    "region": "Delhi-NCR",
+    "theme": "ClimateNXT",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "Climate and investment convergence. Featured LCE startup cohort.",
+  "media_note": null,
+  "linked_programmes": [
+    {
+      "name": "LowCarbon.Earth Accelerator",
+      "short_name": "LCE",
+      "type": "accelerator",
+      "relationship": "output",
+      "slug": "lowcarbon-earth-accelerator"
+    }
+  ],
+  "series": [
+    {
+      "name": "ClimateNXT Bangalore",
+      "date": "August 2022",
+      "location": "Hyatt Bangalore",
+      "slug": "climatenxt-bangalore"
+    },
+    {
+      "name": "ClimateNXT 2025",
+      "date": "5 Jun 2025",
+      "location": "Bangalore",
+      "slug": "climatenxt-2025"
+    }
+  ]
+}

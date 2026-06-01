@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "slug": "the-incubation-network",
+    "url": "/partners/the-incubation-network",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "The Incubation Network",
+    "short_name": "TIN",
+    "type": "ngo_civil_society",
+    "description": "Partner on Agra Innovation Lab (AIL-PrePLE), ZeSUP Challenge, AEPW."
+  },
+  "partnership": {
+    "formalisation_type": "mou",
+    "status": "active",
+    "signed_year": 2021,
+    "notes": "MEF\u2013The Incubation Network. Multiple programmes: Agra Innovation Lab, ZeSUP, AEPW cities."
+  },
+  "programmes": [
+    {
+      "name": "ZESUP Challenge",
+      "short_name": "ZeSUP",
+      "type": "accelerator",
+      "status": "completed",
+      "role": "partner",
+      "slug": "zesup-challenge"
+    },
+    {
+      "name": "Agra Innovation Lab",
+      "short_name": "AIL",
+      "type": "project",
+      "status": "completed",
+      "role": "partner",
+      "slug": "agra-innovation-lab"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "ZESUP Challenge",
+      "notes": "MEF\u2013TIN MoU also enables ZeSUP Challenge",
+      "slug": "zesup-challenge"
+    },
+    {
+      "name": "Agra Innovation Lab",
+      "notes": "MEF\u2013TIN MoU enables Agra Innovation Lab",
+      "slug": "agra-innovation-lab"
+    }
+  ],
+  "policies_implemented": []
+}

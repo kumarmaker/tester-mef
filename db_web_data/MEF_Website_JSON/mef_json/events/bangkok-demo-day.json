@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "slug": "bangkok-demo-day",
+    "url": "/events/bangkok-demo-day",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "Bangkok Demo Day",
+    "date": "May 2024",
+    "location": "Bangkok",
+    "region": "Bangkok",
+    "theme": "LCE",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "LowCarbon.Earth 2024 cohort demo day in Bangkok.",
+  "media_note": null,
+  "linked_programmes": [
+    {
+      "name": "LowCarbon.Earth Accelerator",
+      "short_name": "LCE",
+      "type": "accelerator",
+      "relationship": "output",
+      "slug": "lowcarbon-earth-accelerator"
+    }
+  ],
+  "series": []
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "slug": "pantnagar-capital",
+    "url": "/partners/pantnagar-capital",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "Pantnagar Capital",
+    "short_name": "Pantnagar",
+    "type": "corporate_funder",
+    "description": "Sponsor for AgroXlerate agriculture accelerator."
+  },
+  "partnership": null,
+  "programmes": [
+    {
+      "name": "AgroXlerate",
+      "short_name": "AgroX",
+      "type": "accelerator",
+      "status": "completed",
+      "role": "funder",
+      "slug": "agroxlerate"
+    }
+  ],
+  "mou_enabled_programmes": [],
+  "policies_implemented": []
+}

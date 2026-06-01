@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "slug": "lowcarbon-earth-accelerator",
+    "url": "/programmes/lowcarbon-earth-accelerator",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "LowCarbon.Earth Accelerator",
+    "short_name": "LCE",
+    "type": "accelerator",
+    "status": "active",
+    "year_launched": 2021,
+    "region": "Asia-Pacific",
+    "description": "MEF flagship accelerator. 12-week bootcamp for early-stage climate-tech startups across Asia-Pacific. Co-hosted with UNEP. 4 editions completed; SAFFAL is 5th edition."
+  },
+  "sectors": {
+    "primary": [
+      "Clean Energy",
+      "Climate Finance & Innovation"
+    ],
+    "secondary": [
+      "Clean Mobility",
+      "Circular Economy & Waste",
+      "Sustainable Agriculture"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "Paris",
+        "policy_full": "Paris Agreement",
+        "level": "global",
+        "type": "treaty",
+        "strength": "strong",
+        "notes": "LCE is a named co-programme under MEF-UNEP MoU. Directly delivers on Paris Agreement mitigation mandate through startup acceleration.",
+        "slug": "paris-agreement"
+      },
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "LCE is a primary delivery mechanism for SDG 13 Climate Action. 3000+ startups evaluated, $350M raised by portfolio.",
+        "slug": "sdg-13-climate-action"
+      }
+    ],
+    "mandate": [
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "strong",
+        "notes": "India NDC 2.0 requires a startup innovation pipeline for climate-tech. LCE is the institutional answer.",
+        "slug": "india-ndc-2-0"
+      }
+    ],
+    "alignment": [
+      {
+        "policy": "SDG 7",
+        "policy_full": "SDG 7 \u2014 Affordable and Clean Energy",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "LCE focus sectors include clean energy. Directly advances SDG 7 clean energy access goal.",
+        "slug": "sdg-7-affordable-and-clean-energy"
+      },
+      {
+        "policy": "SDG 9",
+        "policy_full": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "LCE builds innovation infrastructure and accelerates climate-tech industry. Core SDG 9 contribution.",
+        "slug": "sdg-9-industry-innovation-infrastructure"
+      },
+      {
+        "policy": "SDG 17",
+        "policy_full": "SDG 17 \u2014 Partnerships for Goals",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "LCE's multi-stakeholder model \u2014 UNEP, investors, startups, govts \u2014 is SDG 17 partnerships in practice.",
+        "slug": "sdg-17-partnerships-for-goals"
+      },
+      {
+        "policy": "NMSKCC",
+        "policy_full": "National Mission for Strategic Knowledge for Climate Change",
+        "level": "national",
+        "type": "mission",
+        "strength": "strong",
+        "notes": "LCE's research-backed acceleration directly serves NAPCC's strategic knowledge mission.",
+        "slug": "national-mission-for-strategic-knowledge-for-climate-change"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "United Nations Environment Programme",
+        "short_name": "UNEP",
+        "type": "multilateral",
+        "slug": "united-nations-environment-programme"
+      },
+      {
+        "name": "Go4SDGs",
+        "short_name": "Go4SDGs",
+        "type": "multilateral",
+        "slug": "go4sdgs"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "United Nations Environment Programme",
+      "type": "mou",
+      "status": "active",
+      "year": 2021,
+      "notes": "MEF-UNEP MoU is foundational agreement enabling LowCarbon.Earth series",
+      "slug": "united-nations-environment-programme"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": [
+    {
+      "name": "ClimateNXT 2023",
+      "date": "5 Jun 2023",
+      "location": "Quorum, Gurgaon",
+      "relationship": "output",
+      "slug": "climatenxt-2023"
+    },
+    {
+      "name": "Bangkok Demo Day",
+      "date": "May 2024",
+      "location": "Bangkok",
+      "relationship": "output",
+      "slug": "bangkok-demo-day"
+    }
+  ]
+}

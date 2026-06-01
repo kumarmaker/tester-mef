@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "slug": "sdg-7-affordable-and-clean-energy",
+    "url": "/policy/sdg-7-affordable-and-clean-energy",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "SDG 7 \u2014 Affordable and Clean Energy",
+    "short_name": "SDG 7",
+    "year": 2015,
+    "level": "global",
+    "issuing_body": "United Nations",
+    "type": "sdg",
+    "description": "Ensure access to affordable, reliable, sustainable and modern energy for all.",
+    "parent_policy": "UN Sustainable Development Goals"
+  },
+  "sectors": {
+    "primary": [
+      "Clean Energy"
+    ],
+    "secondary": []
+  },
+  "programme_relations": {
+    "delivery": [
+      {
+        "programme": "MILES Challenge",
+        "short_name": "MILES",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "MILES directly accelerates clean energy deployment. SDG 7 delivery.",
+        "slug": "miles-challenge"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "programme": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "LCE focus sectors include clean energy. Directly advances SDG 7 clean energy access goal.",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "programme": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "GCA focus includes clean energy and industrial decarbonisation. SDG 7 alignment.",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "programme": "EV Rickshaw Transition",
+        "short_name": "EV-Rickshaw",
+        "type": "project",
+        "status": "ongoing",
+        "strength": "strong",
+        "notes": "Clean mobility is clean energy in transport form. SDG 7 alignment.",
+        "slug": "ev-rickshaw-transition"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "reports": [
+    {
+      "name": "State of EV Charging Report",
+      "relationship": "alignment",
+      "notes": "EV charging infrastructure is clean energy in mobility form. SDG 7 alignment.",
+      "slug": "state-of-ev-charging-report"
+    }
+  ],
+  "stakeholders": []
+}

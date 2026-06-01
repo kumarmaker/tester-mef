@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "slug": "saffal-investor-donor-summit",
+    "url": "/events/saffal-investor-donor-summit",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "SAFFAL Investor & Donor Summit",
+    "date": "5 Mar 2026",
+    "location": "Singapore",
+    "region": "Singapore",
+    "theme": "SAFFAL",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "First SAFFAL investor and donor roundtable. Blended finance structure discussions.",
+  "media_note": null,
+  "linked_programmes": [
+    {
+      "name": "SAFFAL",
+      "short_name": "SAFFAL",
+      "type": "accelerator",
+      "relationship": "milestone",
+      "slug": "saffal"
+    }
+  ],
+  "series": []
+}

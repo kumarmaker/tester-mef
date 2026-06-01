@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "slug": "water-sanitation",
+    "url": "/sectors/water-sanitation",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Water & Sanitation",
+    "description": "Water treatment, access, sanitation, resilient infrastructure"
+  },
+  "stats": {
+    "programme_count": 0,
+    "policy_count": 0,
+    "report_count": 0
+  },
+  "programmes": {
+    "primary": [],
+    "secondary": []
+  },
+  "policies": {
+    "global": [],
+    "national": []
+  },
+  "reports": []
+}

@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "slug": "india-ndc-2-0",
+    "url": "/policy/india-ndc-2-0",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "India NDC 2.0",
+    "short_name": "NDC 2.0",
+    "year": 2022,
+    "level": "national",
+    "issuing_body": "GoI MoEFCC",
+    "type": "national_plan",
+    "description": "Updated NDC. 45% emissions intensity cut by 2030. 50% non-fossil electricity capacity. Net zero by 2070 formalised.",
+    "parent_policy": null
+  },
+  "sectors": {
+    "primary": [],
+    "secondary": []
+  },
+  "programme_relations": {
+    "delivery": [],
+    "mandate": [
+      {
+        "programme": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "India NDC 2.0 requires a startup innovation pipeline for climate-tech. LCE is the institutional answer.",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "programme": "EV Rickshaw Transition",
+        "short_name": "EV-Rickshaw",
+        "type": "project",
+        "status": "ongoing",
+        "strength": "strong",
+        "notes": "India NDC 2.0 explicitly calls for EV manufacturing and adoption frameworks. This program delivers.",
+        "slug": "ev-rickshaw-transition"
+      },
+      {
+        "programme": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "partial",
+        "notes": "NDC 2.0 calls for frameworks enabling women-led climate enterprises. SAFFAL directly responds.",
+        "slug": "saffal"
+      }
+    ],
+    "alignment": [
+      {
+        "programme": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "partial",
+        "notes": "GCA contributes to India's NDC startup ecosystem requirement.",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "programme": "MILES Challenge",
+        "short_name": "MILES",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "partial",
+        "notes": "MILES contributes to NDC's non-fossil energy capacity target.",
+        "slug": "miles-challenge"
+      },
+      {
+        "programme": "AgroXlerate",
+        "short_name": "AgroX",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "partial",
+        "notes": "Agri innovation contributes to India NDC's sustainable land use commitments.",
+        "slug": "agroxlerate"
+      }
+    ],
+    "advocacy": [
+      {
+        "programme": "ICAP \u2014 India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "active",
+        "strength": "strong",
+        "notes": "ICAP advocates for India to create a DARPA-equivalent structure for climate tech R&D grants.",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ],
+    "problem": [
+      {
+        "programme": "ICAP \u2014 India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "active",
+        "strength": "strong",
+        "notes": "NDC 2.0 requires climate-tech investment ecosystem. No accelerator-of-accelerators exists in India. ICAP is the answer.",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "name": "State of EV Charging Report",
+      "relationship": "evidence",
+      "notes": "Report informs NDC 2.0 EV manufacturing and adoption policy design.",
+      "slug": "state-of-ev-charging-report"
+    }
+  ],
+  "stakeholders": [
+    {
+      "name": "Ministry of Environment, Forest and Climate Change",
+      "type": "government",
+      "role": "implementing_body",
+      "slug": "ministry-of-environment-forest-and-climate-change"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "slug": "agra-innovation-lab",
+    "url": "/programmes/agra-innovation-lab",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "Agra Innovation Lab",
+    "short_name": "AIL",
+    "type": "project",
+    "status": "completed",
+    "year_launched": 2021,
+    "region": "Agra",
+    "description": "AIL-PrePLE: Prevention of Plastic Leakage into the Environment. With The Incubation Network. Focus: identification, sorting, transportation, recycling of waste."
+  },
+  "sectors": {
+    "primary": [
+      "Circular Economy & Waste"
+    ],
+    "secondary": [
+      "Sustainable Built Environment"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 12",
+        "policy_full": "SDG 12 \u2014 Responsible Consumption",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "AIL directly delivers SDG 12 by building circular economy solutions for plastic waste.",
+        "slug": "sdg-12-responsible-consumption"
+      },
+      {
+        "policy": "AEPW",
+        "policy_full": "Alliance to End Plastic Waste Framework",
+        "level": "global",
+        "type": "framework",
+        "strength": "strong",
+        "notes": "AIL was co-designed with AEPW framework objectives for plastic leakage prevention.",
+        "slug": "alliance-to-end-plastic-waste-framework"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 11",
+        "policy_full": "SDG 11 \u2014 Sustainable Cities",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "AIL's urban waste focus serves SDG 11 sustainable cities.",
+        "slug": "sdg-11-sustainable-cities"
+      },
+      {
+        "policy": "PWMR",
+        "policy_full": "Plastic Waste Management Rules",
+        "level": "national",
+        "type": "regulation",
+        "strength": "strong",
+        "notes": "AIL's solutions architecture directly supports EPR obligations under PWMR 2016.",
+        "slug": "plastic-waste-management-rules"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "Agra Municipal Corporation",
+        "short_name": "Agra MC",
+        "type": "government",
+        "slug": "agra-municipal-corporation"
+      },
+      {
+        "name": "The Incubation Network",
+        "short_name": "TIN",
+        "type": "ngo_civil_society",
+        "slug": "the-incubation-network"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "The Incubation Network",
+      "type": "mou",
+      "status": "active",
+      "year": 2021,
+      "notes": "MEF\u2013TIN MoU enables Agra Innovation Lab",
+      "slug": "the-incubation-network"
+    },
+    {
+      "partner": "Alliance to End Plastic Waste",
+      "type": "framework_agreement",
+      "status": "lapsed",
+      "year": 2020,
+      "notes": "AEPW framework directly referenced in Agra city proposals",
+      "slug": "alliance-to-end-plastic-waste"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": [
+    {
+      "name": "Agra Innovation Lab Launch",
+      "date": "2021",
+      "location": "Agra",
+      "relationship": "launch",
+      "slug": "agra-innovation-lab-launch"
+    }
+  ]
+}
