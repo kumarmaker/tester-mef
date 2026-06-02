@@ -26,7 +26,7 @@
         "programme": "Smart Waste Management",
         "short_name": "SWM",
         "type": "project",
-        "status": "ongoing",
+        "status": "completed",
         "strength": "strong",
         "notes": "SWM is the direct operational delivery of PWMR 2016 EPR obligations for corporate clients.",
         "slug": "smart-waste-management"
@@ -67,7 +67,7 @@
         "programme": "Smart Waste Management",
         "short_name": "SWM",
         "type": "project",
-        "status": "ongoing",
+        "status": "completed",
         "strength": "partial",
         "notes": "SWM ground operations build evidence base that informs PWMR regulatory evolution.",
         "slug": "smart-waste-management"

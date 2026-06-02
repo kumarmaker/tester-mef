@@ -14,14 +14,14 @@
     "formalisation_type": "informal",
     "status": "active",
     "signed_year": 2022,
-    "notes": "MEF\u2013WRI India collaboration. Knowledge partnership for ClimateNXT and research."
+    "notes": "MEF–WRI India collaboration. Knowledge partnership for ClimateNXT and research."
   },
   "programmes": [
     {
       "name": "EV Rickshaw Transition",
       "short_name": "EV-Rickshaw",
       "type": "project",
-      "status": "ongoing",
+      "status": "active",
       "role": "partner",
       "slug": "ev-rickshaw-transition"
     }
@@ -29,7 +29,7 @@
   "mou_enabled_programmes": [
     {
       "name": "EV Rickshaw Transition",
-      "notes": "MEF\u2013WRI India collaboration informs EV research",
+      "notes": "MEF–WRI India collaboration informs EV research",
       "slug": "ev-rickshaw-transition"
     }
   ],

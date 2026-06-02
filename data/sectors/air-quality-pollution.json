@@ -20,7 +20,7 @@
         "name": "EV Rickshaw Transition",
         "short_name": "EV-Rickshaw",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "slug": "ev-rickshaw-transition"
       }
     ]
@@ -28,14 +28,14 @@
   "policies": {
     "global": [
       {
-        "name": "SDG 13 \u2014 Climate Action",
+        "name": "SDG 13 — Climate Action",
         "short_name": "SDG 13",
         "year": 2015,
         "role": "secondary",
         "slug": "sdg-13-climate-action"
       },
       {
-        "name": "SDG 3 \u2014 Good Health and Well-Being",
+        "name": "SDG 3 — Good Health and Well-Being",
         "short_name": "SDG 3",
         "year": 2015,
         "role": "primary",

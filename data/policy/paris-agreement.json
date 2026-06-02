@@ -11,7 +11,7 @@
     "level": "global",
     "issuing_body": "UNFCCC",
     "type": "treaty",
-    "description": "1.5\u00b0C/2\u00b0C temperature limit. NDC mechanism for national climate plans. 194 parties.",
+    "description": "1.5°C/2°C temperature limit. NDC mechanism for national climate plans. 194 parties.",
     "parent_policy": "UN Framework Convention on Climate Change"
   },
   "sectors": {
@@ -38,7 +38,7 @@
         "slug": "lowcarbon-earth-accelerator"
       },
       {
-        "programme": "MEF\u2013UNEP Institutional Partnership",
+        "programme": "MEF–UNEP Institutional Partnership",
         "short_name": "MEF-UNEP",
         "type": "partnership",
         "status": "active",
@@ -62,12 +62,12 @@
     "advocacy": [],
     "problem": [
       {
-        "programme": "ICAP \u2014 India Climate Accelerator Platform",
+        "programme": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "strength": "strong",
-        "notes": "Paris Agreement commits India to $10.1T net zero by 2070 \u2014 but no domestic mechanism exists to channel risk capital. ICAP exists because of this gap.",
+        "notes": "Paris Agreement commits India to $10.1T net zero by 2070 — but no domestic mechanism exists to channel risk capital. ICAP exists because of this gap.",
         "slug": "icap-india-climate-accelerator-platform"
       }
     ]

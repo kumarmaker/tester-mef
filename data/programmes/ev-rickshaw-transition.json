@@ -8,7 +8,7 @@
     "name": "EV Rickshaw Transition",
     "short_name": "EV-Rickshaw",
     "type": "project",
-    "status": "ongoing",
+    "status": "active",
     "year_launched": 2021,
     "region": "India",
     "description": "Transition 2- and 3-wheeler rickshaws to electric vehicles. Identified as major urban pollution source. Multi-stakeholder partnerships."
@@ -25,7 +25,7 @@
     "delivery": [
       {
         "policy": "FAME II",
-        "policy_full": "FAME II \u2014 Faster Adoption of EVs",
+        "policy_full": "FAME II — Faster Adoption of EVs",
         "level": "national",
         "type": "regulation",
         "strength": "strong",
@@ -56,7 +56,7 @@
     "alignment": [
       {
         "policy": "SDG 7",
-        "policy_full": "SDG 7 \u2014 Affordable and Clean Energy",
+        "policy_full": "SDG 7 — Affordable and Clean Energy",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
@@ -65,7 +65,7 @@
       },
       {
         "policy": "SDG 13",
-        "policy_full": "SDG 13 \u2014 Climate Action",
+        "policy_full": "SDG 13 — Climate Action",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
@@ -74,7 +74,7 @@
       },
       {
         "policy": "SDG 3",
-        "policy_full": "SDG 3 \u2014 Good Health and Well-Being",
+        "policy_full": "SDG 3 — Good Health and Well-Being",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
@@ -112,7 +112,7 @@
       "type": "informal",
       "status": "active",
       "year": 2022,
-      "notes": "MEF\u2013WRI India collaboration informs EV research",
+      "notes": "MEF–WRI India collaboration informs EV research",
       "slug": "wri-india"
     }
   ],

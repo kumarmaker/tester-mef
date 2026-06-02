@@ -8,20 +8,20 @@
     "name": "GIZ",
     "short_name": "GIZ",
     "type": "multilateral",
-    "description": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit. German development agency. CSR and grants partner."
+    "description": "Deutsche Gesellschaft für Internationale Zusammenarbeit. German development agency. CSR and grants partner."
   },
   "partnership": {
     "formalisation_type": "mou",
     "status": "unknown",
     "signed_year": 2020,
-    "notes": "MEF\u2013GIZ engagement. CSR and project execution collaboration."
+    "notes": "MEF–GIZ engagement. CSR and project execution collaboration."
   },
   "programmes": [
     {
       "name": "Smart Waste Management",
       "short_name": "SWM",
       "type": "project",
-      "status": "ongoing",
+      "status": "completed",
       "role": "partner",
       "slug": "smart-waste-management"
     }
@@ -29,7 +29,7 @@
   "mou_enabled_programmes": [
     {
       "name": "Smart Waste Management",
-      "notes": "MEF\u2013GIZ engagement supports waste management advisory work",
+      "notes": "MEF–GIZ engagement supports waste management advisory work",
       "slug": "smart-waste-management"
     }
   ],

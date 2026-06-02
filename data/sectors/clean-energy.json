@@ -57,10 +57,10 @@
         "slug": "net-zero-sarojini-nagar"
       },
       {
-        "name": "ICAP \u2014 India Climate Accelerator Platform",
+        "name": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "slug": "icap-india-climate-accelerator-platform"
       }
     ]
@@ -75,14 +75,14 @@
         "slug": "paris-agreement"
       },
       {
-        "name": "SDG 7 \u2014 Affordable and Clean Energy",
+        "name": "SDG 7 — Affordable and Clean Energy",
         "short_name": "SDG 7",
         "year": 2015,
         "role": "primary",
         "slug": "sdg-7-affordable-and-clean-energy"
       },
       {
-        "name": "SDG 13 \u2014 Climate Action",
+        "name": "SDG 13 — Climate Action",
         "short_name": "SDG 13",
         "year": 2015,
         "role": "secondary",

@@ -19,7 +19,7 @@
         "name": "EV Rickshaw Transition",
         "short_name": "EV-Rickshaw",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "year": 2021,
         "region": "India",
         "slug": "ev-rickshaw-transition"
@@ -48,10 +48,10 @@
         "slug": "net-zero-sarojini-nagar"
       },
       {
-        "name": "ICAP \u2014 India Climate Accelerator Platform",
+        "name": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "slug": "icap-india-climate-accelerator-platform"
       }
     ]
@@ -68,7 +68,7 @@
     ],
     "national": [
       {
-        "name": "FAME II \u2014 Faster Adoption of EVs",
+        "name": "FAME II — Faster Adoption of EVs",
         "short_name": "FAME II",
         "year": 2019,
         "role": "primary",

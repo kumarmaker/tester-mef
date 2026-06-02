@@ -16,7 +16,7 @@
   "programmes": {
     "primary": [
       {
-        "name": "MEF\u2013UNEP Institutional Partnership",
+        "name": "MEF–UNEP Institutional Partnership",
         "short_name": "MEF-UNEP",
         "type": "partnership",
         "status": "active",
@@ -34,10 +34,10 @@
         "slug": "lowcarbon-earth-accelerator"
       },
       {
-        "name": "ICAP \u2014 India Climate Accelerator Platform",
+        "name": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "year": 2023,
         "region": "India",
         "slug": "icap-india-climate-accelerator-platform"
@@ -66,7 +66,7 @@
         "name": "Sustainable Forests / Smriti Van",
         "short_name": "Smriti Van",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "slug": "sustainable-forests-smriti-van"
       }
     ]
@@ -81,21 +81,21 @@
         "slug": "paris-agreement"
       },
       {
-        "name": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+        "name": "SDG 9 — Industry, Innovation, Infrastructure",
         "short_name": "SDG 9",
         "year": 2015,
         "role": "primary",
         "slug": "sdg-9-industry-innovation-infrastructure"
       },
       {
-        "name": "SDG 13 \u2014 Climate Action",
+        "name": "SDG 13 — Climate Action",
         "short_name": "SDG 13",
         "year": 2015,
         "role": "primary",
         "slug": "sdg-13-climate-action"
       },
       {
-        "name": "Article 6 \u2014 Paris Agreement Carbon Markets",
+        "name": "Article 6 — Paris Agreement Carbon Markets",
         "short_name": "Article 6",
         "year": 2021,
         "role": "secondary",

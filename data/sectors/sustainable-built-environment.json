@@ -51,7 +51,7 @@
         "name": "Smart Waste Management",
         "short_name": "SWM",
         "type": "project",
-        "status": "ongoing",
+        "status": "completed",
         "slug": "smart-waste-management"
       }
     ]
@@ -66,7 +66,7 @@
         "slug": "paris-agreement"
       },
       {
-        "name": "SDG 11 \u2014 Sustainable Cities",
+        "name": "SDG 11 — Sustainable Cities",
         "short_name": "SDG 11",
         "year": 2015,
         "role": "primary",

@@ -14,14 +14,14 @@
     "formalisation_type": "framework_agreement",
     "status": "lapsed",
     "signed_year": 2020,
-    "notes": "MEF\u2013AEPW. Cities RFP submissions for Ayodhya and Noida."
+    "notes": "MEF–AEPW. Cities RFP submissions for Ayodhya and Noida."
   },
   "programmes": [
     {
       "name": "Smart Waste Management",
       "short_name": "SWM",
       "type": "project",
-      "status": "ongoing",
+      "status": "completed",
       "role": "partner",
       "slug": "smart-waste-management"
     }

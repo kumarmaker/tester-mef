@@ -48,10 +48,10 @@
         "slug": "gomassive-climate-accelerator-2023"
       },
       {
-        "name": "ICAP \u2014 India Climate Accelerator Platform",
+        "name": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "slug": "icap-india-climate-accelerator-platform"
       }
     ]
@@ -66,7 +66,7 @@
         "slug": "paris-agreement"
       },
       {
-        "name": "SDG 12 \u2014 Responsible Consumption",
+        "name": "SDG 12 — Responsible Consumption",
         "short_name": "SDG 12",
         "year": 2015,
         "role": "secondary",

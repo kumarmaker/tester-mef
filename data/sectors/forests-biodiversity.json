@@ -19,7 +19,7 @@
         "name": "Sustainable Forests / Smriti Van",
         "short_name": "Smriti Van",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "year": 2022,
         "region": "India",
         "slug": "sustainable-forests-smriti-van"
@@ -45,14 +45,14 @@
         "slug": "paris-agreement"
       },
       {
-        "name": "SDG 15 \u2014 Life on Land",
+        "name": "SDG 15 — Life on Land",
         "short_name": "SDG 15",
         "year": 2015,
         "role": "primary",
         "slug": "sdg-15-life-on-land"
       },
       {
-        "name": "Article 6 \u2014 Paris Agreement Carbon Markets",
+        "name": "Article 6 — Paris Agreement Carbon Markets",
         "short_name": "Article 6",
         "year": 2021,
         "role": "primary",

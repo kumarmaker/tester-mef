@@ -5,7 +5,7 @@
     "page_type": "policy"
   },
   "hero": {
-    "name": "SDG 13 \u2014 Climate Action",
+    "name": "SDG 13 — Climate Action",
     "short_name": "SDG 13",
     "year": 2015,
     "level": "global",
@@ -44,10 +44,10 @@
         "slug": "saffal"
       },
       {
-        "programme": "ICAP \u2014 India Climate Accelerator Platform",
+        "programme": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "strength": "strong",
         "notes": "ICAP's entire mandate is mobilising climate action through investment. SDG 13.",
         "slug": "icap-india-climate-accelerator-platform"
@@ -95,7 +95,7 @@
         "programme": "EV Rickshaw Transition",
         "short_name": "EV-Rickshaw",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "strength": "strong",
         "notes": "EV transition is direct climate action. SDG 13.",
         "slug": "ev-rickshaw-transition"
@@ -104,7 +104,7 @@
         "programme": "Sustainable Forests / Smriti Van",
         "short_name": "Smriti Van",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "strength": "strong",
         "notes": "Carbon sequestration through forests is direct climate action. SDG 13.",
         "slug": "sustainable-forests-smriti-van"
@@ -119,7 +119,7 @@
         "slug": "net-zero-sarojini-nagar"
       },
       {
-        "programme": "MEF\u2013UNEP Institutional Partnership",
+        "programme": "MEF–UNEP Institutional Partnership",
         "short_name": "MEF-UNEP",
         "type": "partnership",
         "status": "active",

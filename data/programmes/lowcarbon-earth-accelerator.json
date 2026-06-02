@@ -11,7 +11,12 @@
     "status": "active",
     "year_launched": 2021,
     "region": "Asia-Pacific",
-    "description": "MEF flagship accelerator. 12-week bootcamp for early-stage climate-tech startups across Asia-Pacific. Co-hosted with UNEP. 4 editions completed; SAFFAL is 5th edition."
+    "description": "MEF flagship accelerator. 12-week bootcamp for early-stage climate-tech startups across Asia-Pacific. Co-hosted with UNEP. 4 editions completed; SAFFAL is 5th edition.",
+    "long_description": "LowCarbon.Earth (LCE) is MEF's flagship regional climate-tech accelerator, established in 2021 in strategic collaboration with the United Nations Environment Programme (UNEP). Operating across the Asia-Pacific region, it serves as a premier launchpad that scouts early-stage green startups and prepares them for institutional venture capital investment. Since its inception, the platform has evaluated over 3,000 startups, supported more than 180 companies, and helped its alumni collectively secure over $350 million in scaling capital.\n\nThe accelerator functions through three structural pillars: UN alignment — ensuring all incubated innovations map directly against global ESG standards and the UN Sustainable Development Goals; a VC and Angel Network pipeline — connecting graduates to institutional investors, family offices, and the Climate Angels fund network; and a gender-inclusive mandate that explicitly fosters women-led enterprises and technical founders across developing South and Southeast Asian markets.\n\nStartups selected for annual cohorts undergo an intensive multi-month hybrid programme — weekly capacity bootcamps, equity-free strategic mentorship from climate scientists and veteran entrepreneurs, and a culminating Global Demo Day Finale hosted in regional hubs including Bangkok and Delhi, where standout ventures pitch directly to global sustainability funds and corporate procurement boards.",
+    "headline": ["LowCarbon.Earth", "Accelerator"],
+    "image": "/images/lce_hero.webp",
+    "apply_url": "https://lowcarbon.earth/pages/startups.html",
+    "website_url": "https://lowcarbon.earth/"
   },
   "sectors": {
     "primary": [

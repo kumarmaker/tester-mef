@@ -5,7 +5,7 @@
     "page_type": "policy"
   },
   "hero": {
-    "name": "SDG 12 \u2014 Responsible Consumption",
+    "name": "SDG 12 — Responsible Consumption",
     "short_name": "SDG 12",
     "year": 2015,
     "level": "global",
@@ -55,7 +55,7 @@
         "programme": "Smart Waste Management",
         "short_name": "SWM",
         "type": "project",
-        "status": "ongoing",
+        "status": "completed",
         "strength": "strong",
         "notes": "SWM advances SDG 12 responsible consumption through corporate waste audit and advisory.",
         "slug": "smart-waste-management"

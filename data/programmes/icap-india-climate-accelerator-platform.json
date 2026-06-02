@@ -5,13 +5,13 @@
     "page_type": "programme"
   },
   "hero": {
-    "name": "ICAP \u2014 India Climate Accelerator Platform",
+    "name": "ICAP — India Climate Accelerator Platform",
     "short_name": "ICAP",
     "type": "dialogue",
-    "status": "active",
+    "status": "completed",
     "year_launched": 2023,
     "region": "India",
-    "description": "MEF\u2013IFC partnership. Accelerator of accelerators. Three modules: Investment Acceleration, Blended Finance enabling, Building Enabling Ecosystem. Builds climate-tech investing ecosystem in India."
+    "description": "MEF–IFC partnership. Accelerator of accelerators. Three modules: Investment Acceleration, Blended Finance enabling, Building Enabling Ecosystem. Builds climate-tech investing ecosystem in India."
   },
   "sectors": {
     "primary": [
@@ -28,7 +28,7 @@
     "delivery": [
       {
         "policy": "SDG 9",
-        "policy_full": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+        "policy_full": "SDG 9 — Industry, Innovation, Infrastructure",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
@@ -37,7 +37,7 @@
       },
       {
         "policy": "SDG 13",
-        "policy_full": "SDG 13 \u2014 Climate Action",
+        "policy_full": "SDG 13 — Climate Action",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
@@ -46,11 +46,11 @@
       },
       {
         "policy": "SDG 17",
-        "policy_full": "SDG 17 \u2014 Partnerships for Goals",
+        "policy_full": "SDG 17 — Partnerships for Goals",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
-        "notes": "ICAP's multi-stakeholder platform model \u2014 IFC, MEF, investors, corporates, donors \u2014 is SDG 17 in institutional form.",
+        "notes": "ICAP's multi-stakeholder platform model — IFC, MEF, investors, corporates, donors — is SDG 17 in institutional form.",
         "slug": "sdg-17-partnerships-for-goals"
       },
       {
@@ -68,11 +68,11 @@
     "advocacy": [
       {
         "policy": "B2B",
-        "policy_full": "Baku to Bel\u00e9m Roadmap",
+        "policy_full": "Baku to Belém Roadmap",
         "level": "global",
         "type": "framework",
         "strength": "strong",
-        "notes": "ICAP Module 2 explicitly aims to shift policy \u2014 enabling R&D grants for private sector climate startups, blended finance legal frameworks.",
+        "notes": "ICAP Module 2 explicitly aims to shift policy — enabling R&D grants for private sector climate startups, blended finance legal frameworks.",
         "slug": "baku-to-bel-m-roadmap"
       },
       {
@@ -92,7 +92,7 @@
         "level": "global",
         "type": "treaty",
         "strength": "strong",
-        "notes": "Paris Agreement commits India to $10.1T net zero by 2070 \u2014 but no domestic mechanism exists to channel risk capital. ICAP exists because of this gap.",
+        "notes": "Paris Agreement commits India to $10.1T net zero by 2070 — but no domestic mechanism exists to channel risk capital. ICAP exists because of this gap.",
         "slug": "paris-agreement"
       },
       {
@@ -133,7 +133,7 @@
       "type": "framework_agreement",
       "status": "active",
       "year": 2023,
-      "notes": "MEF\u2013IFC agreement is the enabling framework for ICAP",
+      "notes": "MEF–IFC agreement is the enabling framework for ICAP",
       "slug": "international-finance-corporation"
     }
   ],

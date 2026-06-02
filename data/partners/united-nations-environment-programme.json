@@ -14,7 +14,7 @@
     "formalisation_type": "mou",
     "status": "active",
     "signed_year": 2021,
-    "notes": "MEF\u2013UNEP MoU. Parent agreement enabling LowCarbon.Earth accelerator series and all UNEP co-programmes."
+    "notes": "MEF–UNEP MoU. Parent agreement enabling LowCarbon.Earth accelerator series and all UNEP co-programmes."
   },
   "programmes": [
     {
@@ -34,15 +34,15 @@
       "slug": "saffal"
     },
     {
-      "name": "ICAP \u2014 India Climate Accelerator Platform",
+      "name": "ICAP — India Climate Accelerator Platform",
       "short_name": "ICAP",
       "type": "dialogue",
-      "status": "active",
+      "status": "completed",
       "role": "partner",
       "slug": "icap-india-climate-accelerator-platform"
     },
     {
-      "name": "MEF\u2013UNEP Institutional Partnership",
+      "name": "MEF–UNEP Institutional Partnership",
       "short_name": "MEF-UNEP",
       "type": "partnership",
       "status": "active",
@@ -62,7 +62,7 @@
       "slug": "saffal"
     },
     {
-      "name": "MEF\u2013UNEP Institutional Partnership",
+      "name": "MEF–UNEP Institutional Partnership",
       "notes": "MEF-UNEP MoU is the institutional partnership itself",
       "slug": "mef-unep-institutional-partnership"
     }

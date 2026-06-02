@@ -14,22 +14,22 @@
     "formalisation_type": "framework_agreement",
     "status": "active",
     "signed_year": 2023,
-    "notes": "MEF\u2013IFC partnership for ICAP India Climate Accelerator Platform."
+    "notes": "MEF–IFC partnership for ICAP India Climate Accelerator Platform."
   },
   "programmes": [
     {
-      "name": "ICAP \u2014 India Climate Accelerator Platform",
+      "name": "ICAP — India Climate Accelerator Platform",
       "short_name": "ICAP",
       "type": "dialogue",
-      "status": "active",
+      "status": "completed",
       "role": "co-creator",
       "slug": "icap-india-climate-accelerator-platform"
     }
   ],
   "mou_enabled_programmes": [
     {
-      "name": "ICAP \u2014 India Climate Accelerator Platform",
-      "notes": "MEF\u2013IFC agreement is the enabling framework for ICAP",
+      "name": "ICAP — India Climate Accelerator Platform",
+      "notes": "MEF–IFC agreement is the enabling framework for ICAP",
       "slug": "icap-india-climate-accelerator-platform"
     }
   ],

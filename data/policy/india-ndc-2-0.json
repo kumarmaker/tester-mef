@@ -34,7 +34,7 @@
         "programme": "EV Rickshaw Transition",
         "short_name": "EV-Rickshaw",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "strength": "strong",
         "notes": "India NDC 2.0 explicitly calls for EV manufacturing and adoption frameworks. This program delivers.",
         "slug": "ev-rickshaw-transition"
@@ -80,10 +80,10 @@
     ],
     "advocacy": [
       {
-        "programme": "ICAP \u2014 India Climate Accelerator Platform",
+        "programme": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "strength": "strong",
         "notes": "ICAP advocates for India to create a DARPA-equivalent structure for climate tech R&D grants.",
         "slug": "icap-india-climate-accelerator-platform"
@@ -91,10 +91,10 @@
     ],
     "problem": [
       {
-        "programme": "ICAP \u2014 India Climate Accelerator Platform",
+        "programme": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "strength": "strong",
         "notes": "NDC 2.0 requires climate-tech investment ecosystem. No accelerator-of-accelerators exists in India. ICAP is the answer.",
         "slug": "icap-india-climate-accelerator-platform"

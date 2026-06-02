@@ -5,7 +5,7 @@
     "page_type": "policy"
   },
   "hero": {
-    "name": "SDG 11 \u2014 Sustainable Cities",
+    "name": "SDG 11 — Sustainable Cities",
     "short_name": "SDG 11",
     "year": 2015,
     "level": "global",
@@ -58,7 +58,7 @@
         "programme": "Smart Waste Management",
         "short_name": "SWM",
         "type": "project",
-        "status": "ongoing",
+        "status": "completed",
         "strength": "strong",
         "notes": "Municipal solid waste advisory work serves SDG 11 sustainable cities.",
         "slug": "smart-waste-management"

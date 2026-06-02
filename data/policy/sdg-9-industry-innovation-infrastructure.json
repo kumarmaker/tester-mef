@@ -5,7 +5,7 @@
     "page_type": "policy"
   },
   "hero": {
-    "name": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+    "name": "SDG 9 — Industry, Innovation, Infrastructure",
     "short_name": "SDG 9",
     "year": 2015,
     "level": "global",
@@ -23,10 +23,10 @@
   "programme_relations": {
     "delivery": [
       {
-        "programme": "ICAP \u2014 India Climate Accelerator Platform",
+        "programme": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "strength": "strong",
         "notes": "ICAP directly builds innovation infrastructure for climate-tech in India. SDG 9 core delivery.",
         "slug": "icap-india-climate-accelerator-platform"

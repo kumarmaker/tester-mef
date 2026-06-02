@@ -8,7 +8,7 @@
     "name": "Sustainable Forests / Smriti Van",
     "short_name": "Smriti Van",
     "type": "project",
-    "status": "ongoing",
+    "status": "active",
     "year_launched": 2022,
     "region": "India",
     "description": "Biodiversity-focused forest building, not monoculture planting. Carbon offsets for corporates. Improved Forest Management Carbon Credits."
@@ -25,7 +25,7 @@
     "delivery": [
       {
         "policy": "SDG 15",
-        "policy_full": "SDG 15 \u2014 Life on Land",
+        "policy_full": "SDG 15 — Life on Land",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
@@ -46,7 +46,7 @@
     "alignment": [
       {
         "policy": "SDG 13",
-        "policy_full": "SDG 13 \u2014 Climate Action",
+        "policy_full": "SDG 13 — Climate Action",
         "level": "global",
         "type": "sdg",
         "strength": "strong",
@@ -64,7 +64,7 @@
       },
       {
         "policy": "Article 6",
-        "policy_full": "Article 6 \u2014 Paris Agreement Carbon Markets",
+        "policy_full": "Article 6 — Paris Agreement Carbon Markets",
         "level": "global",
         "type": "framework",
         "strength": "strong",

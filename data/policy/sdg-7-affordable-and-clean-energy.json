@@ -5,7 +5,7 @@
     "page_type": "policy"
   },
   "hero": {
-    "name": "SDG 7 \u2014 Affordable and Clean Energy",
+    "name": "SDG 7 — Affordable and Clean Energy",
     "short_name": "SDG 7",
     "year": 2015,
     "level": "global",
@@ -56,7 +56,7 @@
         "programme": "EV Rickshaw Transition",
         "short_name": "EV-Rickshaw",
         "type": "project",
-        "status": "ongoing",
+        "status": "active",
         "strength": "strong",
         "notes": "Clean mobility is clean energy in transport form. SDG 7 alignment.",
         "slug": "ev-rickshaw-transition"

@@ -19,7 +19,7 @@
         "name": "Smart Waste Management",
         "short_name": "SWM",
         "type": "project",
-        "status": "ongoing",
+        "status": "completed",
         "year": 2020,
         "region": "India",
         "slug": "smart-waste-management"
@@ -68,10 +68,10 @@
         "slug": "saffal"
       },
       {
-        "name": "ICAP \u2014 India Climate Accelerator Platform",
+        "name": "ICAP — India Climate Accelerator Platform",
         "short_name": "ICAP",
         "type": "dialogue",
-        "status": "active",
+        "status": "completed",
         "slug": "icap-india-climate-accelerator-platform"
       }
     ]
@@ -79,14 +79,14 @@
   "policies": {
     "global": [
       {
-        "name": "SDG 11 \u2014 Sustainable Cities",
+        "name": "SDG 11 — Sustainable Cities",
         "short_name": "SDG 11",
         "year": 2015,
         "role": "secondary",
         "slug": "sdg-11-sustainable-cities"
       },
       {
-        "name": "SDG 12 \u2014 Responsible Consumption",
+        "name": "SDG 12 — Responsible Consumption",
         "short_name": "SDG 12",
         "year": 2015,
         "role": "primary",
