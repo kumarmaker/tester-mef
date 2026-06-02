@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "slug": "sustainable-agriculture",
+    "url": "/sectors/sustainable-agriculture",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Sustainable Agriculture",
+    "description": "Agri-tech, precision agriculture, food systems, crop management"
+  },
+  "stats": {
+    "programme_count": 5,
+    "policy_count": 4,
+    "report_count": 1
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "AgroXlerate",
+        "short_name": "AgroX",
+        "type": "accelerator",
+        "status": "completed",
+        "year": 2022,
+        "region": "India",
+        "slug": "agroxlerate"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "name": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "slug": "saffal"
+      },
+      {
+        "name": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "name": "ICAP — India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "completed",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "Paris Agreement",
+        "short_name": "Paris",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "paris-agreement"
+      },
+      {
+        "name": "SDG 12 — Responsible Consumption",
+        "short_name": "SDG 12",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "sdg-12-responsible-consumption"
+      }
+    ],
+    "national": [
+      {
+        "name": "National Action Plan on Climate Change",
+        "short_name": "NAPCC",
+        "year": 2008,
+        "role": "primary",
+        "slug": "national-action-plan-on-climate-change"
+      },
+      {
+        "name": "National Mission for Sustainable Agriculture",
+        "short_name": "NMSA",
+        "year": 2008,
+        "role": "primary",
+        "slug": "national-mission-for-sustainable-agriculture"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "name": "Agri-tech Investment Landscape",
+      "short_name": "Agri-Finance",
+      "date": null,
+      "status": "published",
+      "slug": "agri-tech-investment-landscape"
+    }
+  ]
+}

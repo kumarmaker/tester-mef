@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "slug": "un-women",
+    "url": "/partners/un-women",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "UN Women",
+    "short_name": "UN Women",
+    "type": "multilateral",
+    "description": "Co-implements EmPower programme with UNEP. MEF partner on SAFFAL."
+  },
+  "partnership": {
+    "formalisation_type": "mou",
+    "status": "active",
+    "signed_year": 2023,
+    "notes": "MEF\u2013UN Women partnership under EmPower Phase 2. Enables SAFFAL programme."
+  },
+  "programmes": [
+    {
+      "name": "SAFFAL",
+      "short_name": "SAFFAL",
+      "type": "accelerator",
+      "status": "active",
+      "role": "partner",
+      "slug": "saffal"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "SAFFAL",
+      "notes": "MEF\u2013UN Women partnership directly enables SAFFAL delivery",
+      "slug": "saffal"
+    }
+  ],
+  "policies_implemented": [
+    {
+      "name": "EmPower: Women for Climate-Resilient Societies Phase 2",
+      "short_name": "EmPower P2",
+      "role": "implementing_body",
+      "slug": "empower-women-for-climate-resilient-societies-phase-2"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "slug": "gomassive-climate-accelerator-2023",
+    "url": "/programmes/gomassive-climate-accelerator-2023",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "GoMassive Climate Accelerator 2023",
+    "short_name": "GCA",
+    "type": "accelerator",
+    "status": "completed",
+    "year_launched": 2023,
+    "region": "Global",
+    "description": "Climate accelerator with AWS. Focus: Sustainable Agriculture, Low Carbon Transport, Sustainable Cities, Digital Solutions, Industrial Decarbonisation."
+  },
+  "sectors": {
+    "primary": [
+      "Climate Finance & Innovation"
+    ],
+    "secondary": [
+      "Clean Energy",
+      "Clean Mobility",
+      "Sustainable Agriculture",
+      "Sustainable Built Environment"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 7",
+        "policy_full": "SDG 7 \u2014 Affordable and Clean Energy",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "GCA focus includes clean energy and industrial decarbonisation. SDG 7 alignment.",
+        "slug": "sdg-7-affordable-and-clean-energy"
+      },
+      {
+        "policy": "SDG 9",
+        "policy_full": "SDG 9 \u2014 Industry, Innovation, Infrastructure",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "AWS partnership builds digital infrastructure for climate innovation. SDG 9 alignment.",
+        "slug": "sdg-9-industry-innovation-infrastructure"
+      },
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "GCA accelerates climate startups. SDG 13 alignment.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "partial",
+        "notes": "GCA contributes to India's NDC startup ecosystem requirement.",
+        "slug": "india-ndc-2-0"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "Amazon Web Services",
+        "short_name": "AWS",
+        "type": "tech_partner",
+        "slug": "amazon-web-services"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "Amazon Web Services",
+      "type": "mou",
+      "status": "active",
+      "year": 2023,
+      "notes": "MEF\u2013AWS MoU enables GoMassive Climate Accelerator 2023",
+      "slug": "amazon-web-services"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": []
+}

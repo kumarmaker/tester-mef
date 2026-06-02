@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "slug": "zero-waste-cities",
+    "url": "/programmes/zero-waste-cities",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "Zero Waste Cities",
+    "short_name": "ZWC",
+    "type": "accelerator",
+    "status": "completed",
+    "year_launched": 2021,
+    "region": "Global",
+    "description": "Tackle urban waste management crisis. Empower waste-focused startups globally. With WasteAid."
+  },
+  "sectors": {
+    "primary": [
+      "Circular Economy & Waste"
+    ],
+    "secondary": [
+      "Sustainable Built Environment"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 12",
+        "policy_full": "SDG 12 \u2014 Responsible Consumption",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "ZWC delivers SDG 12 through urban waste management reform.",
+        "slug": "sdg-12-responsible-consumption"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 11",
+        "policy_full": "SDG 11 \u2014 Sustainable Cities",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "ZWC's urban focus serves SDG 11 sustainable cities mandate.",
+        "slug": "sdg-11-sustainable-cities"
+      },
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "partial",
+        "notes": "Waste reduction has direct climate co-benefits. SDG 13 partial alignment.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "NMSH",
+        "policy_full": "National Mission on Sustainable Habitat",
+        "level": "national",
+        "type": "mission",
+        "strength": "partial",
+        "notes": "ZWC's municipal focus aligns with NAPCC Sustainable Habitat Mission.",
+        "slug": "national-mission-on-sustainable-habitat"
+      }
+    ],
+    "advocacy": [
+      {
+        "policy": "PWMR",
+        "policy_full": "Plastic Waste Management Rules",
+        "level": "national",
+        "type": "regulation",
+        "strength": "partial",
+        "notes": "ZWC builds ground evidence base that informs plastic waste regulation.",
+        "slug": "plastic-waste-management-rules"
+      }
+    ],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "WasteAid",
+        "short_name": "WasteAid",
+        "type": "ngo_civil_society",
+        "slug": "wasteaid"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [
+    {
+      "partner": "WasteAid",
+      "type": "mou",
+      "status": "active",
+      "year": 2021,
+      "notes": "MEF\u2013WasteAid MoU enables Zero Waste Cities programme",
+      "slug": "wasteaid"
+    }
+  ],
+  "reports_produced": [],
+  "linked_events": []
+}

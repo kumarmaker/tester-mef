@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "slug": "massive-earth-summit-2018",
+    "url": "/events/massive-earth-summit-2018",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "Massive Earth Summit 2018",
+    "date": "6 Jun 2018",
+    "location": "Taj Hotel, Delhi",
+    "region": "Delhi-NCR",
+    "theme": "Climate Coalition",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": 12,
+    "participants": 250
+  },
+  "outcome": "India's first grand coalition of private sector, policymakers and innovators on pollution and climate change.",
+  "media_note": "Paytm, Norwegian Ambassador, Union Ministers, UNEP Secretary General",
+  "linked_programmes": [
+    {
+      "name": "MEF\u2013UNEP Institutional Partnership",
+      "short_name": "MEF-UNEP",
+      "type": "partnership",
+      "relationship": "milestone",
+      "slug": "mef-unep-institutional-partnership"
+    }
+  ],
+  "series": []
+}

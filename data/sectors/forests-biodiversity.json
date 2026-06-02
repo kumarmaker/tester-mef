@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "slug": "forests-biodiversity",
+    "url": "/sectors/forests-biodiversity",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Forests & Biodiversity",
+    "description": "Forest management, carbon sinks, biodiversity, nature-based solutions"
+  },
+  "stats": {
+    "programme_count": 2,
+    "policy_count": 7,
+    "report_count": 0
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "Sustainable Forests / Smriti Van",
+        "short_name": "Smriti Van",
+        "type": "project",
+        "status": "active",
+        "year": 2022,
+        "region": "India",
+        "slug": "sustainable-forests-smriti-van"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "slug": "saffal"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "Paris Agreement",
+        "short_name": "Paris",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "paris-agreement"
+      },
+      {
+        "name": "SDG 15 — Life on Land",
+        "short_name": "SDG 15",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-15-life-on-land"
+      },
+      {
+        "name": "Article 6 — Paris Agreement Carbon Markets",
+        "short_name": "Article 6",
+        "year": 2021,
+        "role": "primary",
+        "slug": "article-6-paris-agreement-carbon-markets"
+      },
+      {
+        "name": "Tropical Forest Forever Facility",
+        "short_name": "TFFF",
+        "year": 2025,
+        "role": "primary",
+        "slug": "tropical-forest-forever-facility"
+      }
+    ],
+    "national": [
+      {
+        "name": "National Action Plan on Climate Change",
+        "short_name": "NAPCC",
+        "year": 2008,
+        "role": "secondary",
+        "slug": "national-action-plan-on-climate-change"
+      },
+      {
+        "name": "National Mission for a Green India",
+        "short_name": "GIM",
+        "year": 2008,
+        "role": "primary",
+        "slug": "national-mission-for-a-green-india"
+      },
+      {
+        "name": "Carbon Credit Trading Scheme",
+        "short_name": "CCTS",
+        "year": 2023,
+        "role": "primary",
+        "slug": "carbon-credit-trading-scheme"
+      }
+    ]
+  },
+  "reports": []
+}

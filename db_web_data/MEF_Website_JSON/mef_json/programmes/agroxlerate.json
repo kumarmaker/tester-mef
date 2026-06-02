@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "slug": "agroxlerate",
+    "url": "/programmes/agroxlerate",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "AgroXlerate",
+    "short_name": "AgroX",
+    "type": "accelerator",
+    "status": "completed",
+    "year_launched": 2022,
+    "region": "India",
+    "description": "Agricultural innovation accelerator. Supporting agri-tech startup development. With Pantnagar Capital."
+  },
+  "sectors": {
+    "primary": [
+      "Sustainable Agriculture"
+    ],
+    "secondary": []
+  },
+  "policy_relations": {
+    "delivery": [],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "Sustainable agriculture directly serves SDG 12 and climate action goals.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "NMSA",
+        "policy_full": "National Mission for Sustainable Agriculture",
+        "level": "national",
+        "type": "mission",
+        "strength": "strong",
+        "notes": "AgroXlerate aligns directly with NAPCC National Mission for Sustainable Agriculture.",
+        "slug": "national-mission-for-sustainable-agriculture"
+      },
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "partial",
+        "notes": "Agri innovation contributes to India NDC's sustainable land use commitments.",
+        "slug": "india-ndc-2-0"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [
+      {
+        "name": "Pantnagar Capital",
+        "short_name": "Pantnagar",
+        "type": "corporate_funder",
+        "slug": "pantnagar-capital"
+      }
+    ],
+    "partners": [],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [],
+  "reports_produced": [
+    {
+      "name": "Agri-tech Investment Landscape",
+      "short_name": "Agri-Finance",
+      "sector": "Sustainable Agriculture",
+      "date": null,
+      "status": "published",
+      "slug": "agri-tech-investment-landscape"
+    }
+  ],
+  "linked_events": []
+}

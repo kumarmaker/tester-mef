@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "slug": "ccus-report",
+    "url": "/research/ccus-report",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "CCUS Report",
+    "short_name": "CCUS",
+    "sector_focus": "Carbon Capture & Storage",
+    "release_date": null,
+    "status": "published",
+    "accessibility": "Website",
+    "description": "Carbon Capture, Utilisation and Storage landscape and technology readiness analysis."
+  },
+  "produced_by": null,
+  "sector_tag": {
+    "name": "Carbon Capture & Storage",
+    "slug": "carbon-capture-storage"
+  },
+  "policy_relations": {
+    "evidence": [
+      {
+        "policy": "Paris",
+        "level": "global",
+        "notes": "CCUS is a Paris Agreement mitigation pathway. Report provides technical evidence.",
+        "slug": "paris-agreement"
+      },
+      {
+        "policy": "SDG 13",
+        "level": "global",
+        "notes": "Carbon capture technology is core to SDG 13 climate action.",
+        "slug": "sdg-13-climate-action"
+      }
+    ],
+    "alignment": [],
+    "advocacy": []
+  },
+  "related_reports": []
+}

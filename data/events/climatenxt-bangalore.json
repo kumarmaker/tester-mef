@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "slug": "climatenxt-bangalore",
+    "url": "/events/climatenxt-bangalore",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "ClimateNXT Bangalore",
+    "date": "August 2022",
+    "location": "Hyatt Bangalore",
+    "region": "Bangalore",
+    "theme": "ClimateNXT",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "Handpicked investors, industrialists, policymakers on climate-tech investment.",
+  "media_note": null,
+  "linked_programmes": [
+    {
+      "name": "ICAP \u2014 India Climate Accelerator Platform",
+      "short_name": "ICAP",
+      "type": "dialogue",
+      "relationship": "milestone",
+      "slug": "icap-india-climate-accelerator-platform"
+    }
+  ],
+  "series": [
+    {
+      "name": "ClimateNXT 2023",
+      "date": "5 Jun 2023",
+      "location": "Quorum, Gurgaon",
+      "slug": "climatenxt-2023"
+    },
+    {
+      "name": "ClimateNXT 2025",
+      "date": "5 Jun 2025",
+      "location": "Bangalore",
+      "slug": "climatenxt-2025"
+    }
+  ]
+}

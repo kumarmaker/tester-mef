@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "slug": "paris-agreement",
+    "url": "/policy/paris-agreement",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "Paris Agreement",
+    "short_name": "Paris",
+    "year": 2015,
+    "level": "global",
+    "issuing_body": "UNFCCC",
+    "type": "treaty",
+    "description": "1.5°C/2°C temperature limit. NDC mechanism for national climate plans. 194 parties.",
+    "parent_policy": "UN Framework Convention on Climate Change"
+  },
+  "sectors": {
+    "primary": [
+      "Clean Energy",
+      "Climate Finance & Innovation"
+    ],
+    "secondary": [
+      "Clean Mobility",
+      "Sustainable Agriculture",
+      "Sustainable Built Environment",
+      "Forests & Biodiversity"
+    ]
+  },
+  "programme_relations": {
+    "delivery": [
+      {
+        "programme": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "LCE is a named co-programme under MEF-UNEP MoU. Directly delivers on Paris Agreement mitigation mandate through startup acceleration.",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "programme": "MEF–UNEP Institutional Partnership",
+        "short_name": "MEF-UNEP",
+        "type": "partnership",
+        "status": "active",
+        "strength": "strong",
+        "notes": "MEF-UNEP MoU positions MEF as a UNEP delivery partner at country and regional level under Paris Agreement framework.",
+        "slug": "mef-unep-institutional-partnership"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "programme": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "SAFFAL's $6M blended finance facility is a direct response to the Paris Agreement's finance mobilisation imperative.",
+        "slug": "saffal"
+      }
+    ],
+    "advocacy": [],
+    "problem": [
+      {
+        "programme": "ICAP — India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "Paris Agreement commits India to $10.1T net zero by 2070 — but no domestic mechanism exists to channel risk capital. ICAP exists because of this gap.",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "name": "CCUS Report",
+      "relationship": "evidence",
+      "notes": "CCUS is a Paris Agreement mitigation pathway. Report provides technical evidence.",
+      "slug": "ccus-report"
+    }
+  ],
+  "stakeholders": [
+    {
+      "name": "Ministry of Environment, Forest and Climate Change",
+      "type": "government",
+      "role": "signatory",
+      "slug": "ministry-of-environment-forest-and-climate-change"
+    }
+  ]
+}

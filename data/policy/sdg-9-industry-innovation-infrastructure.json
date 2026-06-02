@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "slug": "sdg-9-industry-innovation-infrastructure",
+    "url": "/policy/sdg-9-industry-innovation-infrastructure",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "SDG 9 — Industry, Innovation, Infrastructure",
+    "short_name": "SDG 9",
+    "year": 2015,
+    "level": "global",
+    "issuing_body": "United Nations",
+    "type": "sdg",
+    "description": "Build resilient infrastructure, promote inclusive industrialisation, foster innovation.",
+    "parent_policy": "UN Sustainable Development Goals"
+  },
+  "sectors": {
+    "primary": [
+      "Climate Finance & Innovation"
+    ],
+    "secondary": []
+  },
+  "programme_relations": {
+    "delivery": [
+      {
+        "programme": "ICAP — India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "ICAP directly builds innovation infrastructure for climate-tech in India. SDG 9 core delivery.",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "programme": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "LCE builds innovation infrastructure and accelerates climate-tech industry. Core SDG 9 contribution.",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "programme": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "SAFFAL builds innovation and investment infrastructure in South Asia. SDG 9 in practice.",
+        "slug": "saffal"
+      },
+      {
+        "programme": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "AWS partnership builds digital infrastructure for climate innovation. SDG 9 alignment.",
+        "slug": "gomassive-climate-accelerator-2023"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "reports": [],
+  "stakeholders": []
+}

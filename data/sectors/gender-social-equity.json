@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "slug": "gender-social-equity",
+    "url": "/sectors/gender-social-equity",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Gender & Social Equity",
+    "description": "Gender-responsive climate action, women-led enterprises, inclusion"
+  },
+  "stats": {
+    "programme_count": 1,
+    "policy_count": 2,
+    "report_count": 0
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "year": 2025,
+        "region": "South Asia",
+        "slug": "saffal"
+      }
+    ],
+    "secondary": []
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "SDG 5 \u2014 Gender Equality",
+        "short_name": "SDG 5",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-5-gender-equality"
+      }
+    ],
+    "national": []
+  },
+  "reports": []
+}

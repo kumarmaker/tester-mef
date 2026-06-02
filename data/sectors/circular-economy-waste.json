@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "slug": "circular-economy-waste",
+    "url": "/sectors/circular-economy-waste",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Circular Economy & Waste",
+    "description": "Plastic waste, single-use plastics, recycling, waste management"
+  },
+  "stats": {
+    "programme_count": 7,
+    "policy_count": 5,
+    "report_count": 1
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "Smart Waste Management",
+        "short_name": "SWM",
+        "type": "project",
+        "status": "completed",
+        "year": 2020,
+        "region": "India",
+        "slug": "smart-waste-management"
+      },
+      {
+        "name": "Zero Waste Cities",
+        "short_name": "ZWC",
+        "type": "accelerator",
+        "status": "completed",
+        "year": 2021,
+        "region": "Global",
+        "slug": "zero-waste-cities"
+      },
+      {
+        "name": "Agra Innovation Lab",
+        "short_name": "AIL",
+        "type": "project",
+        "status": "completed",
+        "year": 2021,
+        "region": "Agra",
+        "slug": "agra-innovation-lab"
+      },
+      {
+        "name": "ZESUP Challenge",
+        "short_name": "ZeSUP",
+        "type": "accelerator",
+        "status": "completed",
+        "year": 2022,
+        "region": "Southeast Asia",
+        "slug": "zesup-challenge"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "name": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "slug": "saffal"
+      },
+      {
+        "name": "ICAP — India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "completed",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "SDG 11 — Sustainable Cities",
+        "short_name": "SDG 11",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "sdg-11-sustainable-cities"
+      },
+      {
+        "name": "SDG 12 — Responsible Consumption",
+        "short_name": "SDG 12",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-12-responsible-consumption"
+      },
+      {
+        "name": "Alliance to End Plastic Waste Framework",
+        "short_name": "AEPW",
+        "year": 2019,
+        "role": "primary",
+        "slug": "alliance-to-end-plastic-waste-framework"
+      }
+    ],
+    "national": [
+      {
+        "name": "National Mission on Sustainable Habitat",
+        "short_name": "NMSH",
+        "year": 2008,
+        "role": "secondary",
+        "slug": "national-mission-on-sustainable-habitat"
+      },
+      {
+        "name": "Plastic Waste Management Rules",
+        "short_name": "PWMR",
+        "year": 2016,
+        "role": "primary",
+        "slug": "plastic-waste-management-rules"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "name": "Chemical Recycling & Plastic Pollution",
+      "short_name": "LVP",
+      "date": null,
+      "status": "published",
+      "slug": "chemical-recycling-plastic-pollution"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "slug": "japan-air-pollution-event",
+    "url": "/events/japan-air-pollution-event",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "Japan Air Pollution Event",
+    "date": "March 2025",
+    "location": "Japan",
+    "region": "Japan",
+    "theme": "Air Pollution",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "Air pollution research dissemination event in Japan.",
+  "media_note": null,
+  "linked_programmes": [],
+  "series": [
+    {
+      "name": "Air Pollution Event India",
+      "date": "9 August",
+      "location": "India Habitat Centre",
+      "slug": "air-pollution-event-india"
+    }
+  ]
+}

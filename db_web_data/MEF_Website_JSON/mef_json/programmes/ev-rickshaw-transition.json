@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "slug": "ev-rickshaw-transition",
+    "url": "/programmes/ev-rickshaw-transition",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "EV Rickshaw Transition",
+    "short_name": "EV-Rickshaw",
+    "type": "project",
+    "status": "ongoing",
+    "year_launched": 2021,
+    "region": "India",
+    "description": "Transition 2- and 3-wheeler rickshaws to electric vehicles. Identified as major urban pollution source. Multi-stakeholder partnerships."
+  },
+  "sectors": {
+    "primary": [
+      "Clean Mobility"
+    ],
+    "secondary": [
+      "Air Quality & Pollution"
+    ]
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "FAME II",
+        "policy_full": "FAME II \u2014 Faster Adoption of EVs",
+        "level": "national",
+        "type": "regulation",
+        "strength": "strong",
+        "notes": "EV Rickshaw directly delivers FAME II EV adoption mandate for 2- and 3-wheelers.",
+        "slug": "fame-ii-faster-adoption-of-evs"
+      },
+      {
+        "policy": "NCAP",
+        "policy_full": "National Clean Air Programme",
+        "level": "national",
+        "type": "programme",
+        "strength": "strong",
+        "notes": "EV transition of rickshaws directly reduces vehicular emissions. NCAP delivery.",
+        "slug": "national-clean-air-programme"
+      }
+    ],
+    "mandate": [
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "strong",
+        "notes": "India NDC 2.0 explicitly calls for EV manufacturing and adoption frameworks. This program delivers.",
+        "slug": "india-ndc-2-0"
+      }
+    ],
+    "alignment": [
+      {
+        "policy": "SDG 7",
+        "policy_full": "SDG 7 \u2014 Affordable and Clean Energy",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "Clean mobility is clean energy in transport form. SDG 7 alignment.",
+        "slug": "sdg-7-affordable-and-clean-energy"
+      },
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "EV transition is direct climate action. SDG 13.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "SDG 3",
+        "policy_full": "SDG 3 \u2014 Good Health and Well-Being",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "SDG 3 health outcomes: reducing vehicular pollution directly improves urban air quality and public health.",
+        "slug": "sdg-3-good-health-and-well-being"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "WRI India",
+        "short_name": "WRI India",
+        "type": "multilateral",
+        "slug": "wri-india"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": [
+      {
+        "name": "Ministry of Heavy Industries",
+        "short_name": "MoHI",
+        "type": "government",
+        "slug": "ministry-of-heavy-industries"
+      }
+    ]
+  },
+  "enabling_mous": [
+    {
+      "partner": "WRI India",
+      "type": "informal",
+      "status": "active",
+      "year": 2022,
+      "notes": "MEF\u2013WRI India collaboration informs EV research",
+      "slug": "wri-india"
+    }
+  ],
+  "reports_produced": [
+    {
+      "name": "State of EV Charging Report",
+      "short_name": "EV Report",
+      "sector": "Clean Mobility",
+      "date": "2024",
+      "status": "published",
+      "slug": "state-of-ev-charging-report"
+    }
+  ],
+  "linked_events": []
+}

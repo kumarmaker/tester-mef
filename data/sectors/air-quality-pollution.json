@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "slug": "air-quality-pollution",
+    "url": "/sectors/air-quality-pollution",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Air Quality & Pollution",
+    "description": "Urban air pollution, AQI, particulate matter, industrial emissions"
+  },
+  "stats": {
+    "programme_count": 1,
+    "policy_count": 3,
+    "report_count": 3
+  },
+  "programmes": {
+    "primary": [],
+    "secondary": [
+      {
+        "name": "EV Rickshaw Transition",
+        "short_name": "EV-Rickshaw",
+        "type": "project",
+        "status": "active",
+        "slug": "ev-rickshaw-transition"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "SDG 13 — Climate Action",
+        "short_name": "SDG 13",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "name": "SDG 3 — Good Health and Well-Being",
+        "short_name": "SDG 3",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-3-good-health-and-well-being"
+      }
+    ],
+    "national": [
+      {
+        "name": "National Clean Air Programme",
+        "short_name": "NCAP",
+        "year": 2019,
+        "role": "primary",
+        "slug": "national-clean-air-programme"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "name": "Air Pollution & Lockdown Study",
+      "short_name": "AQI",
+      "date": "2020",
+      "status": "published",
+      "slug": "air-pollution-lockdown-study"
+    },
+    {
+      "name": "Dust & Its Impact",
+      "short_name": "Dust",
+      "date": null,
+      "status": "published",
+      "slug": "dust-its-impact"
+    },
+    {
+      "name": "Delhi Clean Air Report",
+      "short_name": "Delhi Air",
+      "date": "2023",
+      "status": "published",
+      "slug": "delhi-clean-air-report"
+    }
+  ]
+}

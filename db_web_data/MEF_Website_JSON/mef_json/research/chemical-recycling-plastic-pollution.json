@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "slug": "chemical-recycling-plastic-pollution",
+    "url": "/research/chemical-recycling-plastic-pollution",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "Chemical Recycling & Plastic Pollution",
+    "short_name": "LVP",
+    "sector_focus": "Circular Economy & Waste",
+    "release_date": null,
+    "status": "published",
+    "accessibility": "Website, Publication",
+    "description": "Low-value plastic creating havoc. Chemical recycling landscape and plastic pollution analysis."
+  },
+  "produced_by": null,
+  "sector_tag": {
+    "name": "Circular Economy & Waste",
+    "slug": "circular-economy-waste"
+  },
+  "policy_relations": {
+    "evidence": [
+      {
+        "policy": "SDG 12",
+        "level": "global",
+        "notes": "Plastic pollution evidence base for SDG 12 responsible consumption policy.",
+        "slug": "sdg-12-responsible-consumption"
+      },
+      {
+        "policy": "AEPW",
+        "level": "global",
+        "notes": "Directly evidences AEPW framework priorities on low-value plastic.",
+        "slug": "alliance-to-end-plastic-waste-framework"
+      }
+    ],
+    "alignment": [],
+    "advocacy": [
+      {
+        "policy": "PWMR",
+        "level": "national",
+        "notes": "Chemical recycling report argues for regulatory evolution of PWMR 2016.",
+        "slug": "plastic-waste-management-rules"
+      }
+    ]
+  },
+  "related_reports": []
+}

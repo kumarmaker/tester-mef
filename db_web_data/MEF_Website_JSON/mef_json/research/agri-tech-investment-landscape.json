@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "slug": "agri-tech-investment-landscape",
+    "url": "/research/agri-tech-investment-landscape",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "Agri-tech Investment Landscape",
+    "short_name": "Agri-Finance",
+    "sector_focus": "Sustainable Agriculture",
+    "release_date": null,
+    "status": "published",
+    "accessibility": "Website",
+    "description": "Mapping investment flows and opportunities in Indian agri-tech sector."
+  },
+  "produced_by": {
+    "name": "AgroXlerate",
+    "type": "accelerator",
+    "status": "completed",
+    "slug": "agroxlerate"
+  },
+  "sector_tag": {
+    "name": "Sustainable Agriculture",
+    "slug": "sustainable-agriculture"
+  },
+  "policy_relations": {
+    "evidence": [
+      {
+        "policy": "SDG 13",
+        "level": "global",
+        "notes": "Sustainable agriculture investment is climate action. SDG 13.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "NMSA",
+        "level": "national",
+        "notes": "Direct evidence base for NMSA investment priorities.",
+        "slug": "national-mission-for-sustainable-agriculture"
+      }
+    ],
+    "alignment": [],
+    "advocacy": []
+  },
+  "related_reports": []
+}

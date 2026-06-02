@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "slug": "google-cloud",
+    "url": "/partners/google-cloud",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "Google Cloud",
+    "short_name": "Google Cloud",
+    "type": "tech_partner",
+    "description": "USD 25,000 in cloud credits per SAFFAL cohort enterprise."
+  },
+  "partnership": null,
+  "programmes": [
+    {
+      "name": "SAFFAL",
+      "short_name": "SAFFAL",
+      "type": "accelerator",
+      "status": "active",
+      "role": "partner",
+      "slug": "saffal"
+    }
+  ],
+  "mou_enabled_programmes": [],
+  "policies_implemented": []
+}

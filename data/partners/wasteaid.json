@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "slug": "wasteaid",
+    "url": "/partners/wasteaid",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "WasteAid",
+    "short_name": "WasteAid",
+    "type": "ngo_civil_society",
+    "description": "Partner on Zero Waste Cities challenge."
+  },
+  "partnership": {
+    "formalisation_type": "mou",
+    "status": "active",
+    "signed_year": 2021,
+    "notes": "MEF\u2013WasteAid. Zero Waste Cities programme partnership."
+  },
+  "programmes": [
+    {
+      "name": "Zero Waste Cities",
+      "short_name": "ZWC",
+      "type": "accelerator",
+      "status": "completed",
+      "role": "partner",
+      "slug": "zero-waste-cities"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "Zero Waste Cities",
+      "notes": "MEF\u2013WasteAid MoU enables Zero Waste Cities programme",
+      "slug": "zero-waste-cities"
+    }
+  ],
+  "policies_implemented": []
+}

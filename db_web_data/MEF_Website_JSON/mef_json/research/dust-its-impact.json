@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "slug": "dust-its-impact",
+    "url": "/research/dust-its-impact",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "Dust & Its Impact",
+    "short_name": "Dust",
+    "sector_focus": "Air Quality & Pollution",
+    "release_date": null,
+    "status": "published",
+    "accessibility": "Website",
+    "description": "Study on fugitive dust as a component of urban air pollution in Indian cities."
+  },
+  "produced_by": null,
+  "sector_tag": {
+    "name": "Air Quality & Pollution",
+    "slug": "air-quality-pollution"
+  },
+  "policy_relations": {
+    "evidence": [],
+    "alignment": [],
+    "advocacy": []
+  },
+  "related_reports": [
+    {
+      "name": "Air Pollution & Lockdown Study",
+      "short_name": "AQI",
+      "slug": "air-pollution-lockdown-study"
+    },
+    {
+      "name": "Delhi Clean Air Report",
+      "short_name": "Delhi Air",
+      "slug": "delhi-clean-air-report"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "slug": "agra-innovation-lab-launch",
+    "url": "/events/agra-innovation-lab-launch",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "Agra Innovation Lab Launch",
+    "date": "2021",
+    "location": "Agra",
+    "region": "Agra",
+    "theme": null,
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "Launch event for Agra Innovation Lab plastic waste program.",
+  "media_note": null,
+  "linked_programmes": [
+    {
+      "name": "Agra Innovation Lab",
+      "short_name": "AIL",
+      "type": "project",
+      "relationship": "launch",
+      "slug": "agra-innovation-lab"
+    }
+  ],
+  "series": []
+}

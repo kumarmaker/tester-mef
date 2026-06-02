@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "slug": "united-nations-environment-programme",
+    "url": "/partners/united-nations-environment-programme",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "United Nations Environment Programme",
+    "short_name": "UNEP",
+    "type": "multilateral",
+    "description": "MEF's primary multilateral partner. MoU signed. Delivery partner on LowCarbon.Earth accelerator."
+  },
+  "partnership": {
+    "formalisation_type": "mou",
+    "status": "active",
+    "signed_year": 2021,
+    "notes": "MEF\u2013UNEP MoU. Parent agreement enabling LowCarbon.Earth accelerator series and all UNEP co-programmes."
+  },
+  "programmes": [
+    {
+      "name": "LowCarbon.Earth Accelerator",
+      "short_name": "LCE",
+      "type": "accelerator",
+      "status": "active",
+      "role": "partner",
+      "slug": "lowcarbon-earth-accelerator"
+    },
+    {
+      "name": "SAFFAL",
+      "short_name": "SAFFAL",
+      "type": "accelerator",
+      "status": "active",
+      "role": "partner",
+      "slug": "saffal"
+    },
+    {
+      "name": "ICAP \u2014 India Climate Accelerator Platform",
+      "short_name": "ICAP",
+      "type": "dialogue",
+      "status": "active",
+      "role": "partner",
+      "slug": "icap-india-climate-accelerator-platform"
+    },
+    {
+      "name": "MEF\u2013UNEP Institutional Partnership",
+      "short_name": "MEF-UNEP",
+      "type": "partnership",
+      "status": "active",
+      "role": "partner",
+      "slug": "mef-unep-institutional-partnership"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "LowCarbon.Earth Accelerator",
+      "notes": "MEF-UNEP MoU is foundational agreement enabling LowCarbon.Earth series",
+      "slug": "lowcarbon-earth-accelerator"
+    },
+    {
+      "name": "SAFFAL",
+      "notes": "MEF-UNEP MoU also enables SAFFAL alongside EmPower programme",
+      "slug": "saffal"
+    },
+    {
+      "name": "MEF\u2013UNEP Institutional Partnership",
+      "notes": "MEF-UNEP MoU is the institutional partnership itself",
+      "slug": "mef-unep-institutional-partnership"
+    }
+  ],
+  "policies_implemented": [
+    {
+      "name": "EmPower: Women for Climate-Resilient Societies Phase 2",
+      "short_name": "EmPower P2",
+      "role": "implementing_body",
+      "slug": "empower-women-for-climate-resilient-societies-phase-2"
+    }
+  ]
+}

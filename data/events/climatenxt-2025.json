@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "slug": "climatenxt-2025",
+    "url": "/events/climatenxt-2025",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "ClimateNXT 2025",
+    "date": "5 Jun 2025",
+    "location": "Bangalore",
+    "region": "Bangalore",
+    "theme": "ClimateNXT",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "SAFFAL launched at this event on World Environment Day 2025.",
+  "media_note": null,
+  "linked_programmes": [
+    {
+      "name": "SAFFAL",
+      "short_name": "SAFFAL",
+      "type": "accelerator",
+      "relationship": "launch",
+      "slug": "saffal"
+    }
+  ],
+  "series": [
+    {
+      "name": "ClimateNXT Bangalore",
+      "date": "August 2022",
+      "location": "Hyatt Bangalore",
+      "slug": "climatenxt-bangalore"
+    },
+    {
+      "name": "ClimateNXT 2023",
+      "date": "5 Jun 2023",
+      "location": "Quorum, Gurgaon",
+      "slug": "climatenxt-2023"
+    }
+  ]
+}

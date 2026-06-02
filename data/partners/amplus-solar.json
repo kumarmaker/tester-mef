@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "slug": "amplus-solar",
+    "url": "/partners/amplus-solar",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "Amplus Solar",
+    "short_name": "Amplus Solar",
+    "type": "corporate_funder",
+    "description": "Partner on MILES Challenge clean energy accelerator. Part of PETRONAS group."
+  },
+  "partnership": null,
+  "programmes": [
+    {
+      "name": "MILES Challenge",
+      "short_name": "MILES",
+      "type": "accelerator",
+      "status": "completed",
+      "role": "partner",
+      "slug": "miles-challenge"
+    }
+  ],
+  "mou_enabled_programmes": [],
+  "policies_implemented": []
+}

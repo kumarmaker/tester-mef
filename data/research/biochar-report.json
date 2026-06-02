@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "slug": "biochar-report",
+    "url": "/research/biochar-report",
+    "page_type": "report"
+  },
+  "hero": {
+    "name": "Biochar Report",
+    "short_name": "Biochar",
+    "sector_focus": "Carbon Removal",
+    "release_date": null,
+    "status": "published",
+    "accessibility": "Website",
+    "description": "Biochar as a carbon removal mechanism. Relevance to sustainable agriculture and soil health."
+  },
+  "produced_by": {
+    "name": "Sustainable Forests / Smriti Van",
+    "type": "project",
+    "status": "active",
+    "slug": "sustainable-forests-smriti-van"
+  },
+  "sector_tag": {
+    "name": "Carbon Removal",
+    "slug": "carbon-removal"
+  },
+  "policy_relations": {
+    "evidence": [
+      {
+        "policy": "SDG 13",
+        "level": "global",
+        "notes": "Carbon removal through biochar contributes to SDG 13 climate targets.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "NMSA",
+        "level": "national",
+        "notes": "Biochar as soil amendment supports NMSA sustainable agriculture mandate.",
+        "slug": "national-mission-for-sustainable-agriculture"
+      }
+    ],
+    "alignment": [],
+    "advocacy": []
+  },
+  "related_reports": []
+}

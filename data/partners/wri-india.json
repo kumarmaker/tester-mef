@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "slug": "wri-india",
+    "url": "/partners/wri-india",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "WRI India",
+    "short_name": "WRI India",
+    "type": "multilateral",
+    "description": "World Resources Institute India. Research and knowledge partner. Involved in ClimateNXT events."
+  },
+  "partnership": {
+    "formalisation_type": "informal",
+    "status": "active",
+    "signed_year": 2022,
+    "notes": "MEF–WRI India collaboration. Knowledge partnership for ClimateNXT and research."
+  },
+  "programmes": [
+    {
+      "name": "EV Rickshaw Transition",
+      "short_name": "EV-Rickshaw",
+      "type": "project",
+      "status": "active",
+      "role": "partner",
+      "slug": "ev-rickshaw-transition"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "EV Rickshaw Transition",
+      "notes": "MEF–WRI India collaboration informs EV research",
+      "slug": "ev-rickshaw-transition"
+    }
+  ],
+  "policies_implemented": []
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "slug": "agra-municipal-corporation",
+    "url": "/partners/agra-municipal-corporation",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "Agra Municipal Corporation",
+    "short_name": "Agra MC",
+    "type": "government",
+    "description": "Local government partner for Agra Innovation Lab."
+  },
+  "partnership": null,
+  "programmes": [
+    {
+      "name": "Agra Innovation Lab",
+      "short_name": "AIL",
+      "type": "project",
+      "status": "completed",
+      "role": "partner",
+      "slug": "agra-innovation-lab"
+    },
+    {
+      "name": "Smart Waste Management",
+      "short_name": "SWM",
+      "type": "project",
+      "status": "completed",
+      "role": "partner",
+      "slug": "smart-waste-management"
+    }
+  ],
+  "mou_enabled_programmes": [],
+  "policies_implemented": []
+}

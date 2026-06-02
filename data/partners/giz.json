@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "slug": "giz",
+    "url": "/partners/giz",
+    "page_type": "partner"
+  },
+  "hero": {
+    "name": "GIZ",
+    "short_name": "GIZ",
+    "type": "multilateral",
+    "description": "Deutsche Gesellschaft für Internationale Zusammenarbeit. German development agency. CSR and grants partner."
+  },
+  "partnership": {
+    "formalisation_type": "mou",
+    "status": "unknown",
+    "signed_year": 2020,
+    "notes": "MEF–GIZ engagement. CSR and project execution collaboration."
+  },
+  "programmes": [
+    {
+      "name": "Smart Waste Management",
+      "short_name": "SWM",
+      "type": "project",
+      "status": "completed",
+      "role": "partner",
+      "slug": "smart-waste-management"
+    }
+  ],
+  "mou_enabled_programmes": [
+    {
+      "name": "Smart Waste Management",
+      "notes": "MEF–GIZ engagement supports waste management advisory work",
+      "slug": "smart-waste-management"
+    }
+  ],
+  "policies_implemented": []
+}

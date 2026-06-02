@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "slug": "sustainable-built-environment",
+    "url": "/sectors/sustainable-built-environment",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Sustainable Built Environment",
+    "description": "Green buildings, sustainable cities, urban infrastructure"
+  },
+  "stats": {
+    "programme_count": 5,
+    "policy_count": 4,
+    "report_count": 0
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "Net Zero Sarojini Nagar",
+        "short_name": "NZ-Sarojini",
+        "type": "project",
+        "status": "active",
+        "year": 2026,
+        "region": "Lucknow",
+        "slug": "net-zero-sarojini-nagar"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "name": "Zero Waste Cities",
+        "short_name": "ZWC",
+        "type": "accelerator",
+        "status": "completed",
+        "slug": "zero-waste-cities"
+      },
+      {
+        "name": "Agra Innovation Lab",
+        "short_name": "AIL",
+        "type": "project",
+        "status": "completed",
+        "slug": "agra-innovation-lab"
+      },
+      {
+        "name": "Smart Waste Management",
+        "short_name": "SWM",
+        "type": "project",
+        "status": "ongoing",
+        "slug": "smart-waste-management"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "Paris Agreement",
+        "short_name": "Paris",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "paris-agreement"
+      },
+      {
+        "name": "SDG 11 \u2014 Sustainable Cities",
+        "short_name": "SDG 11",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-11-sustainable-cities"
+      }
+    ],
+    "national": [
+      {
+        "name": "National Action Plan on Climate Change",
+        "short_name": "NAPCC",
+        "year": 2008,
+        "role": "secondary",
+        "slug": "national-action-plan-on-climate-change"
+      },
+      {
+        "name": "National Mission on Sustainable Habitat",
+        "short_name": "NMSH",
+        "year": 2008,
+        "role": "primary",
+        "slug": "national-mission-on-sustainable-habitat"
+      }
+    ]
+  },
+  "reports": []
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "slug": "online-mobilitynxt",
+    "url": "/events/online-mobilitynxt",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "Online MobilityNXT",
+    "date": null,
+    "location": "Online",
+    "region": null,
+    "theme": "MobilityNXT",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "E-mobility opportunities discussion. Virtual format.",
+  "media_note": null,
+  "linked_programmes": [],
+  "series": []
+}

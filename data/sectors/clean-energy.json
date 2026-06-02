@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "slug": "clean-energy",
+    "url": "/sectors/clean-energy",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Clean Energy",
+    "description": "Power generation, storage, solar, wind, nuclear, hydrogen"
+  },
+  "stats": {
+    "programme_count": 6,
+    "policy_count": 6,
+    "report_count": 0
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "year": 2021,
+        "region": "Asia-Pacific",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "name": "MILES Challenge",
+        "short_name": "MILES",
+        "type": "accelerator",
+        "status": "completed",
+        "year": 2021,
+        "region": "India",
+        "slug": "miles-challenge"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "slug": "saffal"
+      },
+      {
+        "name": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "name": "Net Zero Sarojini Nagar",
+        "short_name": "NZ-Sarojini",
+        "type": "project",
+        "status": "active",
+        "slug": "net-zero-sarojini-nagar"
+      },
+      {
+        "name": "ICAP — India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "completed",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "Paris Agreement",
+        "short_name": "Paris",
+        "year": 2015,
+        "role": "primary",
+        "slug": "paris-agreement"
+      },
+      {
+        "name": "SDG 7 — Affordable and Clean Energy",
+        "short_name": "SDG 7",
+        "year": 2015,
+        "role": "primary",
+        "slug": "sdg-7-affordable-and-clean-energy"
+      },
+      {
+        "name": "SDG 13 — Climate Action",
+        "short_name": "SDG 13",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "sdg-13-climate-action"
+      }
+    ],
+    "national": [
+      {
+        "name": "National Action Plan on Climate Change",
+        "short_name": "NAPCC",
+        "year": 2008,
+        "role": "primary",
+        "slug": "national-action-plan-on-climate-change"
+      },
+      {
+        "name": "National Solar Mission",
+        "short_name": "NSM",
+        "year": 2008,
+        "role": "primary",
+        "slug": "national-solar-mission"
+      }
+    ]
+  },
+  "reports": []
+}

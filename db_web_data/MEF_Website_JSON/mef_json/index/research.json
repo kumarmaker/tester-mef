@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "url": "/research",
+    "page_type": "index"
+  },
+  "clusters": {
+    "air_environment": [
+      "Air Pollution & Lockdown Study",
+      "Dust & Its Impact",
+      "Delhi Clean Air Report"
+    ],
+    "mobility_energy": [
+      "State of EV Charging Report",
+      "CCUS Report"
+    ],
+    "agriculture_waste_carbon": [
+      "Agri-tech Investment Landscape",
+      "Chemical Recycling & Plastic Pollution",
+      "Biochar Report"
+    ]
+  },
+  "reports": [
+    {
+      "name": "State of EV Charging Report",
+      "short_name": "EV Report",
+      "sector": "Clean Mobility",
+      "date": "2024",
+      "status": "published",
+      "accessibility": "Website",
+      "produced_by": "EV Rickshaw Transition",
+      "slug": "state-of-ev-charging-report"
+    },
+    {
+      "name": "Delhi Clean Air Report",
+      "short_name": "Delhi Air",
+      "sector": "Air Quality & Pollution",
+      "date": "2023",
+      "status": "published",
+      "accessibility": "Website",
+      "produced_by": null,
+      "slug": "delhi-clean-air-report"
+    },
+    {
+      "name": "Air Pollution & Lockdown Study",
+      "short_name": "AQI",
+      "sector": "Air Quality & Pollution",
+      "date": "2020",
+      "status": "published",
+      "accessibility": "Website",
+      "produced_by": null,
+      "slug": "air-pollution-lockdown-study"
+    },
+    {
+      "name": "Biochar Report",
+      "short_name": "Biochar",
+      "sector": "Carbon Removal",
+      "date": null,
+      "status": "published",
+      "accessibility": "Website",
+      "produced_by": "Sustainable Forests / Smriti Van",
+      "slug": "biochar-report"
+    },
+    {
+      "name": "Agri-tech Investment Landscape",
+      "short_name": "Agri-Finance",
+      "sector": "Sustainable Agriculture",
+      "date": null,
+      "status": "published",
+      "accessibility": "Website",
+      "produced_by": "AgroXlerate",
+      "slug": "agri-tech-investment-landscape"
+    },
+    {
+      "name": "Dust & Its Impact",
+      "short_name": "Dust",
+      "sector": "Air Quality & Pollution",
+      "date": null,
+      "status": "published",
+      "accessibility": "Website",
+      "produced_by": null,
+      "slug": "dust-its-impact"
+    },
+    {
+      "name": "Chemical Recycling & Plastic Pollution",
+      "short_name": "LVP",
+      "sector": "Circular Economy & Waste",
+      "date": null,
+      "status": "published",
+      "accessibility": "Website, Publication",
+      "produced_by": null,
+      "slug": "chemical-recycling-plastic-pollution"
+    },
+    {
+      "name": "CCUS Report",
+      "short_name": "CCUS",
+      "sector": "Carbon Capture & Storage",
+      "date": null,
+      "status": "published",
+      "accessibility": "Website",
+      "produced_by": null,
+      "slug": "ccus-report"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "slug": "clean-mobility",
+    "url": "/sectors/clean-mobility",
+    "page_type": "sector"
+  },
+  "hero": {
+    "name": "Clean Mobility",
+    "description": "Electric vehicles, low-carbon transport, EV infrastructure"
+  },
+  "stats": {
+    "programme_count": 5,
+    "policy_count": 2,
+    "report_count": 1
+  },
+  "programmes": {
+    "primary": [
+      {
+        "name": "EV Rickshaw Transition",
+        "short_name": "EV-Rickshaw",
+        "type": "project",
+        "status": "active",
+        "year": 2021,
+        "region": "India",
+        "slug": "ev-rickshaw-transition"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "name": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "name": "Net Zero Sarojini Nagar",
+        "short_name": "NZ-Sarojini",
+        "type": "project",
+        "status": "active",
+        "slug": "net-zero-sarojini-nagar"
+      },
+      {
+        "name": "ICAP — India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "completed",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ]
+  },
+  "policies": {
+    "global": [
+      {
+        "name": "Paris Agreement",
+        "short_name": "Paris",
+        "year": 2015,
+        "role": "secondary",
+        "slug": "paris-agreement"
+      }
+    ],
+    "national": [
+      {
+        "name": "FAME II — Faster Adoption of EVs",
+        "short_name": "FAME II",
+        "year": 2019,
+        "role": "primary",
+        "slug": "fame-ii-faster-adoption-of-evs"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "name": "State of EV Charging Report",
+      "short_name": "EV Report",
+      "date": "2024",
+      "status": "published",
+      "slug": "state-of-ev-charging-report"
+    }
+  ]
+}

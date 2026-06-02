@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "slug": "sdg-13-climate-action",
+    "url": "/policy/sdg-13-climate-action",
+    "page_type": "policy"
+  },
+  "hero": {
+    "name": "SDG 13 — Climate Action",
+    "short_name": "SDG 13",
+    "year": 2015,
+    "level": "global",
+    "issuing_body": "United Nations",
+    "type": "sdg",
+    "description": "Take urgent action to combat climate change and its impacts.",
+    "parent_policy": "UN Sustainable Development Goals"
+  },
+  "sectors": {
+    "primary": [
+      "Climate Finance & Innovation"
+    ],
+    "secondary": [
+      "Clean Energy",
+      "Air Quality & Pollution"
+    ]
+  },
+  "programme_relations": {
+    "delivery": [
+      {
+        "programme": "LowCarbon.Earth Accelerator",
+        "short_name": "LCE",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "LCE is a primary delivery mechanism for SDG 13 Climate Action. 3000+ startups evaluated, $350M raised by portfolio.",
+        "slug": "lowcarbon-earth-accelerator"
+      },
+      {
+        "programme": "SAFFAL",
+        "short_name": "SAFFAL",
+        "type": "accelerator",
+        "status": "active",
+        "strength": "strong",
+        "notes": "SAFFAL accelerates women-led climate SMEs, directly serving SDG 13 through gender lens.",
+        "slug": "saffal"
+      },
+      {
+        "programme": "ICAP — India Climate Accelerator Platform",
+        "short_name": "ICAP",
+        "type": "dialogue",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "ICAP's entire mandate is mobilising climate action through investment. SDG 13.",
+        "slug": "icap-india-climate-accelerator-platform"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "programme": "GoMassive Climate Accelerator 2023",
+        "short_name": "GCA",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "GCA accelerates climate startups. SDG 13 alignment.",
+        "slug": "gomassive-climate-accelerator-2023"
+      },
+      {
+        "programme": "ZESUP Challenge",
+        "short_name": "ZeSUP",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "Plastic reduction is climate action. SDG 13 alignment.",
+        "slug": "zesup-challenge"
+      },
+      {
+        "programme": "MILES Challenge",
+        "short_name": "MILES",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "Clean energy transition is core climate action. SDG 13 alignment.",
+        "slug": "miles-challenge"
+      },
+      {
+        "programme": "AgroXlerate",
+        "short_name": "AgroX",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "strong",
+        "notes": "Sustainable agriculture directly serves SDG 12 and climate action goals.",
+        "slug": "agroxlerate"
+      },
+      {
+        "programme": "EV Rickshaw Transition",
+        "short_name": "EV-Rickshaw",
+        "type": "project",
+        "status": "active",
+        "strength": "strong",
+        "notes": "EV transition is direct climate action. SDG 13.",
+        "slug": "ev-rickshaw-transition"
+      },
+      {
+        "programme": "Sustainable Forests / Smriti Van",
+        "short_name": "Smriti Van",
+        "type": "project",
+        "status": "active",
+        "strength": "strong",
+        "notes": "Carbon sequestration through forests is direct climate action. SDG 13.",
+        "slug": "sustainable-forests-smriti-van"
+      },
+      {
+        "programme": "Net Zero Sarojini Nagar",
+        "short_name": "NZ-Sarojini",
+        "type": "project",
+        "status": "active",
+        "strength": "strong",
+        "notes": "Net zero initiative is direct climate action. SDG 13.",
+        "slug": "net-zero-sarojini-nagar"
+      },
+      {
+        "programme": "MEF–UNEP Institutional Partnership",
+        "short_name": "MEF-UNEP",
+        "type": "partnership",
+        "status": "active",
+        "strength": "strong",
+        "notes": "Institutional partnership advances SDG 13 at organisational level.",
+        "slug": "mef-unep-institutional-partnership"
+      },
+      {
+        "programme": "Zero Waste Cities",
+        "short_name": "ZWC",
+        "type": "accelerator",
+        "status": "completed",
+        "strength": "partial",
+        "notes": "Waste reduction has direct climate co-benefits. SDG 13 partial alignment.",
+        "slug": "zero-waste-cities"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "reports": [
+    {
+      "name": "Air Pollution & Lockdown Study",
+      "relationship": "evidence",
+      "notes": "Lockdown AQI correlation demonstrates pollution-transport link relevant to climate action.",
+      "slug": "air-pollution-lockdown-study"
+    },
+    {
+      "name": "Delhi Clean Air Report",
+      "relationship": "advocacy",
+      "notes": "Report argues for urgent climate and pollution policy action. SDG 13 advocacy.",
+      "slug": "delhi-clean-air-report"
+    },
+    {
+      "name": "Biochar Report",
+      "relationship": "evidence",
+      "notes": "Carbon removal through biochar contributes to SDG 13 climate targets.",
+      "slug": "biochar-report"
+    },
+    {
+      "name": "CCUS Report",
+      "relationship": "evidence",
+      "notes": "Carbon capture technology is core to SDG 13 climate action.",
+      "slug": "ccus-report"
+    },
+    {
+      "name": "Agri-tech Investment Landscape",
+      "relationship": "evidence",
+      "notes": "Sustainable agriculture investment is climate action. SDG 13.",
+      "slug": "agri-tech-investment-landscape"
+    }
+  ],
+  "stakeholders": []
+}

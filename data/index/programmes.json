@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "url": "/programmes",
+    "page_type": "index"
+  },
+  "stats": {
+    "total": 13,
+    "active": 7,
+    "accelerators": 7,
+    "projects": 5
+  },
+  "filters": {
+    "types": [
+      "accelerator",
+      "project",
+      "dialogue"
+    ],
+    "statuses": [
+      "active",
+      "ongoing",
+      "completed",
+      "planned"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "Smart Waste Management",
+      "short_name": "SWM",
+      "type": "project",
+      "status": "completed",
+      "year": 2020,
+      "region": "India",
+      "sectors": "Sustainable Built Environment, Circular Economy & Waste",
+      "slug": "smart-waste-management"
+    },
+    {
+      "name": "Zero Waste Cities",
+      "short_name": "ZWC",
+      "type": "accelerator",
+      "status": "completed",
+      "year": 2021,
+      "region": "Global",
+      "sectors": "Sustainable Built Environment, Circular Economy & Waste",
+      "slug": "zero-waste-cities"
+    },
+    {
+      "name": "LowCarbon.Earth Accelerator",
+      "short_name": "LCE",
+      "type": "accelerator",
+      "status": "active",
+      "year": 2021,
+      "region": "Asia-Pacific",
+      "sectors": "Climate Finance & Innovation, Sustainable Agriculture, Circular Economy & Waste, Clean Mobility, Clean Energy",
+      "slug": "lowcarbon-earth-accelerator"
+    },
+    {
+      "name": "Agra Innovation Lab",
+      "short_name": "AIL",
+      "type": "project",
+      "status": "completed",
+      "year": 2021,
+      "region": "Agra",
+      "sectors": "Sustainable Built Environment, Circular Economy & Waste",
+      "slug": "agra-innovation-lab"
+    },
+    {
+      "name": "EV Rickshaw Transition",
+      "short_name": "EV-Rickshaw",
+      "type": "project",
+      "status": "active",
+      "year": 2021,
+      "region": "India",
+      "sectors": "Air Quality & Pollution, Clean Mobility",
+      "slug": "ev-rickshaw-transition"
+    },
+    {
+      "name": "MILES Challenge",
+      "short_name": "MILES",
+      "type": "accelerator",
+      "status": "completed",
+      "year": 2021,
+      "region": "India",
+      "sectors": "Clean Energy",
+      "slug": "miles-challenge"
+    },
+    {
+      "name": "ZESUP Challenge",
+      "short_name": "ZeSUP",
+      "type": "accelerator",
+      "status": "completed",
+      "year": 2022,
+      "region": "Southeast Asia",
+      "sectors": "Circular Economy & Waste",
+      "slug": "zesup-challenge"
+    },
+    {
+      "name": "Sustainable Forests / Smriti Van",
+      "short_name": "Smriti Van",
+      "type": "project",
+      "status": "active",
+      "year": 2022,
+      "region": "India",
+      "sectors": "Climate Finance & Innovation, Forests & Biodiversity",
+      "slug": "sustainable-forests-smriti-van"
+    },
+    {
+      "name": "AgroXlerate",
+      "short_name": "AgroX",
+      "type": "accelerator",
+      "status": "completed",
+      "year": 2022,
+      "region": "India",
+      "sectors": "Sustainable Agriculture",
+      "slug": "agroxlerate"
+    },
+    {
+      "name": "ICAP — India Climate Accelerator Platform",
+      "short_name": "ICAP",
+      "type": "dialogue",
+      "status": "completed",
+      "year": 2023,
+      "region": "India",
+      "sectors": "Sustainable Agriculture, Circular Economy & Waste, Clean Mobility, Clean Energy, Climate Finance & Innovation",
+      "slug": "icap-india-climate-accelerator-platform"
+    },
+    {
+      "name": "GoMassive Climate Accelerator 2023",
+      "short_name": "GCA",
+      "type": "accelerator",
+      "status": "completed",
+      "year": 2023,
+      "region": "Global",
+      "sectors": "Sustainable Built Environment, Sustainable Agriculture, Clean Mobility, Clean Energy, Climate Finance & Innovation",
+      "slug": "gomassive-climate-accelerator-2023"
+    },
+    {
+      "name": "SAFFAL",
+      "short_name": "SAFFAL",
+      "type": "accelerator",
+      "status": "active",
+      "year": 2025,
+      "region": "South Asia",
+      "sectors": "Forests & Biodiversity, Sustainable Agriculture, Circular Economy & Waste, Clean Energy, Gender & Social Equity, Climate Finance & Innovation",
+      "slug": "saffal"
+    },
+    {
+      "name": "Net Zero Sarojini Nagar",
+      "short_name": "NZ-Sarojini",
+      "type": "project",
+      "status": "active",
+      "year": 2026,
+      "region": "Lucknow",
+      "sectors": "Clean Mobility, Clean Energy, Sustainable Built Environment",
+      "slug": "net-zero-sarojini-nagar"
+    }
+  ]
+}

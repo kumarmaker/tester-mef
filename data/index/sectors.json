@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "url": "/sectors",
+    "page_type": "index"
+  },
+  "sectors": [
+    {
+      "name": "Circular Economy & Waste",
+      "description": "Plastic waste, single-use plastics, recycling, waste management",
+      "programme_count": 7,
+      "policy_count": 5,
+      "report_count": 1,
+      "has_active_programmes": true,
+      "slug": "circular-economy-waste"
+    },
+    {
+      "name": "Clean Energy",
+      "description": "Power generation, storage, solar, wind, nuclear, hydrogen",
+      "programme_count": 6,
+      "policy_count": 6,
+      "report_count": 0,
+      "has_active_programmes": true,
+      "slug": "clean-energy"
+    },
+    {
+      "name": "Climate Finance & Innovation",
+      "description": "Risk capital, blended finance, climate-tech investment ecosystem",
+      "programme_count": 6,
+      "policy_count": 6,
+      "report_count": 0,
+      "has_active_programmes": true,
+      "slug": "climate-finance-innovation"
+    },
+    {
+      "name": "Clean Mobility",
+      "description": "Electric vehicles, low-carbon transport, EV infrastructure",
+      "programme_count": 5,
+      "policy_count": 2,
+      "report_count": 1,
+      "has_active_programmes": true,
+      "slug": "clean-mobility"
+    },
+    {
+      "name": "Sustainable Agriculture",
+      "description": "Agri-tech, precision agriculture, food systems, crop management",
+      "programme_count": 5,
+      "policy_count": 4,
+      "report_count": 1,
+      "has_active_programmes": true,
+      "slug": "sustainable-agriculture"
+    },
+    {
+      "name": "Sustainable Built Environment",
+      "description": "Green buildings, sustainable cities, urban infrastructure",
+      "programme_count": 5,
+      "policy_count": 4,
+      "report_count": 0,
+      "has_active_programmes": true,
+      "slug": "sustainable-built-environment"
+    },
+    {
+      "name": "Forests & Biodiversity",
+      "description": "Forest management, carbon sinks, biodiversity, nature-based solutions",
+      "programme_count": 2,
+      "policy_count": 7,
+      "report_count": 0,
+      "has_active_programmes": true,
+      "slug": "forests-biodiversity"
+    },
+    {
+      "name": "Air Quality & Pollution",
+      "description": "Urban air pollution, AQI, particulate matter, industrial emissions",
+      "programme_count": 1,
+      "policy_count": 3,
+      "report_count": 3,
+      "has_active_programmes": true,
+      "slug": "air-quality-pollution"
+    },
+    {
+      "name": "Gender & Social Equity",
+      "description": "Gender-responsive climate action, women-led enterprises, inclusion",
+      "programme_count": 1,
+      "policy_count": 2,
+      "report_count": 0,
+      "has_active_programmes": true,
+      "slug": "gender-social-equity"
+    },
+    {
+      "name": "Water & Sanitation",
+      "description": "Water treatment, access, sanitation, resilient infrastructure",
+      "programme_count": 0,
+      "policy_count": 0,
+      "report_count": 0,
+      "has_active_programmes": false,
+      "slug": "water-sanitation"
+    }
+  ]
+}

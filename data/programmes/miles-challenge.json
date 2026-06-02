@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "slug": "miles-challenge",
+    "url": "/programmes/miles-challenge",
+    "page_type": "programme"
+  },
+  "hero": {
+    "name": "MILES Challenge",
+    "short_name": "MILES",
+    "type": "accelerator",
+    "status": "completed",
+    "year_launched": 2021,
+    "region": "India",
+    "description": "Identify and support startups with ready-to-deploy clean energy solutions. With Amplus Solar / PETRONAS."
+  },
+  "sectors": {
+    "primary": [
+      "Clean Energy"
+    ],
+    "secondary": []
+  },
+  "policy_relations": {
+    "delivery": [
+      {
+        "policy": "SDG 7",
+        "policy_full": "SDG 7 \u2014 Affordable and Clean Energy",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "MILES directly accelerates clean energy deployment. SDG 7 delivery.",
+        "slug": "sdg-7-affordable-and-clean-energy"
+      }
+    ],
+    "mandate": [],
+    "alignment": [
+      {
+        "policy": "SDG 13",
+        "policy_full": "SDG 13 \u2014 Climate Action",
+        "level": "global",
+        "type": "sdg",
+        "strength": "strong",
+        "notes": "Clean energy transition is core climate action. SDG 13 alignment.",
+        "slug": "sdg-13-climate-action"
+      },
+      {
+        "policy": "NSM",
+        "policy_full": "National Solar Mission",
+        "level": "national",
+        "type": "mission",
+        "strength": "strong",
+        "notes": "MILES accelerates solar and clean energy startups. National Solar Mission alignment.",
+        "slug": "national-solar-mission"
+      },
+      {
+        "policy": "NDC 2.0",
+        "policy_full": "India NDC 2.0",
+        "level": "national",
+        "type": "national_plan",
+        "strength": "partial",
+        "notes": "MILES contributes to NDC's non-fossil energy capacity target.",
+        "slug": "india-ndc-2-0"
+      }
+    ],
+    "advocacy": [],
+    "problem": []
+  },
+  "stakeholders": {
+    "funders": [],
+    "partners": [
+      {
+        "name": "Amplus Solar",
+        "short_name": "Amplus Solar",
+        "type": "corporate_funder",
+        "slug": "amplus-solar"
+      }
+    ],
+    "beneficiaries": [],
+    "co_creators": [],
+    "targets": []
+  },
+  "enabling_mous": [],
+  "reports_produced": [],
+  "linked_events": []
+}

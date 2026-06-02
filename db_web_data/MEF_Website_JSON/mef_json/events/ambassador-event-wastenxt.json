@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "slug": "ambassador-event-wastenxt",
+    "url": "/events/ambassador-event-wastenxt",
+    "page_type": "event"
+  },
+  "hero": {
+    "name": "Ambassador Event \u2014 WasteNXT",
+    "date": "2020",
+    "location": "Taj Hotel, Delhi",
+    "region": "Delhi-NCR",
+    "theme": "WasteNXT",
+    "status": "completed"
+  },
+  "stats": {
+    "registrations": null,
+    "speakers": null,
+    "participants": null
+  },
+  "outcome": "Waste-focused dialogue. Part of ClimateNXT series.",
+  "media_note": null,
+  "linked_programmes": [],
+  "series": []
+}
