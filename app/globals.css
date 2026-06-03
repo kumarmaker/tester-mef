@@ -3,6 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* ── Major Third Type Scale (×1.25) ── */
+  --type-10:  10px;   /* micro — eyebrow labels, legal */
+  --type-13:  13px;   /* caption — tags, badges, meta */
+  --type-16:  16px;   /* base body — Inter paragraphs */
+  --type-20:  20px;   /* card title — Oswald */
+  --type-25:  25px;   /* subheading — Oswald */
+  --type-31:  31px;   /* section heading — Oswald */
+  --type-39:  39px;   /* display heading — Oswald */
+  --type-49:  49px;   /* hero display — Oswald */
+
+  /* ── Typefaces ── */
+  /* --font-oswald and --font-inter are injected by next/font in layout.tsx */
 }
 
 @theme inline {

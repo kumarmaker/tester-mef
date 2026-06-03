@@ -11,6 +11,8 @@ type NavItem = {
   href: string;
   groups?: SubGroup[];
   viewAll?: { label: string; href: string };
+  grid?: boolean;
+  gridTitle?: string;
 };
 
 const NAV: NavItem[] = [
@@ -50,16 +52,28 @@ const NAV: NavItem[] = [
   {
     label: "Where We Work",
     href: "/newmef/sectors",
+    grid: true,
+    gridTitle: "Climate Sectors",
     groups: [
       {
-        heading: "Climate Sectors",
+        heading: "",
         items: [
           { label: "Circular Economy & Waste",      href: "/newmef/sectors/circular-economy-waste" },
           { label: "Clean Energy",                  href: "/newmef/sectors/clean-energy" },
           { label: "Climate Finance & Innovation",  href: "/newmef/sectors/climate-finance-innovation" },
+        ],
+      },
+      {
+        heading: "",
+        items: [
           { label: "Clean Mobility",                href: "/newmef/sectors/clean-mobility" },
           { label: "Sustainable Agriculture",       href: "/newmef/sectors/sustainable-agriculture" },
           { label: "Sustainable Built Environment", href: "/newmef/sectors/sustainable-built-environment" },
+        ],
+      },
+      {
+        heading: "",
+        items: [
           { label: "Air Quality & Pollution",       href: "/newmef/sectors/air-quality-pollution" },
           { label: "Forests & Biodiversity",        href: "/newmef/sectors/forests-biodiversity" },
           { label: "Gender & Social Equity",        href: "/newmef/sectors/gender-social-equity" },
@@ -95,17 +109,29 @@ const NAV: NavItem[] = [
   {
     label: "Who We Work With",
     href: "/newmef/partners",
+    grid: true,
+    gridTitle: "Key Partners",
     groups: [
       {
-        heading: "Key Partners",
+        heading: "",
         items: [
-          { label: "UNEP",                         href: "/newmef/partners/united-nations-environment-programme" },
-          { label: "IFC",                          href: "/newmef/partners/international-finance-corporation" },
-          { label: "GIZ",                          href: "/newmef/partners/giz" },
-          { label: "WRI India",                    href: "/newmef/partners/wri-india" },
-          { label: "Google Cloud",                 href: "/newmef/partners/google-cloud" },
-          { label: "Invest India",                 href: "/newmef/partners/invest-india" },
-          { label: "The Incubation Network",       href: "/newmef/partners/the-incubation-network" },
+          { label: "UNEP",             href: "/newmef/partners/united-nations-environment-programme" },
+          { label: "IFC",              href: "/newmef/partners/international-finance-corporation" },
+          { label: "GIZ",              href: "/newmef/partners/giz" },
+        ],
+      },
+      {
+        heading: "",
+        items: [
+          { label: "WRI India",        href: "/newmef/partners/wri-india" },
+          { label: "Google Cloud",     href: "/newmef/partners/google-cloud" },
+          { label: "Invest India",     href: "/newmef/partners/invest-india" },
+        ],
+      },
+      {
+        heading: "",
+        items: [
+          { label: "The Incubation Network", href: "/newmef/partners/the-incubation-network" },
         ],
       },
     ],
@@ -152,8 +178,8 @@ const NAV: NavItem[] = [
   },
 ];
 
-const GLASS = "rgba(10,10,10,0.92)";
-const BORDER = "rgba(255,255,255,0.07)";
+const GLASS = "rgba(5,5,5,0.88)";
+const BORDER = "rgba(255,255,255,0.10)";
 
 export default function NavBar() {
   const pathname = usePathname();
@@ -168,57 +194,92 @@ export default function NavBar() {
       onMouseLeave={() => setActive(null)}
     >
       {/* Main bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-[auto_1fr_auto] items-center h-16 gap-6">
 
-        {/* Logo */}
-        <Link href="/newmef" className="shrink-0" onClick={() => setActive(null)}>
+        {/* Logo — left */}
+        <Link href="/newmef" className="shrink-0 justify-self-start" onClick={() => setActive(null)}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://massivefoundation.org/wp-content/uploads/2024/08/Group-27481-1.webp"
             alt="MEF"
-            className="h-8 w-auto object-contain"
+            className="h-10 w-auto object-contain"
             draggable={false}
           />
         </Link>
 
-        {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center h-full">
-          {NAV.map((item) => {
+        {/* Desktop nav — center */}
+        <nav className="hidden lg:flex items-center justify-center h-full">
+          {NAV.filter((item) => item.label !== "Get Involved").map((item) => {
             const isActive = active === item.label;
             const isCurrent = pathname.startsWith(item.href) && item.href !== "/newmef";
             return (
               <button
                 key={item.label}
                 onMouseEnter={() => setActive(item.label)}
-                className="relative h-full px-4 flex items-center gap-1 text-sm font-semibold uppercase transition-colors"
-                style={{
+                className="relative h-full px-4 flex items-center gap-1 transition-colors"
+                style={item.label === "Get Involved" ? {
                   fontFamily: "var(--font-oswald)",
-                  letterSpacing: "0.06em",
-                  color: isActive || isCurrent ? "#fff" : "rgba(255,255,255,0.55)",
+                  fontSize: "13px",
+                  fontWeight: 700,
+                  letterSpacing: "0.08em",
+                  color: "#ffffff",
+                  background: "#e50000",
+                  borderRadius: "8px",
+                  padding: "8px 18px",
+                  height: "auto",
+                  cursor: "pointer",
+                  border: "none",
+                  textTransform: "uppercase",
+                } : {
+                  fontFamily: "var(--font-jakarta)",
+                  fontSize: "13px",
+                  fontWeight: 500,
+                  letterSpacing: "0.01em",
+                  color: "#ffffff",
                   borderBottom: isActive || isCurrent ? "2px solid #e50000" : "2px solid transparent",
                   background: "none",
                   cursor: "pointer",
                 }}
               >
                 {item.label}
-                <svg className="w-3 h-3 mt-0.5 opacity-50" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
               </button>
             );
           })}
         </nav>
 
-        {/* Mobile hamburger */}
-        <button
-          className="lg:hidden flex flex-col gap-1.5 p-2"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
-        >
-          <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
-          <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${mobileOpen ? "opacity-0" : ""}`} />
-          <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${mobileOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-        </button>
+        {/* Get Involved button + mobile hamburger — right */}
+        <div className="flex items-center justify-end gap-3">
+          <button
+            onMouseEnter={() => setActive("Get Involved")}
+            className="hidden lg:flex items-center transition-opacity hover:opacity-90"
+            style={{
+              fontFamily: "var(--font-oswald)",
+              fontSize: "13px",
+              fontWeight: 700,
+              letterSpacing: "0.08em",
+              color: "#ffffff",
+              background: "#e50000",
+              borderRadius: "8px",
+              padding: "8px 18px",
+              cursor: "pointer",
+              border: "none",
+              textTransform: "uppercase",
+            }}
+          >
+            Get Involved
+          </button>
+
+          {/* Mobile hamburger */}
+          <button
+            className="lg:hidden flex flex-col gap-1.5 p-2"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Toggle menu"
+          >
+            <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
+            <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${mobileOpen ? "opacity-0" : ""}`} />
+            <span className={`block w-5 h-0.5 bg-white transition-all duration-300 ${mobileOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+          </button>
+        </div>
       </div>
 
       {/* Desktop mega-menu panel */}
@@ -227,48 +288,76 @@ export default function NavBar() {
         if (!item?.groups) return null;
         return (
           <div
-            className="absolute left-0 right-0 border-t"
-            style={{ background: GLASS, borderColor: BORDER }}
+            className="absolute left-0 right-0 border-t-2 border-black bg-white"
+            style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.10)" }}
             onMouseEnter={() => setActive(active)}
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-              <div className="flex gap-12">
-                {item.groups.map((group) => (
-                  <div key={group.heading} className="flex-1 min-w-0">
-                    <p
-                      className="text-xs uppercase tracking-widest text-red-500 mb-4 font-semibold"
-                      style={{ fontFamily: "var(--font-oswald)" }}
+              {item.grid ? (
+                <>
+                {item.gridTitle && (
+                  <p
+                    className="text-sm font-bold uppercase tracking-widest text-black text-center mb-6 w-fit mx-auto border-b border-black pb-2"
+                    style={{ fontFamily: "var(--font-public)" }}
+                  >
+                    {item.gridTitle}
+                  </p>
+                )}
+                <div className="grid grid-cols-3 gap-x-10 gap-y-1">
+                  {item.groups.flatMap((g) => g.items).map((sub) => (
+                    <Link
+                      key={sub.href}
+                      href={sub.href}
+                      onClick={() => setActive(null)}
+                      className="text-sm py-1.5 transition-colors hover:text-red-600"
+                      style={{ fontFamily: "var(--font-inter)", color: "#555" }}
                     >
-                      {group.heading}
-                    </p>
-                    <ul className="flex flex-col gap-2">
-                      {group.items.map((sub) => (
-                        <li key={sub.href}>
-                          <Link
-                            href={sub.href}
-                            onClick={() => setActive(null)}
-                            className="text-sm transition-colors hover:text-white"
-                            style={{ fontFamily: "var(--font-inter)", color: "rgba(255,255,255,0.65)" }}
-                          >
-                            {sub.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
+                      {sub.label}
+                    </Link>
+                  ))}
+                </div>
+                </>
+              ) : (
+                <div className="flex gap-12">
+                  {item.groups.map((group) => (
+                    <div key={group.heading} className="flex-1 min-w-0">
+                      {group.heading && (
+                        <p
+                          className="text-xs uppercase tracking-widest text-black mb-3 font-bold border-b border-black pb-2 w-fit"
+                          style={{ fontFamily: "var(--font-public)" }}
+                        >
+                          {group.heading}
+                        </p>
+                      )}
+                      <ul className="flex flex-col gap-2">
+                        {group.items.map((sub) => (
+                          <li key={sub.href}>
+                            <Link
+                              href={sub.href}
+                              onClick={() => setActive(null)}
+                              className="text-sm transition-colors hover:text-red-600"
+                              style={{ fontFamily: "var(--font-inter)", color: "#555" }}
+                            >
+                              {sub.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              )}
 
               {item.viewAll && (
-                <div className="mt-8 pt-6 border-t" style={{ borderColor: BORDER }}>
+                <div className="mt-8 pt-6 border-t border-gray-100 flex justify-center">
                   <Link
                     href={item.viewAll.href}
                     onClick={() => setActive(null)}
-                    className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-red-500 hover:text-red-400 transition-colors"
-                    style={{ fontFamily: "var(--font-oswald)" }}
+                    className="inline-flex items-center gap-2 font-semibold uppercase tracking-wide text-black hover:text-gray-600 transition-colors"
+                    style={{ fontFamily: "var(--font-inter)", fontSize: "13px" }}
                   >
                     {item.viewAll.label}
-                    <span>→</span>
+                    <span className="text-red-600">→</span>
                   </Link>
                 </div>
               )}
