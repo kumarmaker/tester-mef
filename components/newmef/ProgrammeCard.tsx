@@ -25,7 +25,7 @@ export default function ProgrammeCard({
           <StatusBadge status={status} />
         </div>
       )}
-      <Link href={`/newmef/programmes/${slug}`} className="block">
+      <Link href={`/programmes/${slug}`} className="block">
         <h3
           className="text-lg font-semibold text-gray-900 hover:text-red-600 transition-colors pr-16 leading-tight"
           style={{ fontFamily: 'var(--font-oswald)' }}

@@ -1,10 +1,10 @@
-import Header from "@/components/Header";
+import NavBar from "@/components/newmef/NavBar";
 import Footer from "@/components/Footer";
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Header />
+      <NavBar />
       <div className="flex-1">{children}</div>
       <Footer />
     </>

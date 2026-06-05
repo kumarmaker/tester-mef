@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         hostname: "massivefoundation.org",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "cms.saffal.asia",
+        pathname: "/**",
+      },
     ],
   },
 };

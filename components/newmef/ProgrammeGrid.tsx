@@ -12,6 +12,7 @@ interface Programme {
   year?: number;
   region?: string;
   sectors?: string;
+  description?: string;
   slug: string;
 }
 
@@ -27,30 +28,33 @@ type SortFilter   = "default" | "az";
 type ViewMode     = "card" | "list";
 
 /* ── Shared card (image view) ── */
-function CardView({ p, img }: { p: Programme; img: string }) {
+function CardView({ p, img, description }: { p: Programme; img: string; description?: string }) {
   return (
     <Link
-      href={`/newmef/programmes/${p.slug}`}
-      className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl hover:border-red-200 transition-all"
+      href={`/programmes/${p.slug}`}
+      className="group bg-white border border-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:border-red-200 transition-all flex flex-col"
     >
       <div className="relative w-full overflow-hidden" style={{ aspectRatio: "16/9" }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={img} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" draggable={false} />
+        <div className="absolute inset-0 bg-black/15" />
         <div className="absolute top-3 right-3"><StatusBadge status={p.status ?? ""} /></div>
       </div>
-      <div className="p-5">
-        <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2" style={{ fontFamily: "var(--font-oswald)" }}>
+      <div className="p-5 flex flex-col flex-1">
+        <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2" style={{ fontFamily: "var(--font-jakarta)" }}>
           {p.type} · {p.region}
         </p>
-        <h3 className="font-bold uppercase text-gray-900 group-hover:text-red-600 transition-colors leading-tight mb-3" style={{ fontFamily: "var(--font-oswald)", fontSize: "20px" }}>
+        <h3 className="font-bold uppercase text-gray-900 group-hover:text-red-600 transition-colors leading-tight mb-2" style={{ fontFamily: "var(--font-oswald)", fontSize: "20px" }}>
           {p.name}
         </h3>
-        {p.sectors && (
-          <p className="text-gray-400 text-xs leading-relaxed mb-4" style={{ fontFamily: "var(--font-inter)" }}>{p.sectors}</p>
+        {(description || p.description || p.sectors) && (
+          <p className="text-gray-400 text-xs leading-relaxed line-clamp-2" style={{ fontFamily: "var(--font-inter)" }}>{description ?? p.description ?? p.sectors}</p>
         )}
-        <p className="text-xs font-semibold uppercase tracking-wide text-red-600" style={{ fontFamily: "var(--font-oswald)" }}>
-          View Programme →
-        </p>
+        <div className="mt-auto pt-4 flex justify-end">
+          <span className="text-xs font-semibold text-red-600" style={{ fontFamily: "var(--font-jakarta)" }}>
+            View →
+          </span>
+        </div>
       </div>
     </Link>
   );
@@ -60,27 +64,29 @@ function CardView({ p, img }: { p: Programme; img: string }) {
 function RowView({ p }: { p: Programme }) {
   return (
     <Link
-      href={`/newmef/programmes/${p.slug}`}
+      href={`/programmes/${p.slug}`}
       className="group flex items-center justify-between py-5 hover:bg-gray-50 px-3 -mx-3 rounded-lg transition-colors"
     >
       <div className="flex items-center gap-6">
-        <span className="text-gray-300 font-bold w-16 text-right shrink-0" style={{ fontFamily: "var(--font-oswald)", fontSize: "13px" }}>
+        <span className="text-gray-300 font-bold w-16 text-right shrink-0" style={{ fontFamily: "var(--font-jakarta)", fontSize: "13px" }}>
           {p.year}
         </span>
-        <div>
-          <p className="font-bold uppercase text-gray-800 group-hover:text-red-600 transition-colors" style={{ fontFamily: "var(--font-oswald)", fontSize: "17px" }}>
-            {p.name}
-          </p>
+        <div className="max-w-lg">
+          <div className="flex items-center gap-2 mb-0.5">
+            <p className="font-bold uppercase text-gray-800 group-hover:text-red-600 transition-colors" style={{ fontFamily: "var(--font-oswald)", fontSize: "17px" }}>
+              {p.name}
+            </p>
+            <StatusBadge status={p.status ?? ""} />
+          </div>
           {p.sectors && (
-            <p className="text-gray-400 text-xs mt-0.5" style={{ fontFamily: "var(--font-inter)" }}>{p.sectors}</p>
+            <p className="text-gray-400 text-xs mt-0.5 line-clamp-2 leading-relaxed" style={{ fontFamily: "var(--font-inter)" }}>{p.sectors}</p>
           )}
         </div>
       </div>
       <div className="flex items-center gap-4 shrink-0">
-        <span className="hidden sm:block text-xs text-gray-400 uppercase tracking-widest" style={{ fontFamily: "var(--font-oswald)" }}>
+        <span className="hidden sm:block text-xs text-gray-400 uppercase tracking-widest" style={{ fontFamily: "var(--font-jakarta)" }}>
           {p.type} · {p.region}
         </span>
-        <StatusBadge status={p.status ?? ""} />
         <span className="text-gray-300 group-hover:text-red-500 transition-colors text-sm">→</span>
       </div>
     </Link>
@@ -90,7 +96,7 @@ function RowView({ p }: { p: Programme }) {
 /* ── View toggle icons ── */
 function GridIcon({ active }: { active: boolean }) {
   return (
-    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+    <svg width="14" height="14" viewBox="0 0 18 18" fill="none">
       <rect x="1" y="1" width="7" height="7" rx="1" fill={active ? "#111" : "none"} stroke={active ? "#111" : "#9ca3af"} strokeWidth="1.5" />
       <rect x="10" y="1" width="7" height="7" rx="1" fill={active ? "#111" : "none"} stroke={active ? "#111" : "#9ca3af"} strokeWidth="1.5" />
       <rect x="1" y="10" width="7" height="7" rx="1" fill={active ? "#111" : "none"} stroke={active ? "#111" : "#9ca3af"} strokeWidth="1.5" />
@@ -102,7 +108,7 @@ function GridIcon({ active }: { active: boolean }) {
 function ListIcon({ active }: { active: boolean }) {
   const c = active ? "#111" : "#9ca3af";
   return (
-    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+    <svg width="14" height="14" viewBox="0 0 18 18" fill="none">
       <line x1="5" y1="4.5"  x2="17" y2="4.5"  stroke={c} strokeWidth="1.5" strokeLinecap="round" />
       <line x1="5" y1="9"    x2="17" y2="9"    stroke={c} strokeWidth="1.5" strokeLinecap="round" />
       <line x1="5" y1="13.5" x2="17" y2="13.5" stroke={c} strokeWidth="1.5" strokeLinecap="round" />
@@ -120,7 +126,7 @@ export default function ProgrammeGrid({ programmes, cardImages, placeholder }: P
   const [sort,    setSort]    = useState<SortFilter>("default");
   const [view,    setView]    = useState<ViewMode>("card");
 
-  const isFiltered = search !== "" || typeF !== "all" || statusF !== "all" || sort !== "default";
+  const isFiltered = search !== "" || typeF !== "all" || statusF !== "all";
 
   const filtered = useMemo(() => {
     let list = [...programmes];
@@ -143,9 +149,12 @@ export default function ProgrammeGrid({ programmes, cardImages, placeholder }: P
   const active    = source.filter((p) => p.status === "active").sort(byType);
   const completed = source.filter((p) => p.status !== "active").sort(byType);
 
-  const PILL        = "px-4 py-1.5 text-xs font-semibold uppercase tracking-wide rounded-full border transition-colors cursor-pointer";
-  const activePill  = "bg-black text-white border-black";
-  const inactivePill= "bg-white text-gray-500 border-gray-200 hover:border-gray-400";
+  const SEG_BTN = (active: boolean) =>
+    `px-3 py-1 text-xs rounded-full transition-all cursor-pointer ${
+      active
+        ? "bg-black text-white font-semibold"
+        : "text-gray-400 hover:text-gray-700 font-medium"
+    }`;
 
   return (
     <>
@@ -171,69 +180,51 @@ export default function ProgrammeGrid({ programmes, cardImages, placeholder }: P
             )}
           </div>
 
-          {/* Filter pills */}
-          <div className="flex flex-wrap gap-2 items-center flex-1">
-            <span className="text-xs text-gray-400 uppercase tracking-widest mr-1" style={{ fontFamily: "var(--font-oswald)" }}>Type</span>
-            {(["all", "accelerator", "project"] as TypeFilter[]).map((v) => (
-              <button key={v} onClick={() => setTypeF(v)} className={`${PILL} ${typeF === v ? activePill : inactivePill}`} style={{ fontFamily: "var(--font-oswald)" }}>
-                {v === "all" ? "All" : v === "accelerator" ? "Accelerators" : "Projects"}
-              </button>
-            ))}
+          {/* Right side: filters + view toggle */}
+          <div className="flex flex-wrap items-center gap-3 sm:ml-auto shrink-0">
 
-            <span className="w-px h-4 bg-gray-200 mx-1" />
+            {/* Type segmented bar */}
+            <div className="flex items-center bg-gray-100 rounded-full p-0.5" style={{ fontFamily: "var(--font-jakarta)" }}>
+              {(["all", "accelerator", "project"] as TypeFilter[]).map((v) => (
+                <button key={v} onClick={() => setTypeF(v)} className={SEG_BTN(typeF === v)}>
+                  {v === "all" ? "All" : v === "accelerator" ? "Accelerators" : "Projects"}
+                </button>
+              ))}
+            </div>
 
-            <span className="text-xs text-gray-400 uppercase tracking-widest mr-1" style={{ fontFamily: "var(--font-oswald)" }}>Status</span>
-            {(["all", "active", "completed"] as StatusFilter[]).map((v) => (
-              <button key={v} onClick={() => setStatusF(v)} className={`${PILL} ${statusF === v ? activePill : inactivePill}`} style={{ fontFamily: "var(--font-oswald)" }}>
-                {v === "all" ? "All" : v === "active" ? "Live" : "Completed"}
-              </button>
-            ))}
-
-            <span className="w-px h-4 bg-gray-200 mx-1" />
-
-            <button onClick={() => setSort(sort === "az" ? "default" : "az")} className={`${PILL} ${sort === "az" ? activePill : inactivePill}`} style={{ fontFamily: "var(--font-oswald)" }}>
-              A → Z
-            </button>
-
-            {isFiltered && (
-              <button onClick={() => { setSearch(""); setTypeF("all"); setStatusF("all"); setSort("default"); }} className="text-xs text-red-500 hover:text-red-700 ml-1 underline" style={{ fontFamily: "var(--font-inter)" }}>
-                Clear
-              </button>
-            )}
-          </div>
-
-          {/* Right side: count + view toggle */}
-          <div className="flex items-center gap-4 sm:ml-auto shrink-0">
-            {isFiltered && (
-              <p className="text-xs text-gray-400" style={{ fontFamily: "var(--font-inter)" }}>
-                {filtered.length} result{filtered.length !== 1 ? "s" : ""}
-              </p>
-            )}
+            {/* Status segmented bar */}
+            <div className="flex items-center bg-gray-100 rounded-full p-0.5" style={{ fontFamily: "var(--font-jakarta)" }}>
+              {(["all", "active", "completed"] as StatusFilter[]).map((v) => (
+                <button key={v} onClick={() => setStatusF(v)} className={SEG_BTN(statusF === v)}>
+                  {v === "all" ? "All" : v === "active" ? "Live" : "Completed"}
+                </button>
+              ))}
+            </div>
 
             {/* View toggle */}
             <div className="flex items-center gap-1 border border-gray-200 rounded-lg p-1">
-              <button
-                onClick={() => setView("card")}
-                className={`p-1.5 rounded transition-colors ${view === "card" ? "bg-gray-100" : "hover:bg-gray-50"}`}
-                aria-label="Card view"
-              >
+              <button onClick={() => setView("card")} className={`p-1 rounded transition-colors ${view === "card" ? "bg-gray-100" : "hover:bg-gray-50"}`} aria-label="Card view">
                 <GridIcon active={view === "card"} />
               </button>
-              <button
-                onClick={() => setView("list")}
-                className={`p-1.5 rounded transition-colors ${view === "list" ? "bg-gray-100" : "hover:bg-gray-50"}`}
-                aria-label="List view"
-              >
+              <button onClick={() => setView("list")} className={`p-1 rounded transition-colors ${view === "list" ? "bg-gray-100" : "hover:bg-gray-50"}`} aria-label="List view">
                 <ListIcon active={view === "list"} />
               </button>
             </div>
+
+            {isFiltered && (
+              <button onClick={() => { setSearch(""); setTypeF("all"); setStatusF("all"); setSort("default"); }}
+                className="text-xs text-red-500 hover:text-red-700 underline"
+                style={{ fontFamily: "var(--font-inter)" }}>
+                Clear
+              </button>
+            )}
           </div>
         </div>
       </div>
 
       {/* ── Live Programmes ── */}
       {(statusF === "all" || statusF === "active") && active.length > 0 && (
-        <section id="active" className={view === "card" ? "bg-gray-50 py-16" : "bg-white py-16"}>
+        <section id="active" className="bg-gray-100 py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex items-center gap-3 mb-10">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
@@ -244,10 +235,10 @@ export default function ProgrammeGrid({ programmes, cardImages, placeholder }: P
 
             {view === "card" ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {active.map((p) => <CardView key={p.slug} p={p} img={cardImages[p.slug] ?? placeholder} />)}
+                {active.map((p) => <CardView key={p.slug} p={p} img={cardImages[p.slug] ?? placeholder} description={p.description} />)}
               </div>
             ) : (
-              <div className="divide-y divide-gray-100">
+              <div className="[&>a]:border-b [&>a]:[border-image:linear-gradient(to_right,transparent,#d1d5db_20%,#d1d5db_80%,transparent)_1]">
                 {active.map((p) => <RowView key={p.slug} p={p} />)}
               </div>
             )}
@@ -268,7 +259,7 @@ export default function ProgrammeGrid({ programmes, cardImages, placeholder }: P
                 {completed.map((p) => <CardView key={p.slug} p={p} img={cardImages[p.slug] ?? placeholder} />)}
               </div>
             ) : (
-              <div className="divide-y divide-gray-100">
+              <div className="[&>a]:border-b [&>a]:[border-image:linear-gradient(to_right,transparent,#d1d5db_20%,#d1d5db_80%,transparent)_1]">
                 {completed.map((p) => <RowView key={p.slug} p={p} />)}
               </div>
             )}
