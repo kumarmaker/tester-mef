@@ -216,7 +216,7 @@ export default function NavBar() {
               <button
                 key={item.label}
                 onMouseEnter={() => setActive(item.label)}
-                className="relative h-full px-4 flex items-center gap-1 transition-colors"
+                className="relative h-full px-3 flex items-center gap-1 transition-colors"
                 style={item.label === "Get Involved" ? {
                   fontFamily: "var(--font-jakarta)",
                   fontSize: "13px",
@@ -234,7 +234,8 @@ export default function NavBar() {
                   fontFamily: "var(--font-jakarta)",
                   fontSize: "13px",
                   fontWeight: 500,
-                  letterSpacing: "0.01em",
+                  letterSpacing: "0.04em",
+                  wordSpacing: "0.1em",
                   color: "#ffffff",
                   borderBottom: isActive || isCurrent ? "2px solid #e50000" : "2px solid transparent",
                   background: "none",
@@ -286,15 +287,15 @@ export default function NavBar() {
         const item = NAV.find(n => n.label === active);
         if (!item?.groups) return null;
         return (
+          <div className="absolute left-0 right-0" style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.10)" }}>
           <div
-            className="absolute left-0 right-0 border-t-2 border-black bg-white"
+            className="border-t-2 border-black bg-white"
             style={{
               /* BG IMAGE — uncomment when ready
               backgroundImage: "url(/images/Navbar.webp)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               */
-              boxShadow: "0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.10)",
             }}
             onMouseEnter={() => setActive(active)}
           >
@@ -305,12 +306,14 @@ export default function NavBar() {
               {item.grid ? (
                 <>
                 {item.gridTitle && (
-                  <p
-                    className="text-sm font-bold uppercase tracking-widest text-black text-center mb-6 w-fit mx-auto border-b border-black pb-2"
+                  <Link
+                    href={item.viewAll?.href ?? item.href}
+                    onClick={() => setActive(null)}
+                    className="block text-sm font-bold uppercase tracking-widest text-black text-center mb-6 w-fit mx-auto border-b border-black pb-2 hover:text-red-600 hover:border-red-600 transition-colors"
                     style={{ fontFamily: "var(--font-public)" }}
                   >
                     {item.gridTitle}
-                  </p>
+                  </Link>
                 )}
                 <div className="grid grid-cols-3 gap-x-10 gap-y-1">
                   {item.groups.flatMap((g) => g.items).map((sub) => (
@@ -318,7 +321,7 @@ export default function NavBar() {
                       key={sub.href}
                       href={sub.href}
                       onClick={() => setActive(null)}
-                      className="text-sm py-1.5 transition-colors hover:text-red-600"
+                      className="block text-sm px-2 py-1.5 -mx-2 rounded transition-all hover:bg-gray-100 hover:text-black"
                       style={{ fontFamily: "var(--font-inter)", color: "#555" }}
                     >
                       {sub.label}
@@ -331,20 +334,22 @@ export default function NavBar() {
                   {item.groups.map((group) => (
                     <div key={group.heading} className="flex-1 min-w-0">
                       {group.heading && (
-                        <p
-                          className="text-xs uppercase tracking-widest text-black mb-3 font-bold border-b border-black pb-2 w-fit"
+                        <Link
+                          href={item.viewAll?.href ?? '#'}
+                          onClick={() => setActive(null)}
+                          className="group/hdr inline-flex items-center gap-1 text-xs uppercase tracking-widest text-black font-bold border-b border-black pb-2 w-fit mb-3 hover:text-red-600 hover:border-red-600 transition-colors"
                           style={{ fontFamily: "var(--font-public)" }}
                         >
                           {group.heading}
-                        </p>
+                        </Link>
                       )}
-                      <ul className="flex flex-col gap-2">
+                      <ul className="flex flex-col">
                         {group.items.map((sub) => (
                           <li key={sub.href}>
                             <Link
                               href={sub.href}
                               onClick={() => setActive(null)}
-                              className="text-sm transition-colors hover:text-red-600"
+                              className="block text-sm px-2 py-1 -mx-2 rounded transition-all hover:bg-gray-100 hover:text-black"
                               style={{ fontFamily: "var(--font-inter)", color: "#555" }}
                             >
                               {sub.label}
@@ -357,21 +362,27 @@ export default function NavBar() {
                 </div>
               )}
 
-              {item.viewAll && (
-                <div className="mt-8 pt-6 border-t border-gray-100 flex justify-center">
-                  <Link
-                    href={item.viewAll.href}
-                    onClick={() => setActive(null)}
-                    className="inline-flex items-center gap-2 font-semibold uppercase tracking-wide text-black hover:text-gray-600 transition-colors"
-                    style={{ fontFamily: "var(--font-inter)", fontSize: "13px" }}
-                  >
-                    {item.viewAll.label}
-                    <span className="text-red-600">→</span>
-                  </Link>
-                </div>
-              )}
             </div>
           </div>
+
+          {/* View All — full-width strip outside padded container */}
+          {item.viewAll && (
+            <Link
+              href={item.viewAll.href}
+              onClick={() => setActive(null)}
+              className="group flex items-center justify-center gap-2 px-8 py-3 w-full transition-colors"
+              style={{ background: "#f0f0f0", borderTop: "1px solid #e0e0e0" }}
+            >
+              <span
+                className="font-semibold uppercase tracking-wide text-gray-500 group-hover:text-black transition-colors"
+                style={{ fontFamily: "var(--font-inter)", fontSize: "12px" }}
+              >
+                {item.viewAll.label}
+              </span>
+              <span className="text-red-600 text-sm group-hover:translate-x-1 transition-transform inline-block">→</span>
+            </Link>
+          )}
+        </div>
         );
       })()}
 
