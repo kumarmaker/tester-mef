@@ -1,0 +1,106 @@
+NEWMEF NAVBAR LINKS BACKUP
+Generated before migration to root-level paths
+======================================================
+
+TOP-LEVEL NAV ITEMS
+-------------------
+What We Do        → /newmef/programmes
+Where We Work     → /newmef/sectors
+Our Impact        → /newmef/research
+Who We Work With  → /newmef/partners
+Policy Alignment  → /newmef/policy
+Get Involved      → /newmef/get-involved
+
+WHAT WE DO — DROPDOWN
+----------------------
+Climate Accelerators:
+  SAFFAL                        → /newmef/programmes/saffal
+  LowCarbon.Earth               → /newmef/programmes/lowcarbon-earth-accelerator
+  AgroXlerate                   → /newmef/programmes/agroxlerate
+  GoMassive Accelerator         → /newmef/programmes/gomassive-climate-accelerator-2023
+
+Pilot Projects:
+  Agra Innovation Lab           → /newmef/programmes/agra-innovation-lab
+  Zero Waste Cities             → /newmef/programmes/zero-waste-cities
+  EV Rickshaw Transition        → /newmef/programmes/ev-rickshaw-transition
+  Net Zero Sarojini Nagar       → /newmef/programmes/net-zero-sarojini-nagar
+
+Climate Action:
+  Smriti Van                    → /newmef/programmes/sustainable-forests-smriti-van
+  Smart Waste Mgmt              → /newmef/programmes/smart-waste-management
+  ICAP                          → /newmef/programmes/icap-india-climate-accelerator-platform
+
+View All → /newmef/programmes
+
+WHERE WE WORK — DROPDOWN (3×3 grid)
+-------------------------------------
+  Circular Economy & Waste      → /newmef/sectors/circular-economy-waste
+  Clean Energy                  → /newmef/sectors/clean-energy
+  Climate Finance & Innovation  → /newmef/sectors/climate-finance-innovation
+  Clean Mobility                → /newmef/sectors/clean-mobility
+  Sustainable Agriculture       → /newmef/sectors/sustainable-agriculture
+  Sustainable Built Environment → /newmef/sectors/sustainable-built-environment
+  Air Quality & Pollution       → /newmef/sectors/air-quality-pollution
+  Forests & Biodiversity        → /newmef/sectors/forests-biodiversity
+  Gender & Social Equity        → /newmef/sectors/gender-social-equity
+
+View All → /newmef/sectors
+
+OUR IMPACT — DROPDOWN
+----------------------
+Reports:
+  Delhi Clean Air Report        → /newmef/research/delhi-clean-air-report
+  Air Pollution & Lockdown      → /newmef/research/air-pollution-lockdown-study
+  State of EV Charging          → /newmef/research/state-of-ev-charging-report
+  CCUS Report                   → /newmef/research/ccus-report
+
+Events:
+  ClimateNXT 2025               → /newmef/events/climatenxt-2025
+  ClimateNXT 2023               → /newmef/events/climatenxt-2023
+  Japan Air Pollution Event     → /newmef/events/japan-air-pollution-event
+
+View All → /newmef/research
+
+WHO WE WORK WITH — DROPDOWN (3×3 grid)
+----------------------------------------
+  UNEP                          → /newmef/partners/united-nations-environment-programme
+  IFC                           → /newmef/partners/international-finance-corporation
+  GIZ                           → /newmef/partners/giz
+  WRI India                     → /newmef/partners/wri-india
+  Google Cloud                  → /newmef/partners/google-cloud
+  Invest India                  → /newmef/partners/invest-india
+  The Incubation Network        → /newmef/partners/the-incubation-network
+
+View All → /newmef/partners
+
+POLICY ALIGNMENT — DROPDOWN
+-----------------------------
+Global Frameworks:
+  Paris Agreement               → /newmef/policy/paris-agreement
+  SDG 13 — Climate Action       → /newmef/policy/sdg-13-climate-action
+  SDG 12 — Responsible Consumption → /newmef/policy/sdg-12-responsible-consumption
+  SDG 7 — Clean Energy          → /newmef/policy/sdg-7-affordable-and-clean-energy
+
+National Policy:
+  India NDC 2.0                 → /newmef/policy/india-ndc-2-0
+  India NDC 3.0                 → /newmef/policy/india-ndc-3-0
+  Plastic Waste Mgmt Rules      → /newmef/policy/plastic-waste-management-rules
+
+View All → /newmef/policy
+
+GET INVOLVED — DROPDOWN
+------------------------
+Work With Us:
+  Partner With MEF              → /newmef/partners
+  Invest in a Programme         → /newmef/programmes
+  Join as a Mentor              → /newmef
+  Contact Us                    → /newmef
+
+MOBILE NAV LINKS
+-----------------
+  Sectors     → /newmef/sectors
+  Programmes  → /newmef/programmes
+  Research    → /newmef/research
+  Events      → /newmef/events
+  Partners    → /newmef/partners
+  Policy      → /newmef/policy

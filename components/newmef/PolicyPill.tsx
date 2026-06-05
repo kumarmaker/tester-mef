@@ -27,7 +27,7 @@ export default function PolicyPill({ name, short_name, slug, level, year }: Poli
   );
 
   if (slug) {
-    return <Link href={`/newmef/policy/${slug}`}>{content}</Link>;
+    return <Link href={`/policy/${slug}`}>{content}</Link>;
   }
   return content;
 }

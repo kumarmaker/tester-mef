@@ -18,160 +18,160 @@ type NavItem = {
 const NAV: NavItem[] = [
   {
     label: "What We Do",
-    href: "/newmef/programmes",
+    href: "/programmes",
     groups: [
       {
         heading: "Climate Accelerators",
         items: [
-          { label: "SAFFAL",               href: "/newmef/programmes/saffal" },
-          { label: "LowCarbon.Earth",      href: "/newmef/programmes/lowcarbon-earth-accelerator" },
-          { label: "AgroXlerate",          href: "/newmef/programmes/agroxlerate" },
-          { label: "GoMassive Accelerator",href: "/newmef/programmes/gomassive-climate-accelerator-2023" },
+          { label: "SAFFAL",               href: "/programmes/saffal" },
+          { label: "LowCarbon.Earth",      href: "/programmes/lowcarbon-earth-accelerator" },
+          { label: "AgroXlerate",          href: "/programmes/agroxlerate" },
+          { label: "GoMassive Accelerator",href: "/programmes/gomassive-climate-accelerator-2023" },
         ],
       },
       {
         heading: "Pilot Projects",
         items: [
-          { label: "Agra Innovation Lab",  href: "/newmef/programmes/agra-innovation-lab" },
-          { label: "Zero Waste Cities",    href: "/newmef/programmes/zero-waste-cities" },
-          { label: "EV Rickshaw Transition",href: "/newmef/programmes/ev-rickshaw-transition" },
-          { label: "Net Zero Sarojini Nagar",href: "/newmef/programmes/net-zero-sarojini-nagar" },
+          { label: "Agra Innovation Lab",  href: "/programmes/agra-innovation-lab" },
+          { label: "Zero Waste Cities",    href: "/programmes/zero-waste-cities" },
+          { label: "EV Rickshaw Transition",href: "/programmes/ev-rickshaw-transition" },
+          { label: "Net Zero Sarojini Nagar",href: "/programmes/net-zero-sarojini-nagar" },
         ],
       },
       {
         heading: "Climate Action",
         items: [
-          { label: "Smriti Van",           href: "/newmef/programmes/sustainable-forests-smriti-van" },
-          { label: "Smart Waste Mgmt",     href: "/newmef/programmes/smart-waste-management" },
-          { label: "ICAP",                 href: "/newmef/programmes/icap-india-climate-accelerator-platform" },
+          { label: "Smriti Van",           href: "/programmes/sustainable-forests-smriti-van" },
+          { label: "Smart Waste Mgmt",     href: "/programmes/smart-waste-management" },
+          { label: "ICAP",                 href: "/programmes/icap-india-climate-accelerator-platform" },
         ],
       },
     ],
-    viewAll: { label: "View All Programmes", href: "/newmef/programmes" },
+    viewAll: { label: "View All Programmes", href: "/programmes" },
   },
   {
     label: "Where We Work",
-    href: "/newmef/sectors",
+    href: "/sectors",
     grid: true,
     gridTitle: "Climate Sectors",
     groups: [
       {
         heading: "",
         items: [
-          { label: "Circular Economy & Waste",      href: "/newmef/sectors/circular-economy-waste" },
-          { label: "Clean Energy",                  href: "/newmef/sectors/clean-energy" },
-          { label: "Climate Finance & Innovation",  href: "/newmef/sectors/climate-finance-innovation" },
+          { label: "Circular Economy & Waste",      href: "/sectors/circular-economy-waste" },
+          { label: "Clean Energy",                  href: "/sectors/clean-energy" },
+          { label: "Climate Finance & Innovation",  href: "/sectors/climate-finance-innovation" },
         ],
       },
       {
         heading: "",
         items: [
-          { label: "Clean Mobility",                href: "/newmef/sectors/clean-mobility" },
-          { label: "Sustainable Agriculture",       href: "/newmef/sectors/sustainable-agriculture" },
-          { label: "Sustainable Built Environment", href: "/newmef/sectors/sustainable-built-environment" },
+          { label: "Clean Mobility",                href: "/sectors/clean-mobility" },
+          { label: "Sustainable Agriculture",       href: "/sectors/sustainable-agriculture" },
+          { label: "Sustainable Built Environment", href: "/sectors/sustainable-built-environment" },
         ],
       },
       {
         heading: "",
         items: [
-          { label: "Air Quality & Pollution",       href: "/newmef/sectors/air-quality-pollution" },
-          { label: "Forests & Biodiversity",        href: "/newmef/sectors/forests-biodiversity" },
-          { label: "Gender & Social Equity",        href: "/newmef/sectors/gender-social-equity" },
+          { label: "Air Quality & Pollution",       href: "/sectors/air-quality-pollution" },
+          { label: "Forests & Biodiversity",        href: "/sectors/forests-biodiversity" },
+          { label: "Gender & Social Equity",        href: "/sectors/gender-social-equity" },
         ],
       },
     ],
-    viewAll: { label: "View All Sectors", href: "/newmef/sectors" },
+    viewAll: { label: "View All Sectors", href: "/sectors" },
   },
   {
     label: "Our Impact",
-    href: "/newmef/research",
+    href: "/research",
     groups: [
       {
         heading: "Reports",
         items: [
-          { label: "Delhi Clean Air Report",       href: "/newmef/research/delhi-clean-air-report" },
-          { label: "Air Pollution & Lockdown",     href: "/newmef/research/air-pollution-lockdown-study" },
-          { label: "State of EV Charging",         href: "/newmef/research/state-of-ev-charging-report" },
-          { label: "CCUS Report",                  href: "/newmef/research/ccus-report" },
+          { label: "Delhi Clean Air Report",       href: "/research/delhi-clean-air-report" },
+          { label: "Air Pollution & Lockdown",     href: "/research/air-pollution-lockdown-study" },
+          { label: "State of EV Charging",         href: "/research/state-of-ev-charging-report" },
+          { label: "CCUS Report",                  href: "/research/ccus-report" },
         ],
       },
       {
         heading: "Events",
         items: [
-          { label: "ClimateNXT 2025",              href: "/newmef/events/climatenxt-2025" },
-          { label: "ClimateNXT 2023",              href: "/newmef/events/climatenxt-2023" },
-          { label: "Japan Air Pollution Event",    href: "/newmef/events/japan-air-pollution-event" },
+          { label: "ClimateNXT 2025",              href: "/events-summits/climatenxt-2025" },
+          { label: "ClimateNXT 2023",              href: "/events-summits/climatenxt-2023" },
+          { label: "Japan Air Pollution Event",    href: "/events-summits/japan-air-pollution-event" },
         ],
       },
     ],
-    viewAll: { label: "View All Research & Events", href: "/newmef/research" },
+    viewAll: { label: "View All Research & Events", href: "/research" },
   },
   {
     label: "Who We Work With",
-    href: "/newmef/partners",
+    href: "/partners",
     grid: true,
     gridTitle: "Key Partners",
     groups: [
       {
         heading: "",
         items: [
-          { label: "UNEP",             href: "/newmef/partners/united-nations-environment-programme" },
-          { label: "IFC",              href: "/newmef/partners/international-finance-corporation" },
-          { label: "GIZ",              href: "/newmef/partners/giz" },
+          { label: "UNEP",             href: "/partners/united-nations-environment-programme" },
+          { label: "IFC",              href: "/partners/international-finance-corporation" },
+          { label: "GIZ",              href: "/partners/giz" },
         ],
       },
       {
         heading: "",
         items: [
-          { label: "WRI India",        href: "/newmef/partners/wri-india" },
-          { label: "Google Cloud",     href: "/newmef/partners/google-cloud" },
-          { label: "Invest India",     href: "/newmef/partners/invest-india" },
+          { label: "WRI India",        href: "/partners/wri-india" },
+          { label: "Google Cloud",     href: "/partners/google-cloud" },
+          { label: "Invest India",     href: "/partners/invest-india" },
         ],
       },
       {
         heading: "",
         items: [
-          { label: "The Incubation Network", href: "/newmef/partners/the-incubation-network" },
+          { label: "The Incubation Network", href: "/partners/the-incubation-network" },
         ],
       },
     ],
-    viewAll: { label: "View All Partners", href: "/newmef/partners" },
+    viewAll: { label: "View All Partners", href: "/partners" },
   },
   {
     label: "Policy Alignment",
-    href: "/newmef/policy",
+    href: "/policy",
     groups: [
       {
         heading: "Global Frameworks",
         items: [
-          { label: "Paris Agreement",              href: "/newmef/policy/paris-agreement" },
-          { label: "SDG 13 — Climate Action",      href: "/newmef/policy/sdg-13-climate-action" },
-          { label: "SDG 12 — Responsible Consumption", href: "/newmef/policy/sdg-12-responsible-consumption" },
-          { label: "SDG 7 — Clean Energy",         href: "/newmef/policy/sdg-7-affordable-and-clean-energy" },
+          { label: "Paris Agreement",              href: "/policy/paris-agreement" },
+          { label: "SDG 13 — Climate Action",      href: "/policy/sdg-13-climate-action" },
+          { label: "SDG 12 — Responsible Consumption", href: "/policy/sdg-12-responsible-consumption" },
+          { label: "SDG 7 — Clean Energy",         href: "/policy/sdg-7-affordable-and-clean-energy" },
         ],
       },
       {
         heading: "National Policy",
         items: [
-          { label: "India NDC 2.0",                href: "/newmef/policy/india-ndc-2-0" },
-          { label: "India NDC 3.0",                href: "/newmef/policy/india-ndc-3-0" },
-          { label: "Plastic Waste Mgmt Rules",     href: "/newmef/policy/plastic-waste-management-rules" },
+          { label: "India NDC 2.0",                href: "/policy/india-ndc-2-0" },
+          { label: "India NDC 3.0",                href: "/policy/india-ndc-3-0" },
+          { label: "Plastic Waste Mgmt Rules",     href: "/policy/plastic-waste-management-rules" },
         ],
       },
     ],
-    viewAll: { label: "View All Policies", href: "/newmef/policy" },
+    viewAll: { label: "View All Policies", href: "/policy" },
   },
   {
     label: "Get Involved",
-    href: "/newmef",
+    href: "/get-involved",
     groups: [
       {
         heading: "Work With Us",
         items: [
-          { label: "Partner With MEF",             href: "/newmef/partners" },
-          { label: "Invest in a Programme",        href: "/newmef/programmes" },
-          { label: "Join as a Mentor",             href: "/newmef" },
-          { label: "Contact Us",                   href: "/newmef" },
+          { label: "Partner With MEF",             href: "/partners" },
+          { label: "Invest in a Programme",        href: "/programmes" },
+          { label: "Join as a Mentor",             href: "/" },
+          { label: "Contact Us",                   href: "/" },
         ],
       },
     ],
@@ -197,7 +197,7 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-[auto_1fr_auto] items-center h-16 gap-6">
 
         {/* Logo — left */}
-        <Link href="/newmef" className="shrink-0 justify-self-start" onClick={() => setActive(null)}>
+        <Link href="/" className="shrink-0 justify-self-start" onClick={() => setActive(null)}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://massivefoundation.org/wp-content/uploads/2024/08/Group-27481-1.webp"
@@ -211,17 +211,18 @@ export default function NavBar() {
         <nav className="hidden lg:flex items-center justify-center h-full">
           {NAV.filter((item) => item.label !== "Get Involved").map((item) => {
             const isActive = active === item.label;
-            const isCurrent = pathname.startsWith(item.href) && item.href !== "/newmef";
+            const isCurrent = pathname.startsWith(item.href) && item.href !== "/";
             return (
               <button
                 key={item.label}
                 onMouseEnter={() => setActive(item.label)}
-                className="relative h-full px-4 flex items-center gap-1 transition-colors"
+                className="relative h-full px-3 flex items-center gap-1 transition-colors"
                 style={item.label === "Get Involved" ? {
-                  fontFamily: "var(--font-oswald)",
+                  fontFamily: "var(--font-jakarta)",
                   fontSize: "13px",
                   fontWeight: 700,
-                  letterSpacing: "0.08em",
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase" as const,
                   color: "#ffffff",
                   background: "#e50000",
                   borderRadius: "8px",
@@ -229,12 +230,12 @@ export default function NavBar() {
                   height: "auto",
                   cursor: "pointer",
                   border: "none",
-                  textTransform: "uppercase",
                 } : {
                   fontFamily: "var(--font-jakarta)",
                   fontSize: "13px",
                   fontWeight: 500,
-                  letterSpacing: "0.01em",
+                  letterSpacing: "0.04em",
+                  wordSpacing: "0.1em",
                   color: "#ffffff",
                   borderBottom: isActive || isCurrent ? "2px solid #e50000" : "2px solid transparent",
                   background: "none",
@@ -249,8 +250,8 @@ export default function NavBar() {
 
         {/* Get Involved button + mobile hamburger — right */}
         <div className="flex items-center justify-end gap-3">
-          <button
-            onMouseEnter={() => setActive("Get Involved")}
+          <Link
+            href="/get-involved"
             className="hidden lg:flex items-center transition-opacity hover:opacity-90"
             style={{
               fontFamily: "var(--font-oswald)",
@@ -261,13 +262,12 @@ export default function NavBar() {
               background: "#e50000",
               borderRadius: "8px",
               padding: "8px 18px",
-              cursor: "pointer",
-              border: "none",
               textTransform: "uppercase",
+              textDecoration: "none",
             }}
           >
             Get Involved
-          </button>
+          </Link>
 
           {/* Mobile hamburger */}
           <button
@@ -287,21 +287,33 @@ export default function NavBar() {
         const item = NAV.find(n => n.label === active);
         if (!item?.groups) return null;
         return (
+          <div className="absolute left-0 right-0" style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.10)" }}>
           <div
-            className="absolute left-0 right-0 border-t-2 border-black bg-white"
-            style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.10)" }}
+            className="border-t-2 border-black bg-white"
+            style={{
+              /* BG IMAGE — uncomment when ready
+              backgroundImage: "url(/images/Navbar.webp)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              */
+            }}
             onMouseEnter={() => setActive(active)}
           >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+            {/* White glass overlay — uncomment with BG image
+            <div className="absolute inset-0" style={{ background: "rgba(255,255,255,0.68)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)" }} />
+            */}
+            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8">
               {item.grid ? (
                 <>
                 {item.gridTitle && (
-                  <p
-                    className="text-sm font-bold uppercase tracking-widest text-black text-center mb-6 w-fit mx-auto border-b border-black pb-2"
+                  <Link
+                    href={item.viewAll?.href ?? item.href}
+                    onClick={() => setActive(null)}
+                    className="block text-sm font-bold uppercase tracking-widest text-black text-center mb-6 w-fit mx-auto border-b border-black pb-2 hover:text-red-600 hover:border-red-600 transition-colors"
                     style={{ fontFamily: "var(--font-public)" }}
                   >
                     {item.gridTitle}
-                  </p>
+                  </Link>
                 )}
                 <div className="grid grid-cols-3 gap-x-10 gap-y-1">
                   {item.groups.flatMap((g) => g.items).map((sub) => (
@@ -309,7 +321,7 @@ export default function NavBar() {
                       key={sub.href}
                       href={sub.href}
                       onClick={() => setActive(null)}
-                      className="text-sm py-1.5 transition-colors hover:text-red-600"
+                      className="block text-sm px-2 py-1.5 -mx-2 rounded transition-all hover:bg-gray-100 hover:text-black"
                       style={{ fontFamily: "var(--font-inter)", color: "#555" }}
                     >
                       {sub.label}
@@ -322,20 +334,22 @@ export default function NavBar() {
                   {item.groups.map((group) => (
                     <div key={group.heading} className="flex-1 min-w-0">
                       {group.heading && (
-                        <p
-                          className="text-xs uppercase tracking-widest text-black mb-3 font-bold border-b border-black pb-2 w-fit"
+                        <Link
+                          href={item.viewAll?.href ?? '#'}
+                          onClick={() => setActive(null)}
+                          className="group/hdr inline-flex items-center gap-1 text-xs uppercase tracking-widest text-black font-bold border-b border-black pb-2 w-fit mb-3 hover:text-red-600 hover:border-red-600 transition-colors"
                           style={{ fontFamily: "var(--font-public)" }}
                         >
                           {group.heading}
-                        </p>
+                        </Link>
                       )}
-                      <ul className="flex flex-col gap-2">
+                      <ul className="flex flex-col">
                         {group.items.map((sub) => (
                           <li key={sub.href}>
                             <Link
                               href={sub.href}
                               onClick={() => setActive(null)}
-                              className="text-sm transition-colors hover:text-red-600"
+                              className="block text-sm px-2 py-1 -mx-2 rounded transition-all hover:bg-gray-100 hover:text-black"
                               style={{ fontFamily: "var(--font-inter)", color: "#555" }}
                             >
                               {sub.label}
@@ -348,21 +362,27 @@ export default function NavBar() {
                 </div>
               )}
 
-              {item.viewAll && (
-                <div className="mt-8 pt-6 border-t border-gray-100 flex justify-center">
-                  <Link
-                    href={item.viewAll.href}
-                    onClick={() => setActive(null)}
-                    className="inline-flex items-center gap-2 font-semibold uppercase tracking-wide text-black hover:text-gray-600 transition-colors"
-                    style={{ fontFamily: "var(--font-inter)", fontSize: "13px" }}
-                  >
-                    {item.viewAll.label}
-                    <span className="text-red-600">→</span>
-                  </Link>
-                </div>
-              )}
             </div>
           </div>
+
+          {/* View All — full-width strip outside padded container */}
+          {item.viewAll && (
+            <Link
+              href={item.viewAll.href}
+              onClick={() => setActive(null)}
+              className="group flex items-center justify-center gap-2 px-8 py-3 w-full transition-colors"
+              style={{ background: "#f0f0f0", borderTop: "1px solid #e0e0e0" }}
+            >
+              <span
+                className="font-semibold uppercase tracking-wide text-gray-500 group-hover:text-black transition-colors"
+                style={{ fontFamily: "var(--font-inter)", fontSize: "12px" }}
+              >
+                {item.viewAll.label}
+              </span>
+              <span className="text-red-600 text-sm group-hover:translate-x-1 transition-transform inline-block">→</span>
+            </Link>
+          )}
+        </div>
         );
       })()}
 

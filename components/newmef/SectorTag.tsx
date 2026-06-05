@@ -37,7 +37,7 @@ export default function SectorTag({ name, slug, variant = 'primary', image }: Se
         </span>
       </span>
     );
-    if (slug) return <Link href={`/newmef/sectors/${slug}`}>{card}</Link>;
+    if (slug) return <Link href={`/sectors/${slug}`}>{card}</Link>;
     return card;
   }
 
@@ -56,6 +56,6 @@ export default function SectorTag({ name, slug, variant = 'primary', image }: Se
     </span>
   );
 
-  if (slug) return <Link href={`/newmef/sectors/${slug}`}>{pill}</Link>;
+  if (slug) return <Link href={`/sectors/${slug}`}>{pill}</Link>;
   return pill;
 }

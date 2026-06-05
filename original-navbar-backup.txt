@@ -1,0 +1,63 @@
+ORIGINAL MEF NAVBAR LINKS BACKUP
+components/Header.tsx
+======================================================
+
+DESKTOP NAV — TOPICS (shown inline)
+-------------------------------------
+  Livable Cities        → /livable-cities/
+  Human Animal Conflict → /human-animal-conflict/
+  Nature Restoration    → /nature-restoration/
+  Education             → /education/
+  Events                → /events/
+  Innovation            → /innovations/
+
+HAMBURGER OVERLAY — NAV LINKS
+-------------------------------
+  Home                  → /
+  Projects              → /projects/
+  AgriGuru              → /projects/agriguru/
+  MVTFD                 → /projects/mvtfd/
+  Deep Dive             → /deep-dive/
+  Blogs                 → /blogs-articles/
+  Careers               → /careers/
+  Engage With Us        → /engage-with-us/
+  What We Do            → /what-we-do/
+
+HAMBURGER OVERLAY — TOPICS (same as desktop)
+----------------------------------------------
+  Livable Cities        → /livable-cities/
+  Human Animal Conflict → /human-animal-conflict/
+  Nature Restoration    → /nature-restoration/
+  Education             → /education/
+  Events                → /events/
+  Innovation            → /innovations/
+
+PROJECTS DROPDOWN (desktop, under Topics)
+-------------------------------------------
+  AgriGuru              → /projects/agriguru/
+  MVTFD                 → /projects/mvtfd/
+
+CONTACT (hamburger overlay)
+-----------------------------
+  Email: partners@gomassive.org
+  Phone: [not listed]
+  Social: LinkedIn, Facebook, X, Instagram, YouTube
+
+LIVABLE CITIES SUB-PAGES (accessible via [...slug] catch-all)
+--------------------------------------------------------------
+  Air Pollution         → /air-pollution/
+  City Waste Projects   → /city-waste-projects/
+  Heat Island Effect    → /heat-island-effect/
+  Walkability Index     → /walkability-index/
+
+EVENTS SUB-PAGES
+-----------------
+  World Environment Day Summit → /world-environment-day-summit/
+
+WORDPRESS CATCH-ALL PAGES (via [...slug])
+------------------------------------------
+  Careers               → /careers/
+  Engage With Us        → /engage-with-us/
+  What We Do            → /what-we-do/
+  Deep Dive             → /deep-dive/
+  + any other WP page

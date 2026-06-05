@@ -31,7 +31,8 @@
       "year": 2020,
       "region": "India",
       "sectors": "Sustainable Built Environment, Circular Economy & Waste",
-      "slug": "smart-waste-management"
+      "slug": "smart-waste-management",
+      "description": "Advisory, consultancy, research and auditing on circular economy, EPR compliance, waste audits, decentralised solid waste management. Currently with Agra Municipal Corporation."
     },
     {
       "name": "Zero Waste Cities",
@@ -41,7 +42,8 @@
       "year": 2021,
       "region": "Global",
       "sectors": "Sustainable Built Environment, Circular Economy & Waste",
-      "slug": "zero-waste-cities"
+      "slug": "zero-waste-cities",
+      "description": "Tackle urban waste management crisis. Empower waste-focused startups globally. With WasteAid."
     },
     {
       "name": "LowCarbon.Earth Accelerator",
@@ -51,7 +53,8 @@
       "year": 2021,
       "region": "Asia-Pacific",
       "sectors": "Climate Finance & Innovation, Sustainable Agriculture, Circular Economy & Waste, Clean Mobility, Clean Energy",
-      "slug": "lowcarbon-earth-accelerator"
+      "slug": "lowcarbon-earth-accelerator",
+      "description": "MEF flagship accelerator. 12-week bootcamp for early-stage climate-tech startups across Asia-Pacific. Co-hosted with UNEP. 4 editions completed; SAFFAL is 5th edition."
     },
     {
       "name": "Agra Innovation Lab",
@@ -61,7 +64,8 @@
       "year": 2021,
       "region": "Agra",
       "sectors": "Sustainable Built Environment, Circular Economy & Waste",
-      "slug": "agra-innovation-lab"
+      "slug": "agra-innovation-lab",
+      "description": "AIL-PrePLE: Prevention of Plastic Leakage into the Environment. With The Incubation Network. Focus: identification, sorting, transportation, recycling of waste."
     },
     {
       "name": "EV Rickshaw Transition",
@@ -71,7 +75,8 @@
       "year": 2021,
       "region": "India",
       "sectors": "Air Quality & Pollution, Clean Mobility",
-      "slug": "ev-rickshaw-transition"
+      "slug": "ev-rickshaw-transition",
+      "description": "Transition 2- and 3-wheeler rickshaws to electric vehicles. Identified as major urban pollution source. Multi-stakeholder partnerships."
     },
     {
       "name": "MILES Challenge",
@@ -81,7 +86,8 @@
       "year": 2021,
       "region": "India",
       "sectors": "Clean Energy",
-      "slug": "miles-challenge"
+      "slug": "miles-challenge",
+      "description": "Identify and support startups with ready-to-deploy clean energy solutions. With Amplus Solar / PETRONAS."
     },
     {
       "name": "ZESUP Challenge",
@@ -91,7 +97,8 @@
       "year": 2022,
       "region": "Southeast Asia",
       "sectors": "Circular Economy & Waste",
-      "slug": "zesup-challenge"
+      "slug": "zesup-challenge",
+      "description": "Zero Single-Use Plastic Challenge. Remove SUP from Food & Beverage industry in South East Asia. With The Incubation Network."
     },
     {
       "name": "Sustainable Forests / Smriti Van",
@@ -101,7 +108,8 @@
       "year": 2022,
       "region": "India",
       "sectors": "Climate Finance & Innovation, Forests & Biodiversity",
-      "slug": "sustainable-forests-smriti-van"
+      "slug": "sustainable-forests-smriti-van",
+      "description": "Biodiversity-focused forest building, not monoculture planting. Carbon offsets for corporates. Improved Forest Management Carbon Credits."
     },
     {
       "name": "AgroXlerate",
@@ -111,7 +119,8 @@
       "year": 2022,
       "region": "India",
       "sectors": "Sustainable Agriculture",
-      "slug": "agroxlerate"
+      "slug": "agroxlerate",
+      "description": "Agricultural innovation accelerator. Supporting agri-tech startup development. With Pantnagar Capital."
     },
     {
       "name": "ICAP — India Climate Accelerator Platform",
@@ -121,7 +130,8 @@
       "year": 2023,
       "region": "India",
       "sectors": "Sustainable Agriculture, Circular Economy & Waste, Clean Mobility, Clean Energy, Climate Finance & Innovation",
-      "slug": "icap-india-climate-accelerator-platform"
+      "slug": "icap-india-climate-accelerator-platform",
+      "description": "MEF–IFC partnership. Accelerator of accelerators. Three modules: Investment Acceleration, Blended Finance enabling, Building Enabling Ecosystem. Builds climate-tech investing ecosystem in India."
     },
     {
       "name": "GoMassive Climate Accelerator 2023",
@@ -131,7 +141,8 @@
       "year": 2023,
       "region": "Global",
       "sectors": "Sustainable Built Environment, Sustainable Agriculture, Clean Mobility, Clean Energy, Climate Finance & Innovation",
-      "slug": "gomassive-climate-accelerator-2023"
+      "slug": "gomassive-climate-accelerator-2023",
+      "description": "Climate accelerator with AWS. Focus: Sustainable Agriculture, Low Carbon Transport, Sustainable Cities, Digital Solutions, Industrial Decarbonisation."
     },
     {
       "name": "SAFFAL",
@@ -141,7 +152,8 @@
       "year": 2025,
       "region": "South Asia",
       "sectors": "Forests & Biodiversity, Sustainable Agriculture, Circular Economy & Waste, Clean Energy, Gender & Social Equity, Climate Finance & Innovation",
-      "slug": "saffal"
+      "slug": "saffal",
+      "description": "South Asia Finance Facility for Acceleration and Leverage. 5th edition of LCE. Women-led SMEs across South Asia. $6M blended finance facility. Under EmPower (UNEP + UN Women)."
     },
     {
       "name": "Net Zero Sarojini Nagar",
@@ -151,7 +163,8 @@
       "year": 2026,
       "region": "Lucknow",
       "sectors": "Clean Mobility, Clean Energy, Sustainable Built Environment",
-      "slug": "net-zero-sarojini-nagar"
+      "slug": "net-zero-sarojini-nagar",
+      "description": "Net Zero Constituency proposal for MLA office, Sarojini Nagar Constituency #170, Lucknow. Climate Finance, Policy, Science & Technology initiative."
     }
   ]
 }
