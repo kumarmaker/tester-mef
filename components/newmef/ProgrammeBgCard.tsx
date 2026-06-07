@@ -12,10 +12,11 @@ interface Props {
   sectors?: string;
   description?: string;
   size?: 'default' | 'small';
+  imageUrl?: string;
 }
 
-export default function ProgrammeBgCard({ slug, name, type, status, region, sectors, description, size = 'default' }: Props) {
-  const rawImg = PROGRAMME_CARD_IMAGES[slug] ?? PROGRAMME_PLACEHOLDER;
+export default function ProgrammeBgCard({ slug, name, type, status, region, sectors, description, size = 'default', imageUrl }: Props) {
+  const rawImg = imageUrl ?? PROGRAMME_CARD_IMAGES[slug] ?? PROGRAMME_PLACEHOLDER;
   const img = rawImg.replace(/\s/g, '%20').replace(/\(/g, '%28').replace(/\)/g, '%29');
   const height = size === 'small' ? '200px' : '260px';
   const titleSize = size === 'small' ? '16px' : '20px';
@@ -34,7 +35,7 @@ export default function ProgrammeBgCard({ slug, name, type, status, region, sect
       {/* Gradient — deepens on hover */}
       <div
         className="absolute inset-0 transition-opacity duration-300"
-        style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.45) 55%, rgba(0,0,0,0.1) 100%)' }}
+        style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.18) 45%, rgba(0,0,0,0.0) 100%)' }}
       />
 
       {/* Status badge */}

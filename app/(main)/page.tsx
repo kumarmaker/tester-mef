@@ -11,7 +11,7 @@ export default function HomePage() {
       <Hero />
       <PlanetaryVision />
       <WhatWeDo />
-      <ProjectsAccordion rounded title="Massive Earth Foundation Projects" titleVariant="large" />
+      <ProjectsAccordion rounded title="Massive Earth Foundation - Vision" titleVariant="large" />
       <RecentEvents />
       <OurPartners />
     </>
