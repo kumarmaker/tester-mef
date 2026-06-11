@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const HERO_BG =
-  "https://massivefoundation.org/wp-content/uploads/2025/05/Solving-Climate-Change.avif";
+  "https://cms.massivefoundation.org/wp-content/uploads/2025/05/Solving-Climate-Change.avif";
 
 export default function Hero() {
   return (

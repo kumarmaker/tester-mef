@@ -7,28 +7,28 @@ const LIVABLE_CITIES_PROJECTS: AccordionProject[] = [
     subtitle:
       "The Air Pollution Project tackles the severe air quality issues plaguing major Indian cities, with a primary focus on Delhi. Our comprehensive approach involves understanding various contributing factors such as paddy burning, Diwali celebrations, traffic emissions, and other pollutants.",
     href: "/air-pollution/",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/City-Project-Air-Pollution.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/City-Project-Air-Pollution.webp",
   },
   {
     label: "City Waste Projects",
     subtitle:
       "The City Waste Project focuses on tackling the pressing issue of waste management in major Indian cities like Delhi and Agra. Our goal is to conduct a comprehensive study of the existing waste management systems to understand the root causes of the crisis.",
     href: "/city-waste-projects/",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/City-Waste-Project.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/City-Waste-Project.webp",
   },
   {
     label: "Heat Island Effect",
     subtitle:
       "The project is dedicated to studying the rapid increase in the Earth's average surface temperature. This phenomenon has led to significant environmental impacts such as hotter city temperatures, heightened energy consumption, and the formation of 'heat islands'.",
     href: "/heat-island-effect/",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/City-Project-Heat-Island-Effect.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/City-Project-Heat-Island-Effect.webp",
   },
   {
     label: "Walkability Index",
     subtitle:
       "This project seeks to promote walking by advocating for city designs that are pedestrian-friendly, fostering healthier lifestyles and more sustainable urban environments.",
     href: "/walkability-index/",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/City-Project-Walkability-Index.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/City-Project-Walkability-Index.webp",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function LivableCitiesPage() {
         className="relative flex flex-col md:flex-row min-h-[70vh]"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2025/05/Project-Liveable-Cities.avif')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2025/05/Project-Liveable-Cities.avif')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -146,7 +146,7 @@ export default function LivableCitiesPage() {
         className="py-20 px-4 sm:px-6"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2024/08/Frame-160262.webp')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2024/08/Frame-160262.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

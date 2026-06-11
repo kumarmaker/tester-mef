@@ -1,5 +1,5 @@
 import type { WPPost, PostCard } from "@/lib/types";
-import { resolveMedia } from "@/lib/media";
+import { resolveMedia, resolveContentLinks } from "@/lib/media";
 import { wpQuery } from "@/lib/graphql";
 import { RELATED_POSTS_QUERY } from "@/lib/queries";
 import Image from "next/image";
@@ -85,7 +85,7 @@ export default async function PostTemplate({ post }: Props) {
         {/* Article content */}
         <div
           className="wp-content mt-10"
-          dangerouslySetInnerHTML={{ __html: post.content }}
+          dangerouslySetInnerHTML={{ __html: resolveContentLinks(post.content) }}
         />
 
 

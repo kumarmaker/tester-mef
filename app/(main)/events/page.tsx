@@ -3,7 +3,7 @@ import Link from "next/link";
 const PAST_EVENTS = [
   {
     title: "Climate Thursday Bangalore",
-    image: "https://massivefoundation.org/wp-content/uploads/2025/04/event-page-climate-thursday-1.avif",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2025/04/event-page-climate-thursday-1.avif",
     tags: ["Sustainability", "Networking"],
     meta: "March 27 | Bengaluru",
     description: "Climate Thursday is a high-impact networking series bringing together climate founders, investors, and policymakers to share insights, funding trends, and ideas for building bold solutions to the climate crisis.",
@@ -11,7 +11,7 @@ const PAST_EVENTS = [
   },
   {
     title: "Invest in Clean Air Now",
-    image: "https://massivefoundation.org/wp-content/uploads/2025/05/japan.avif",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2025/05/japan.avif",
     tags: ["Innovation", "Networking"],
     meta: "March 21 | Japan",
     description: "The Asia Pacific Clean Air Partnership (APCAP) is one of the regional initiatives working to strengthen international cooperation on air quality in Asia Pacific.",
@@ -19,7 +19,7 @@ const PAST_EVENTS = [
   },
   {
     title: "Climate Thursday Mixer",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/12/01-cardface-thursdaymixture.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/12/01-cardface-thursdaymixture.webp",
     tags: ["Fireside Chat", "Networking"],
     meta: "November 28 | Gurugram, India",
     description: "The Climate Thursday Mixer, hosted by Massive Earth Foundation, is a unique gathering of climate-tech founders, investors, policymakers, and sustainability leaders designed to foster meaningful discussions and build a stronger ecosystem.",
@@ -27,7 +27,7 @@ const PAST_EVENTS = [
   },
   {
     title: "Amazon AWS GoClimate Accelerator",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/Amazon-AWS-GoClimate-Accelerator.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/Amazon-AWS-GoClimate-Accelerator.webp",
     tags: ["Digital Innovation", "Climate Tech"],
     meta: "2023 | Bangalore, India",
     description: "The GoMassive Climate Accelerator was launched in 2023 for startups building technological solutions in various climate sectors.",
@@ -35,7 +35,7 @@ const PAST_EVENTS = [
   },
   {
     title: "MILES Challenge",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Frame-159448-1024x391.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Frame-159448-1024x391.webp",
     tags: ["Clean Energy"],
     meta: "2021 | India",
     description: "GoMassive launched the Miles challenge in collaboration with Amplus, a member of the PETRONAS group in 2021 to support startups building ready-to-deploy solutions in the clean energy climate sector in India.",
@@ -43,7 +43,7 @@ const PAST_EVENTS = [
   },
   {
     title: "Agra Innovation Lab for Prevention of Plastic Leakage",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Frame-160619-1024x391.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Frame-160619-1024x391.webp",
     tags: ["Prevention of Plastic Leakage"],
     meta: "2021 | Agra, India",
     description: "Massive Earth Foundation & GoMassive Incubators set up the Agra Innovation Lab for Prevention of Plastic Leakage into the Environment (AIL-PrePLE) in 2021 with support from The Incubation Network.",
@@ -51,7 +51,7 @@ const PAST_EVENTS = [
   },
   {
     title: "Low Carbon Earth 2023",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/LowCarbon-Earth-Demo-Day.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/LowCarbon-Earth-Demo-Day.webp",
     tags: ["Climate Accelerator", "Climate Tech", "UNEP"],
     meta: "August '23 – May '24 | Bangkok, Thailand",
     description: "MEF launched the Low Carbon Earth accelerator with the United Nations Environment Programme back in 2020 to identify and scale startups in the Asia-Pacific region building low-carbon solutions.",
@@ -68,7 +68,7 @@ export default function EventsPage() {
         className="relative flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2024/10/Climate-Events.webp')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2024/10/Climate-Events.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "240px",
@@ -89,7 +89,7 @@ export default function EventsPage() {
           className="relative max-w-7xl mx-auto rounded-2xl overflow-hidden min-h-[420px] flex items-center"
           style={{
             backgroundImage:
-              "url('https://massivefoundation.org/wp-content/uploads/2025/05/bgimage.avif')",
+              "url('https://cms.massivefoundation.org/wp-content/uploads/2025/05/bgimage.avif')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

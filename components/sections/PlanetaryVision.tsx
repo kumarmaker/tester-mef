@@ -1,5 +1,5 @@
 const TAG_CLOUD =
-  "https://massivefoundation.org/wp-content/uploads/2024/10/MassiveFoundation-Tag-Cloud.webp";
+  "https://cms.massivefoundation.org/wp-content/uploads/2024/10/MassiveFoundation-Tag-Cloud.webp";
 
 export default function PlanetaryVision() {
   return (

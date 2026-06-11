@@ -6,25 +6,25 @@ const HAC_PROJECTS: AccordionProject[] = [
     label: "Wild Animals & Village Conflict",
     subtitle: "Developing natural ecosystems for co-existence between wild animals and human settlements.",
     href: "#",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Wild-Animals-Village-Conflict.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Wild-Animals-Village-Conflict.webp",
   },
   {
     label: "Design Cow Shelter",
     subtitle: "Launch pilot projects to work with gaushalas, local communities, cow herders, activists, policy makers, and ministers to develop urban cow shelter.",
     href: "#",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/MEF-Cow-Shelter.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/MEF-Cow-Shelter.webp",
   },
   {
     label: "Help Stray Animals in City",
     subtitle: "Partner up with MEF to shelter stray animals in the urban cities.",
     href: "#",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Help-Stray-Animals-In-City-by-MEF.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Help-Stray-Animals-In-City-by-MEF.webp",
   },
   {
     label: "Bringing Back Birds and Bees",
     subtitle: "MEF's vision is to re-populate urban spaces with lush flora to support a thriving ecosystem for birds and bees.",
     href: "#",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Bring-Back-Birds-Bess-by-MEF.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Bring-Back-Birds-Bess-by-MEF.webp",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function HumanAnimalConflictPage() {
         className="relative flex flex-col md:flex-row min-h-[70vh]"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2025/05/Human-Animal-Conflict.avif')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2025/05/Human-Animal-Conflict.avif')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

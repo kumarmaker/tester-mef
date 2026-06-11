@@ -1,4 +1,5 @@
 import type { WPPage } from "@/lib/types";
+import { resolveContentLinks } from "@/lib/media";
 
 const WP_BASE = process.env.NEXT_PUBLIC_WP_BASE_URL!;
 
@@ -8,10 +9,7 @@ export default function PageTemplate({ page }: Props) {
   const elementorCoreCss = `${WP_BASE}/wp-content/plugins/elementor/assets/css/frontend.min.css`;
   const elementorPageCss = `${WP_BASE}/wp-content/uploads/elementor/css/post-${page.databaseId}.css`;
 
-  // Rewrite internal WP absolute links to root-relative paths so navigation stays in Next.js
-  const escaped = WP_BASE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const content =
-    page.content?.replace(new RegExp(`href="${escaped}`, "g"), `href="`) ?? "";
+  const content = resolveContentLinks(page.content ?? "");
 
   return (
     <>

@@ -6,34 +6,34 @@ const NATURE_PROJECTS: AccordionProject[] = [
     label: "Pond Restoration",
     subtitle: "Restore ponds, lakes, and natural water-bodies in urban city spaces.",
     href: "#",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Pond-Restoration.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Pond-Restoration.webp",
   },
   {
     label: "Bird Education",
     subtitle: "Learn and understand the types of birds, their behavioural patterns, and importance in the eco-system.",
     href: "#",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Bird-Education.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Bird-Education.webp",
   },
   {
     label: "Flora & Fauna Study",
     subtitle: "Learn about the flora & fauna of your region.",
     href: "#",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Flora-Fauna-Study.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Flora-Fauna-Study.webp",
   },
 ];
 
 const MEF_VISION_TILES = [
   {
     label: "Develop Fauna",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Develop-Fauna.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Develop-Fauna.webp",
   },
   {
     label: "Develop Flora",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Develop-Flora.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Develop-Flora.webp",
   },
   {
     label: "Develop Natural Habitat",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Develop-Natural-Habitat.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Develop-Natural-Habitat.webp",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function NatureRestorationPage() {
         className="relative flex flex-col md:flex-row min-h-[70vh]"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2024/11/Nature-Restoration-Main-Project.webp')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2024/11/Nature-Restoration-Main-Project.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

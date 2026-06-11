@@ -200,7 +200,7 @@ export default function NavBar() {
         <Link href="/" className="shrink-0 justify-self-start" onClick={() => setActive(null)}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://massivefoundation.org/wp-content/uploads/2024/08/Group-27481-1.webp"
+            src="https://cms.massivefoundation.org/wp-content/uploads/2024/08/Group-27481-1.webp"
             alt="MEF"
             className="h-10 w-auto object-contain"
             draggable={false}

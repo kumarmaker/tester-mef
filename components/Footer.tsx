@@ -50,7 +50,7 @@ export default function Footer() {
     <footer
       className="relative text-white mt-auto"
       style={{
-        backgroundImage: "url(https://massivefoundation.org/wp-content/uploads/2024/08/Frame160281.webp)",
+        backgroundImage: "url(https://cms.massivefoundation.org/wp-content/uploads/2024/08/Frame160281.webp)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -66,7 +66,7 @@ export default function Footer() {
             <div className="mb-6">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://massivefoundation.org/wp-content/uploads/2024/08/Group-27481-1.webp"
+                src="https://cms.massivefoundation.org/wp-content/uploads/2024/08/Group-27481-1.webp"
                 alt="Massive Earth Foundation"
                 className="h-20 w-auto object-contain"
                 draggable={false}

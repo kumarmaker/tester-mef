@@ -13,3 +13,18 @@ export function resolveMedia(url: string): string {
   }
   return url;
 }
+
+// Rewrite absolute WP links in content HTML to root-relative paths so readers
+// stay on this site (the catch-all route serves every WP URL). Matches href
+// only — img/src URLs keep pointing at the CMS, where the files live.
+const LINK_HOSTS = [WP_BASE, "https://massivefoundation.org"];
+
+export function resolveContentLinks(html: string): string {
+  if (!html) return html;
+  return LINK_HOSTS.reduce((out, host) => {
+    const escaped = host.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return out
+      .replace(new RegExp(`href="${escaped}"`, "g"), `href="/"`)
+      .replace(new RegExp(`href="${escaped}/`, "g"), `href="/`);
+  }, html);
+}

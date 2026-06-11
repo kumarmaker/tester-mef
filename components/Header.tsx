@@ -35,7 +35,7 @@ export default function Header() {
           <Link href="/" className="shrink-0" onClick={() => setOpen(false)}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://massivefoundation.org/wp-content/uploads/2020/04/MEF_logo_red.png"
+              src="https://cms.massivefoundation.org/wp-content/uploads/2020/04/MEF_logo_red.png"
               alt="Massive Earth Foundation"
               className="h-10 w-auto"
             />
@@ -104,7 +104,7 @@ export default function Header() {
             {/* MEF red logo */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://massivefoundation.org/wp-content/uploads/2020/04/MEF_logo_red.png"
+              src="https://cms.massivefoundation.org/wp-content/uploads/2020/04/MEF_logo_red.png"
               alt="Massive Earth Foundation"
               className="h-16 w-auto mb-10 object-contain object-left"
             />

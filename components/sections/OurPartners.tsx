@@ -1,4 +1,4 @@
-const BASE = "https://massivefoundation.org/wp-content/uploads/2024/08/";
+const BASE = "https://cms.massivefoundation.org/wp-content/uploads/2024/08/";
 
 const ROWS = [
   // Row 1 — 4 logos (UN first)
@@ -36,7 +36,7 @@ export default function OurPartners() {
     <section
       className="relative py-24"
       style={{
-        backgroundImage: "url(https://massivefoundation.org/wp-content/uploads/2024/08/Frame-160286.webp)",
+        backgroundImage: "url(https://cms.massivefoundation.org/wp-content/uploads/2024/08/Frame-160286.webp)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

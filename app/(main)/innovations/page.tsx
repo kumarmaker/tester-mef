@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const ACCELERATORS = [
-  { label: "Zero Waste Cities",         image: "https://massivefoundation.org/wp-content/uploads/2024/11/Zero-Waste-Cities-Card.webp" },
-  { label: "Agra Innovation Lab",       image: "https://massivefoundation.org/wp-content/uploads/2024/11/Agra-Innovation-Lab-Card.webp" },
-  { label: "ZESUP Challenge",           image: "https://massivefoundation.org/wp-content/uploads/2024/11/ZESUP-Challenge-Card.webp" },
-  { label: "Low Carbon Earth",          image: "https://massivefoundation.org/wp-content/uploads/2024/11/Low-Carbon-Earth-Card.webp" },
-  { label: "MILES Challenge",           image: "https://massivefoundation.org/wp-content/uploads/2024/11/MILES-Challenge-Card.webp" },
-  { label: "Massive Climate Accelerator", image: "https://massivefoundation.org/wp-content/uploads/2024/11/Massive-Climate-Accelerator.webp" },
+  { label: "Zero Waste Cities",         image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Zero-Waste-Cities-Card.webp" },
+  { label: "Agra Innovation Lab",       image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Agra-Innovation-Lab-Card.webp" },
+  { label: "ZESUP Challenge",           image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/ZESUP-Challenge-Card.webp" },
+  { label: "Low Carbon Earth",          image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Low-Carbon-Earth-Card.webp" },
+  { label: "MILES Challenge",           image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/MILES-Challenge-Card.webp" },
+  { label: "Massive Climate Accelerator", image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Massive-Climate-Accelerator.webp" },
 ];
 
 export default function InnovationsPage() {
@@ -18,7 +18,7 @@ export default function InnovationsPage() {
         className="relative flex flex-col items-center justify-center text-center min-h-[60vh] px-4 sm:px-6"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2024/11/Climate-Innovation.webp')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2024/11/Climate-Innovation.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -118,7 +118,7 @@ export default function InnovationsPage() {
         className="relative py-24 px-4 sm:px-6 flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2025/05/Frame160455-1.avif')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2025/05/Frame160455-1.avif')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

@@ -3,17 +3,17 @@ import Link from "next/link";
 const ESG_TILES = [
   {
     label: "Environmental",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/Environmental-Education.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Environmental-Education.webp",
     color: "#D6E8F9",
   },
   {
     label: "Social",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/ESG-Social.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/ESG-Social.webp",
     color: "#F9E5D6",
   },
   {
     label: "Governance",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/11/ESG-Governance.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/ESG-Governance.webp",
     color: "#D6F9DE",
   },
 ];
@@ -27,7 +27,7 @@ export default function EducationPage() {
         className="relative flex flex-col md:flex-row min-h-[70vh]"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2024/11/Project-ESG-Training.webp')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2024/11/Project-ESG-Training.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -140,7 +140,7 @@ export default function EducationPage() {
         className="relative py-24 px-4 sm:px-6 flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://massivefoundation.org/wp-content/uploads/2025/05/Frame160455-1.avif')",
+            "url('https://cms.massivefoundation.org/wp-content/uploads/2025/05/Frame160455-1.avif')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

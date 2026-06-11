@@ -22,25 +22,25 @@ const HOMEPAGE_PROJECTS: AccordionProject[] = [
     label: "Livable Cities",
     subtitle: "Natural & Smart Space For Eco-Friendly Lifestyle",
     href: "/livable-cities/",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/Project-Livable-Cities.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/Project-Livable-Cities.webp",
   },
   {
     label: "Human Animal Conflict",
     subtitle: "Nurturing Wildlife & Nature In Human Settlements",
     href: "/human-animal-conflict/",
-    image: "https://massivefoundation.org/wp-content/uploads/2025/05/Human-Animal-Conflict.avif",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2025/05/Human-Animal-Conflict.avif",
   },
   {
     label: "Education",
     subtitle: "Workshops and training to align development with climate action",
     href: "/education/",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/Climate-Education.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/Climate-Education.webp",
   },
   {
     label: "Nature Restoration",
     subtitle: "Reviving the natural beauty in urban cityscapes",
     href: "/nature-restoration/",
-    image: "https://massivefoundation.org/wp-content/uploads/2024/10/Nature-Restoration.webp",
+    image: "https://cms.massivefoundation.org/wp-content/uploads/2024/10/Nature-Restoration.webp",
   },
 ];
 
