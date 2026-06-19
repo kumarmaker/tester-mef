@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "slug": "donate",
+    "url": "/donate",
+    "page_type": "donate"
+  },
+  "hero": {
+    "eyebrow": "Support Massive Earth Foundation",
+    "headline": ["Donate To Climate"],
+    "description": "Let your intent turn into genuine climate action. Back young entrepreneurs, fund climate tech, and sponsor projects bringing direct impact to nature.",
+    "cta_primary": { "label": "View Projects", "href": "#pathways" },
+    "cta_muted": { "label": "Give To Climate", "href": "#pledge" }
+  },
+  "pathways": [
+    {
+      "id": "forest",
+      "tier": "hero",
+      "name": "Smriti Van Forest Plantation",
+      "story": "Initiate a forest plantation drive in the memory of a loved one. The Manisha Smriti Van project eternalises the memory of a dear one, giving birth to trees and forests that bring fresh life and natural beauty to the city ecosystem.",
+      "cta_label": "Plant a Forest Today",
+      "image": "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Nature-Restoration-Main-Project.webp",
+      "link": { "label": "Explore Other Projects", "href": "/nature-restoration" }
+    },
+    {
+      "id": "accelerator",
+      "tier": "hero",
+      "name": "Fund Climate Accelerators and Startup Cohorts",
+      "story": "Donate to MEF's flagship accelerators — LowCarbon.Earth, SAFFAL, or any other — and boost the development of climate technology that cuts down emissions and builds low-carbon, nature-friendly solutions. Funding goes to pre-vetted top performers of the cohort as grants or credits.",
+      "cta_label": "Give To Climate Accelerator",
+      "image": "/images/lce_hero.webp",
+      "link": { "label": "View All Accelerators", "href": "/programmes" }
+    },
+    {
+      "id": "research",
+      "tier": "hero",
+      "name": "Contribute To Original Research & Pilot Projects",
+      "story": "MEF engages with the hottest sectors in climate — Air Pollution, Electric Mobility, Plastic, Waste Management, and others — to procure fresh insights, detailed data, and the market understanding essential to grasp the state of a sector, gauge investment scope, and manage risk. Each report relies on ground-level data coupled with global datasets to produce reliable knowledge systems.",
+      "cta_label": "Donate To Climate Research",
+      "image": "/images/Sarojini_Dashboard.png",
+      "link": { "label": "View Research Reports", "href": "/research" }
+    },
+    {
+      "id": "cities",
+      "tier": "more",
+      "name": "Build Livable Cities",
+      "entity": "Livable Cities Projects",
+      "tagline": "Air, waste, heat, walkability",
+      "story": "From Delhi's air to Agra's waste streams, MEF's city projects attack the problems urban India breathes and walks through every day — air pollution, broken waste systems, heat islands, and streets never designed for people.",
+      "resolves_into": [
+        "Air pollution study and intervention work",
+        "City waste system audits and fixes",
+        "EV rickshaw transitions — cleaner air and better livelihoods"
+      ],
+      "image": "https://cms.massivefoundation.org/wp-content/uploads/2025/05/Project-Liveable-Cities.avif",
+      "link": { "label": "See the Vision — Livable Cities", "href": "/livable-cities" }
+    },
+    {
+      "id": "education",
+      "tier": "more",
+      "name": "Teach Climate",
+      "entity": "Climate & ESG Education",
+      "tagline": "The slowest, surest intervention",
+      "story": "MEF's education programmes build climate literacy where it compounds — in classrooms, and in the professionals whose decisions shape emissions. Environmental education, ESG training, and governance capacity, delivered where it changes behaviour.",
+      "resolves_into": [
+        "Climate modules in schools",
+        "ESG training for working professionals",
+        "A generation that doesn't need convincing"
+      ],
+      "image": "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Project-ESG-Training.webp",
+      "link": { "label": "Explore Education at MEF", "href": "/education" }
+    },
+    {
+      "id": "general",
+      "tier": "more",
+      "name": "Where It's Needed Most",
+      "entity": "MEF General Fund",
+      "tagline": "Trust the foundation to route it",
+      "story": "Some donors prefer to delegate the decision. The general fund lets MEF direct your support to the sharpest current need across all programmes — the gap a restricted gift can't reach. It is the simplest address, and often the most powerful one.",
+      "resolves_into": [
+        "Flexible capital across all 13 programmes",
+        "Rapid response when a project hits a critical moment",
+        "The unglamorous costs that make everything else work"
+      ],
+      "image": "https://cms.massivefoundation.org/wp-content/uploads/2025/05/Solving-Climate-Change.avif",
+      "link": { "label": "Everything We Do", "href": "/programmes" }
+    }
+  ],
+  "proof": {
+    "stats": [
+      { "value": "13", "label": "Programmes since 2018" },
+      { "value": "3,000+", "label": "Climate startups evaluated" },
+      { "value": "$350M+", "label": "Raised by accelerated startups" },
+      { "value": "8", "label": "Published research reports" }
+    ],
+    "partners_line": "Built on partnerships with UNEP, GIZ, IFC, UN Women, Invest India, Google Cloud, Microsoft for Startups and more.",
+    "partners_href": "/partners"
+  },
+  "form": {
+    "amount_ranges": [
+      "Under ₹50,000",
+      "₹50,000 – ₹5 Lakh",
+      "₹5 Lakh – ₹50 Lakh",
+      "Above ₹50 Lakh",
+      "Prefer to discuss"
+    ],
+    "trust_note": "Massive Earth Foundation is a Section 8 non-profit registered in India with 12A, 80G and FCRA certifications — Indian donors receive 80G tax receipts, and foreign contributions are received in full legal compliance. All receipt and compliance details are shared personally when we contact you about your pledge."
+  }
+}

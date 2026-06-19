@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
+
+export const metadata: Metadata = {
+  title: "Policy Alignment",
+  description: "How MEF's programmes align with the Paris Agreement, India NDCs, and UN Sustainable Development Goals.",
+};
 
 interface PolicySummary {
   meta: { slug: string };

@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
 import ProgrammeGrid from "@/components/newmef/ProgrammeGrid";
 import { PROGRAMME_CARD_IMAGES, PROGRAMME_PLACEHOLDER } from "@/lib/programme-images";
+
+export const metadata: Metadata = {
+  title: "Programmes",
+  description: "MEF's accelerators, pilots, and ground projects across climate sectors in South Asia and beyond.",
+};
 
 interface Programme {
   name: string;

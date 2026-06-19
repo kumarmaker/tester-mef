@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
+
+export const metadata: Metadata = {
+  title: "Research & Reports",
+  description: "MEF's sector reports, policy research, and climate data publications across South Asia.",
+};
 
 interface ResearchItem {
   name: string;

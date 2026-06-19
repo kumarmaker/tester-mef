@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Climate Sectors",
+  description: "The climate sectors where MEF operates — from clean energy and circular economy to sustainable agriculture and gender equity.",
+};
 
 interface SectorIndex {
   name: string;

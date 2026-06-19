@@ -252,6 +252,25 @@ export default function NavBar() {
         <div className="flex items-center justify-end gap-3">
           <Link
             href="/get-involved"
+            className="hidden lg:flex items-center transition-colors hover:border-white/60"
+            style={{
+              fontFamily: "var(--font-oswald)",
+              fontSize: "13px",
+              fontWeight: 700,
+              letterSpacing: "0.08em",
+              color: "#ffffff",
+              background: "transparent",
+              border: "1px solid rgba(255,255,255,0.35)",
+              borderRadius: "8px",
+              padding: "8px 18px",
+              textTransform: "uppercase",
+              textDecoration: "none",
+            }}
+          >
+            Get Involved
+          </Link>
+          <Link
+            href="/donate"
             className="hidden lg:flex items-center transition-opacity hover:opacity-90"
             style={{
               fontFamily: "var(--font-oswald)",
@@ -266,7 +285,7 @@ export default function NavBar() {
               textDecoration: "none",
             }}
           >
-            Get Involved
+            Donate
           </Link>
 
           {/* Mobile hamburger */}

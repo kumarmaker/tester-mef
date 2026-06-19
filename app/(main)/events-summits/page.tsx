@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
+
+export const metadata: Metadata = {
+  title: "Events & Summits",
+  description: "MEF's climate convenings — ClimateNXT summits, demo days, and policy events across Asia.",
+};
 
 interface EventSummary {
   meta: { slug: string };

@@ -32,7 +32,10 @@ const publicSans = Public_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Massive Earth Foundation",
+  title: {
+    default: "Massive Earth Foundation",
+    template: "%s | Massive Earth Foundation",
+  },
   description: "Solving Climate Change With Investments, Innovation, & Technology",
 };
 

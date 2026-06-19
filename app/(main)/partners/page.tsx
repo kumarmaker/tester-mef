@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
+
+export const metadata: Metadata = {
+  title: "Partners",
+  description: "MEF's global network of partners — UNEP, UN Women, IFC, AWS, Google Cloud, and 30+ organisations driving climate action.",
+};
 
 interface PartnerSummary {
   meta: { slug: string };
