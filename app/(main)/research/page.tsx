@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import fs from 'fs';
 import path from 'path';
-import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: "Research & Reports",
@@ -13,6 +12,7 @@ interface ResearchItem {
   description: string;
   tags: string[];
   image?: string;
+  pdf?: string;
   slug: string;
 }
 
@@ -50,22 +50,27 @@ export default function ResearchIndexPage() {
       </section>
 
       {/* ── Report cards ── */}
-      <div style={{ backgroundColor: "#fefdf5" }}>
+      <div style={{ backgroundColor: "#ede8d6" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
           <div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
             style={{ columnGap: '1rem', rowGap: '0' }}
           >
             {data.reports.map((r) => (
-              <Link
+              <a
                 key={r.slug}
-                href={`/research/${r.slug}`}
-                className="group rounded-xl overflow-hidden border border-amber-100 bg-white hover:shadow-lg transition-shadow duration-300"
+                href={r.pdf ?? `/research/${r.slug}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
                 style={{
+                  border: '1px solid #d9d3be',
+                  backgroundColor: '#ffffff',
                   display: 'grid',
                   gridRow: 'span 4',
                   gridTemplateRows: 'subgrid',
                   marginBottom: '1rem',
+                  textDecoration: 'none',
                 }}
               >
                 {/* Row 1 — Image */}
@@ -124,7 +129,7 @@ export default function ResearchIndexPage() {
                     </span>
                   ))}
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </div>

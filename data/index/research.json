@@ -9,6 +9,7 @@
       "description": "Assess the global and Indian EV charging landscape, highlighting the critical infrastructure density gaps between India and China.",
       "tags": ["Electric Mobility", "Charging Infrastructure"],
       "image": "/images/Reports/StateOfEVCharging_Report.webp",
+      "pdf": "/reports/State-of-EV-Charging-Report-Massive-Earth-Foundation.pdf",
       "slug": "state-of-ev-charging-report"
     },
     {
@@ -16,6 +17,7 @@
       "description": "Understand the limitations of mechanical recycling and the strategic rise of chemical recycling in achieving a true circular economy.",
       "tags": ["Circular Economy", "Plastic Pollution"],
       "image": "/images/Reports/chemicalrecycling_card_image.webp",
+      "pdf": "/reports/Plastic-Recycling-Report.pdf",
       "slug": "chemical-recycling-plastic-pollution"
     },
     {
@@ -23,6 +25,7 @@
       "description": "Analyze emerging trends in Direct Air Capture and mineralization, evaluating market growth, value chain risks, and the disruptive potential of CCUS in hard-to-abate sectors like aviation and heavy manufacturing.",
       "tags": ["Carbon Capture", "Climate Tech"],
       "image": "/images/Reports/ccus_cardimage.webp",
+      "pdf": "/reports/Carbon-Capture-Utilization-and-Sequestration.pdf",
       "slug": "ccus-report"
     },
     {
@@ -30,6 +33,7 @@
       "description": "Discover the physical properties and strategic investment thesis required to scale biochar as a viable global climate solution.",
       "tags": ["Carbon Removal", "Sustainable Forestry"],
       "image": "/images/Reports/biochar_report_cardimage.webp",
+      "pdf": "/reports/Biochar%20Report.pdf",
       "slug": "biochar-report"
     },
     {
@@ -37,6 +41,7 @@
       "description": "Analyze the unprecedented drop in pollution levels across Indian cities during the 2020 lockdown to establish new air quality benchmarks.",
       "tags": ["Air Quality", "Pollution Data"],
       "image": "/images/Reports/aqilockdown_cardimage.webp",
+      "pdf": "/reports/MEF%20Report%2001.pdf",
       "slug": "air-pollution-lockdown-study"
     },
     {
@@ -44,6 +49,7 @@
       "description": "A deep dive into the specific factors — paddy burning, vehicular traffic, and dust — that contribute to the persistent air quality crisis in India's capital.",
       "tags": ["Air Quality", "Delhi"],
       "image": "/images/Reports/chokingdelhi_cardimage.webp",
+      "pdf": "/reports/MEF%20Report%2002.pdf",
       "slug": "delhi-clean-air-report"
     }
   ]
