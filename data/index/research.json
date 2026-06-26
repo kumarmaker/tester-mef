@@ -3,102 +3,48 @@
     "url": "/research",
     "page_type": "index"
   },
-  "clusters": {
-    "air_environment": [
-      "Air Pollution & Lockdown Study",
-      "Dust & Its Impact",
-      "Delhi Clean Air Report"
-    ],
-    "mobility_energy": [
-      "State of EV Charging Report",
-      "CCUS Report"
-    ],
-    "agriculture_waste_carbon": [
-      "Agri-tech Investment Landscape",
-      "Chemical Recycling & Plastic Pollution",
-      "Biochar Report"
-    ]
-  },
   "reports": [
     {
-      "name": "State of EV Charging Report",
-      "short_name": "EV Report",
-      "sector": "Clean Mobility",
-      "date": "2024",
-      "status": "published",
-      "accessibility": "Website",
-      "produced_by": "EV Rickshaw Transition",
+      "name": "State Of EV Charging: Global & Indian Landscape",
+      "description": "Assess the global and Indian EV charging landscape, highlighting the critical infrastructure density gaps between India and China.",
+      "tags": ["Electric Mobility", "Charging Infrastructure"],
+      "image": "/images/Reports/StateOfEVCharging_Report.webp",
       "slug": "state-of-ev-charging-report"
     },
     {
-      "name": "Delhi Clean Air Report",
-      "short_name": "Delhi Air",
-      "sector": "Air Quality & Pollution",
-      "date": "2023",
-      "status": "published",
-      "accessibility": "Website",
-      "produced_by": null,
-      "slug": "delhi-clean-air-report"
-    },
-    {
-      "name": "Air Pollution & Lockdown Study",
-      "short_name": "AQI",
-      "sector": "Air Quality & Pollution",
-      "date": "2020",
-      "status": "published",
-      "accessibility": "Website",
-      "produced_by": null,
-      "slug": "air-pollution-lockdown-study"
-    },
-    {
-      "name": "Biochar Report",
-      "short_name": "Biochar",
-      "sector": "Carbon Removal",
-      "date": null,
-      "status": "published",
-      "accessibility": "Website",
-      "produced_by": "Sustainable Forests / Smriti Van",
-      "slug": "biochar-report"
-    },
-    {
-      "name": "Agri-tech Investment Landscape",
-      "short_name": "Agri-Finance",
-      "sector": "Sustainable Agriculture",
-      "date": null,
-      "status": "published",
-      "accessibility": "Website",
-      "produced_by": "AgroXlerate",
-      "slug": "agri-tech-investment-landscape"
-    },
-    {
-      "name": "Dust & Its Impact",
-      "short_name": "Dust",
-      "sector": "Air Quality & Pollution",
-      "date": null,
-      "status": "published",
-      "accessibility": "Website",
-      "produced_by": null,
-      "slug": "dust-its-impact"
-    },
-    {
-      "name": "Chemical Recycling & Plastic Pollution",
-      "short_name": "LVP",
-      "sector": "Circular Economy & Waste",
-      "date": null,
-      "status": "published",
-      "accessibility": "Website, Publication",
-      "produced_by": null,
+      "name": "The State Of Plastic Recycling: Deep Dive Into Chemical Recycling",
+      "description": "Understand the limitations of mechanical recycling and the strategic rise of chemical recycling in achieving a true circular economy.",
+      "tags": ["Circular Economy", "Plastic Pollution"],
+      "image": "/images/Reports/chemicalrecycling_card_image.webp",
       "slug": "chemical-recycling-plastic-pollution"
     },
     {
-      "name": "CCUS Report",
-      "short_name": "CCUS",
-      "sector": "Carbon Capture & Storage",
-      "date": null,
-      "status": "published",
-      "accessibility": "Website",
-      "produced_by": null,
+      "name": "Carbon Capture, Utilization, and Sequestration: On the Forefront of Reducing Carbon Emissions",
+      "description": "Analyze emerging trends in Direct Air Capture and mineralization, evaluating market growth, value chain risks, and the disruptive potential of CCUS in hard-to-abate sectors like aviation and heavy manufacturing.",
+      "tags": ["Carbon Capture", "Climate Tech"],
+      "image": "/images/Reports/ccus_cardimage.webp",
       "slug": "ccus-report"
+    },
+    {
+      "name": "BIOCHAR: Unlocking Sustainable Solutions",
+      "description": "Discover the physical properties and strategic investment thesis required to scale biochar as a viable global climate solution.",
+      "tags": ["Carbon Removal", "Sustainable Forestry"],
+      "image": "/images/Reports/biochar_report_cardimage.webp",
+      "slug": "biochar-report"
+    },
+    {
+      "name": "AQI during Lockdown: New Benchmark in Pollution Data",
+      "description": "Analyze the unprecedented drop in pollution levels across Indian cities during the 2020 lockdown to establish new air quality benchmarks.",
+      "tags": ["Air Quality", "Pollution Data"],
+      "image": "/images/Reports/aqilockdown_cardimage.webp",
+      "slug": "air-pollution-lockdown-study"
+    },
+    {
+      "name": "Delhi Air Pollution: What Is Choking Delhi?",
+      "description": "A deep dive into the specific factors — paddy burning, vehicular traffic, and dust — that contribute to the persistent air quality crisis in India's capital.",
+      "tags": ["Air Quality", "Delhi"],
+      "image": "/images/Reports/chokingdelhi_cardimage.webp",
+      "slug": "delhi-clean-air-report"
     }
   ]
 }

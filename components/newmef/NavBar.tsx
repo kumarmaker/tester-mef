@@ -213,24 +213,13 @@ export default function NavBar() {
             const isActive = active === item.label;
             const isCurrent = pathname.startsWith(item.href) && item.href !== "/";
             return (
-              <button
+              <Link
                 key={item.label}
+                href={item.href}
                 onMouseEnter={() => setActive(item.label)}
+                onClick={() => setActive(null)}
                 className="relative h-full px-3 flex items-center gap-1 transition-colors"
-                style={item.label === "Get Involved" ? {
-                  fontFamily: "var(--font-jakarta)",
-                  fontSize: "13px",
-                  fontWeight: 700,
-                  letterSpacing: "0.06em",
-                  textTransform: "uppercase" as const,
-                  color: "#ffffff",
-                  background: "#e50000",
-                  borderRadius: "8px",
-                  padding: "8px 18px",
-                  height: "auto",
-                  cursor: "pointer",
-                  border: "none",
-                } : {
+                style={{
                   fontFamily: "var(--font-jakarta)",
                   fontSize: "13px",
                   fontWeight: 500,
@@ -238,12 +227,11 @@ export default function NavBar() {
                   wordSpacing: "0.1em",
                   color: "#ffffff",
                   borderBottom: isActive || isCurrent ? "2px solid #e50000" : "2px solid transparent",
-                  background: "none",
-                  cursor: "pointer",
+                  textDecoration: "none",
                 }}
               >
                 {item.label}
-              </button>
+              </Link>
             );
           })}
         </nav>
