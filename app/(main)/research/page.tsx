@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import fs from 'fs';
 import path from 'path';
-import Link from 'next/link';
-import Breadcrumb from '@/components/newmef/Breadcrumb';
-import StatusBadge from '@/components/newmef/StatusBadge';
 
 export const metadata: Metadata = {
   title: "Research & Reports",
@@ -12,12 +9,10 @@ export const metadata: Metadata = {
 
 interface ResearchItem {
   name: string;
-  short_name?: string;
-  sector?: string;
-  date?: string | null;
-  status?: string;
-  accessibility?: string;
-  produced_by?: string | null;
+  description: string;
+  tags: string[];
+  image?: string;
+  pdf?: string;
   slug: string;
 }
 
@@ -30,63 +25,114 @@ export default function ResearchIndexPage() {
   const data: ResearchIndexData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
   return (
-    <main className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
-      <Breadcrumb items={[{ label: 'Research', href: '/research' }]} />
-
-      <div className="mb-10">
-        <h1
-          className="text-3xl font-bold text-gray-900 uppercase tracking-wide mb-2"
-          style={{ fontFamily: 'var(--font-oswald)' }}
-        >
-          Research
-        </h1>
-        <p className="text-gray-500" style={{ fontFamily: 'var(--font-inter)' }}>
-          {data.reports.length} reports and publications
-        </p>
-      </div>
-
-      <div className="space-y-3">
-        {data.reports.map((r) => (
-          <Link
-            key={r.slug}
-            href={`/research/${r.slug}`}
-            className="flex items-start justify-between bg-white border border-gray-200 rounded-xl px-5 py-4 hover:shadow-md transition-shadow block"
+    <main>
+      {/* ── Hero ── */}
+      <section
+        className="relative flex items-center justify-center py-28 px-4"
+        style={{
+          backgroundImage: "url(/images/SAFFAL_Climate_Insight_Hero.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/20" />
+        <div className="relative z-10 text-center max-w-3xl mx-auto">
+          <h1
+            className="text-4xl md:text-5xl font-bold text-gray-900 uppercase leading-tight mb-5"
+            style={{ fontFamily: 'var(--font-oswald)' }}
           >
-            <div className="flex-1 min-w-0 mr-4">
-              <h2
-                className="text-base font-semibold text-gray-900 hover:text-red-600 transition-colors"
-                style={{ fontFamily: 'var(--font-oswald)' }}
+            Climate Research &amp; Publications
+          </h1>
+          <p className="text-gray-700 text-base md:text-lg leading-relaxed" style={{ fontFamily: 'var(--font-inter)' }}>
+            Original reports built on official data, fresh observations, and sector-focused analysis — uncovering insights, tracking markets, and tackling the core problems shaping climate solutions.
+          </p>
+        </div>
+      </section>
+
+      {/* ── Report cards ── */}
+      <div style={{ backgroundColor: "#ede8d6" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+          <div
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+            style={{ columnGap: '1rem', rowGap: '0' }}
+          >
+            {data.reports.map((r) => (
+              <a
+                key={r.slug}
+                href={r.pdf ?? `/research/${r.slug}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                style={{
+                  border: '1px solid #d9d3be',
+                  backgroundColor: '#ffffff',
+                  display: 'grid',
+                  gridRow: 'span 4',
+                  gridTemplateRows: 'subgrid',
+                  marginBottom: '1rem',
+                  textDecoration: 'none',
+                }}
               >
-                {r.name}
-              </h2>
-              <div
-                className="flex flex-wrap items-center gap-2 mt-1 text-xs text-gray-500"
-                style={{ fontFamily: 'var(--font-inter)' }}
-              >
-                {r.sector && <span>{r.sector}</span>}
-                {r.date && (
-                  <>
-                    <span className="text-gray-300">·</span>
-                    <span>{r.date}</span>
-                  </>
-                )}
-                {r.accessibility && (
-                  <>
-                    <span className="text-gray-300">·</span>
-                    <span>{r.accessibility}</span>
-                  </>
-                )}
-                {r.produced_by && (
-                  <>
-                    <span className="text-gray-300">·</span>
-                    <span>By {r.produced_by}</span>
-                  </>
-                )}
-              </div>
-            </div>
-            {r.status && <StatusBadge status={r.status} />}
-          </Link>
-        ))}
+                {/* Row 1 — Image */}
+                <div className="relative w-full overflow-hidden" style={{ aspectRatio: '16 / 9' }}>
+                  {r.image ? (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={r.image}
+                        alt={r.name}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/25" />
+                    </>
+                  ) : (
+                    <div className="w-full h-full bg-amber-100 flex items-center justify-center">
+                      <span
+                        className="text-amber-300 uppercase tracking-widest"
+                        style={{ fontFamily: 'var(--font-inter)', fontSize: 'var(--type-10)' }}
+                      >
+                        Cover Image
+                      </span>
+                    </div>
+                  )}
+                </div>
+
+                {/* Row 2 — Title */}
+                <div className="px-5 pt-4 pb-2">
+                  <h2
+                    className="font-bold text-gray-900 leading-snug group-hover:text-amber-800 transition-colors"
+                    style={{ fontFamily: 'var(--font-jakarta)', fontSize: 'var(--type-16)' }}
+                  >
+                    {r.name}
+                  </h2>
+                </div>
+
+                {/* Row 3 — Copy */}
+                <div className="px-5 pb-3">
+                  <p
+                    className="text-gray-500 leading-relaxed"
+                    style={{ fontFamily: 'var(--font-inter)', fontSize: 'var(--type-13)' }}
+                  >
+                    {r.description}
+                  </p>
+                </div>
+
+                {/* Row 4 — Tags */}
+                <div className="px-5 pb-4 flex flex-wrap gap-1.5">
+                  {r.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2 py-0.5 rounded-full font-medium bg-amber-50 text-amber-800 border border-amber-200"
+                      style={{ fontFamily: 'var(--font-inter)', fontSize: 'var(--type-10)' }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </main>
   );
