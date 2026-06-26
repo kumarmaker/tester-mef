@@ -34,7 +34,7 @@ export default function Hero() {
         </p>
 
         <Link
-          href="/engage-with-us/"
+          href="/get-involved"
           className="mt-8 inline-block bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-wide px-6 py-2 transition-colors"
           style={{ fontFamily: "var(--font-oswald)", fontSize: "24px", borderRadius: "8px" }}
         >
