@@ -5,12 +5,20 @@
   },
   "reports": [
     {
-      "name": "State Of EV Charging: Global & Indian Landscape",
-      "description": "Assess the global and Indian EV charging landscape, highlighting the critical infrastructure density gaps between India and China.",
-      "tags": ["Electric Mobility", "Charging Infrastructure"],
-      "image": "/images/Reports/StateOfEVCharging_Report.webp",
-      "pdf": "/reports/State-of-EV-Charging-Report-Massive-Earth-Foundation.pdf",
-      "slug": "state-of-ev-charging-report"
+      "name": "A Deep Dive Into Battery Energy Storage System",
+      "description": "Assess the technological landscape of LFP batteries and the bankability models required to meet the nation's 236 GWh energy storage mandate.",
+      "tags": ["Energy Storage", "Battery Technology"],
+      "image": "/images/Reports/BESS_Sector%20Report.webp",
+      "pdf": "/reports/BESS%20Sector_Report%20by%20Climate%20Angels%20.pdf",
+      "slug": "bess-sector-report"
+    },
+    {
+      "name": "BIOCHAR: Unlocking Sustainable Solutions",
+      "description": "Discover the physical properties and strategic investment thesis required to scale biochar as a viable global climate solution.",
+      "tags": ["Carbon Removal", "Sustainable Forestry"],
+      "image": "/images/Reports/biochar_report_cardimage.webp",
+      "pdf": "/reports/Biochar%20Report.pdf",
+      "slug": "biochar-report"
     },
     {
       "name": "The State Of Plastic Recycling: Deep Dive Into Chemical Recycling",
@@ -21,20 +29,20 @@
       "slug": "chemical-recycling-plastic-pollution"
     },
     {
+      "name": "State Of EV Charging: Global & Indian Landscape",
+      "description": "Assess the global and Indian EV charging landscape, highlighting the critical infrastructure density gaps between India and China.",
+      "tags": ["Electric Mobility", "Charging Infrastructure"],
+      "image": "/images/Reports/StateOfEVCharging_Report.webp",
+      "pdf": "/reports/State-of-EV-Charging-Report-Massive-Earth-Foundation.pdf",
+      "slug": "state-of-ev-charging-report"
+    },
+    {
       "name": "Carbon Capture, Utilization, and Sequestration: On the Forefront of Reducing Carbon Emissions",
       "description": "Analyze emerging trends in Direct Air Capture and mineralization, evaluating market growth, value chain risks, and the disruptive potential of CCUS in hard-to-abate sectors like aviation and heavy manufacturing.",
       "tags": ["Carbon Capture", "Climate Tech"],
       "image": "/images/Reports/ccus_cardimage.webp",
       "pdf": "/reports/Carbon-Capture-Utilization-and-Sequestration.pdf",
       "slug": "ccus-report"
-    },
-    {
-      "name": "BIOCHAR: Unlocking Sustainable Solutions",
-      "description": "Discover the physical properties and strategic investment thesis required to scale biochar as a viable global climate solution.",
-      "tags": ["Carbon Removal", "Sustainable Forestry"],
-      "image": "/images/Reports/biochar_report_cardimage.webp",
-      "pdf": "/reports/Biochar%20Report.pdf",
-      "slug": "biochar-report"
     },
     {
       "name": "AQI during Lockdown: New Benchmark in Pollution Data",
