@@ -89,8 +89,9 @@ const NAV: NavItem[] = [
       {
         heading: "Reports",
         items: [
-          { label: "Delhi Clean Air Report",       href: "/research/delhi-clean-air-report" },
-          { label: "Air Pollution & Lockdown",     href: "/research/air-pollution-lockdown-study" },
+          { label: "BESS Sector Report",           href: "/research/bess-sector-report" },
+          { label: "Biochar Report",               href: "/research/biochar-report" },
+          { label: "Plastic Recycling Report",     href: "/research/chemical-recycling-plastic-pollution" },
           { label: "State of EV Charging",         href: "/research/state-of-ev-charging-report" },
           { label: "CCUS Report",                  href: "/research/ccus-report" },
         ],
