@@ -49,8 +49,8 @@ const FIELD =
   "w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none focus:border-gray-400 transition-colors bg-white";
 const LABEL = "block text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1.5";
 
-export default function JoinForm() {
-  const [form, setForm] = useState<FormData>(EMPTY);
+export default function JoinForm({ defaultRole }: { defaultRole?: string }) {
+  const [form, setForm] = useState<FormData>({ ...EMPTY, role_type: defaultRole ?? "" });
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState<{ type: "success" | "error"; msg: string } | null>(null);
 
@@ -85,7 +85,7 @@ export default function JoinForm() {
       });
       const data = await res.json();
       if (data.success) {
-        setForm(EMPTY);
+        setForm({ ...EMPTY, role_type: defaultRole ?? "" });
         showToast("success", "You're in! We'll be in touch soon.");
       } else {
         showToast("error", "Something went wrong. Please try again.");
