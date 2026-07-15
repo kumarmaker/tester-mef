@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
+import { entityMetadata } from '@/lib/entityMetadata';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
 import SectorTag from '@/components/newmef/SectorTag';
@@ -44,6 +46,15 @@ interface ResearchData {
     advocacy: PolicyEvidence[];
   };
   related_reports: RelatedReport[];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return entityMetadata('research', slug);
 }
 
 export async function generateStaticParams() {

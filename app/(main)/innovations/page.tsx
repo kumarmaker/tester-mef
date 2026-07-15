@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Innovations",
+  description: "Climate-tech innovations, startups, and accelerator outcomes across the MEF ecosystem.",
+};
+
 const ACCELERATORS = [
   { label: "Zero Waste Cities",         image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Zero-Waste-Cities-Card.webp" },
   { label: "Agra Innovation Lab",       image: "https://cms.massivefoundation.org/wp-content/uploads/2024/11/Agra-Innovation-Lab-Card.webp" },

@@ -3,6 +3,13 @@ import { BLOG_LISTING_QUERY } from "@/lib/queries";
 import InfinitePostsGrid from "@/components/InfinitePostsGrid";
 import Image from "next/image";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Articles & Essays",
+  description: "Articles, essays, and insights on climate change and the technology that solves it.",
+};
+
 type Post = {
   title: string;
   slug: string;

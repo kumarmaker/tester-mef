@@ -1,6 +1,14 @@
 import Link from "next/link";
 import { wpQuery } from "@/lib/graphql";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "URL Map",
+  description: "Internal development page.",
+  robots: { index: false, follow: false },
+};
+
 const SITEMAP_QUERY = `
   query SiteMap {
     pages(first: 100, where: { status: PUBLISH }) {

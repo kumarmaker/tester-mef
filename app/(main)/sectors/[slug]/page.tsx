@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
+import { entityMetadata } from '@/lib/entityMetadata';
 import Link from 'next/link';
 import ProgrammeBgCard from '@/components/newmef/ProgrammeBgCard';
 import StatusBadge from '@/components/newmef/StatusBadge';
@@ -37,6 +39,15 @@ interface SectorData {
   programmes: { primary: Programme[]; secondary: Programme[] };
   policies: { global: Policy[]; national: Policy[] };
   reports: Report[];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return entityMetadata('sectors', slug);
 }
 
 export async function generateStaticParams() {

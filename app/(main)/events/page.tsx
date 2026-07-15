@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Events",
+  description: "Climate summits, demo days, webinars, and community events by Massive Earth Foundation.",
+};
+
 const PAST_EVENTS = [
   {
     title: "Climate Thursday Bangalore",

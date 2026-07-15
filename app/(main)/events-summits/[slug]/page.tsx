@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
+import { entityMetadata } from '@/lib/entityMetadata';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
 import ProgrammeCard from '@/components/newmef/ProgrammeCard';
@@ -39,6 +41,15 @@ interface EventData {
   media_note?: string | null;
   linked_programmes: LinkedProgramme[];
   series: SeriesEvent[];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return entityMetadata('events', slug);
 }
 
 export async function generateStaticParams() {

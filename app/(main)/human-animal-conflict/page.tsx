@@ -1,6 +1,13 @@
 import Link from "next/link";
 import ProjectsAccordion, { type AccordionProject } from "@/components/sections/ProjectsAccordion";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Human-Animal Conflict",
+  description: "MEF's work on human-animal conflict and coexistence in urban and rural India.",
+};
+
 const HAC_PROJECTS: AccordionProject[] = [
   {
     label: "Wild Animals & Village Conflict",

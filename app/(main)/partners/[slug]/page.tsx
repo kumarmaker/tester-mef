@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
+import { entityMetadata } from '@/lib/entityMetadata';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
 import ProgrammeCard from '@/components/newmef/ProgrammeCard';
@@ -45,6 +47,15 @@ interface PartnerData {
   programmes: Programme[];
   mou_enabled_programmes: MoUProgramme[];
   policies_implemented: PolicyImplemented[];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return entityMetadata('partners', slug);
 }
 
 export async function generateStaticParams() {

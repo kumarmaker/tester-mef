@@ -1,6 +1,13 @@
 import Link from "next/link";
 import ProjectsAccordion, { type AccordionProject } from "@/components/sections/ProjectsAccordion";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Livable Cities",
+  description: "Building livable, low-carbon cities - air quality, waste, mobility, and urban resilience.",
+};
+
 const LIVABLE_CITIES_PROJECTS: AccordionProject[] = [
   {
     label: "Air Pollution",

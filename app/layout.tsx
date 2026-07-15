@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald, Inter, Noto_Sans, Plus_Jakarta_Sans, Public_Sans } from "next/font/google";
+import { SITE_URL, IS_PREVIEW_DEPLOY } from "@/lib/site";
 import "./globals.css";
 
 const oswald = Oswald({
@@ -32,11 +33,25 @@ const publicSans = Public_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Massive Earth Foundation",
     template: "%s | Massive Earth Foundation",
   },
   description: "Solving Climate Change With Investments, Innovation, & Technology",
+  // "./" resolves per-route against metadataBase → every page gets a
+  // self-referencing canonical without per-page boilerplate.
+  alternates: { canonical: "./" },
+  // Belt-and-braces with robots.ts: on preview/test deployments
+  // (NOINDEX_SITE=true) every page also carries a noindex meta tag,
+  // covering the case where an externally-linked URL surfaces despite
+  // the robots.txt crawl block.
+  robots: IS_PREVIEW_DEPLOY ? { index: false, follow: false } : undefined,
+  openGraph: {
+    siteName: "Massive Earth Foundation",
+    type: "website",
+    locale: "en_US",
+  },
 };
 
 export default function RootLayout({

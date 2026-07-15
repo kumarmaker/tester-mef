@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
+import { entityMetadata } from '@/lib/entityMetadata';
 import Link from 'next/link';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
@@ -120,6 +122,15 @@ function sdgIcon(slug: string): string | null {
 }
 
 const PLACEHOLDER_IMG = '/images/mef_programme_hero.webp';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return entityMetadata('programmes', slug);
+}
 
 export async function generateStaticParams() {
   const dir = path.join(process.cwd(), 'data', 'programmes');

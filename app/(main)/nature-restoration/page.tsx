@@ -1,6 +1,13 @@
 import Link from "next/link";
 import ProjectsAccordion, { type AccordionProject } from "@/components/sections/ProjectsAccordion";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nature Restoration",
+  description: "Nature restoration, forests, and biodiversity programmes by Massive Earth Foundation.",
+};
+
 const NATURE_PROJECTS: AccordionProject[] = [
   {
     label: "Pond Restoration",

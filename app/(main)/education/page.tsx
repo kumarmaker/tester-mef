@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Climate Education",
+  description: "Climate education programmes, courses, and learning resources from Massive Earth Foundation.",
+};
+
 const ESG_TILES = [
   {
     label: "Environmental",

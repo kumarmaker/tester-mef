@@ -1,5 +1,13 @@
 import { wpQuery } from "@/lib/graphql";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "WP Test",
+  description: "Internal development page.",
+  robots: { index: false, follow: false },
+};
+
 const HANDSHAKE_QUERY = `
   query HandshakeTest {
     generalSettings {
