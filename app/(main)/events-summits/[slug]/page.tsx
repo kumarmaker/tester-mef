@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import type { Metadata } from 'next';
 import { entityMetadata } from '@/lib/entityMetadata';
+import { eventSchema } from '@/lib/schema';
+import JsonLd from '@/components/JsonLd';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
 import ProgrammeCard from '@/components/newmef/ProgrammeCard';
@@ -80,6 +82,15 @@ export default async function EventPage({
 
   return (
     <main>
+      <JsonLd
+        data={eventSchema({
+          name: data.hero.name,
+          slug,
+          date: data.hero.date,
+          location: data.hero.location,
+          description: data.outcome,
+        })}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-12">
         <Breadcrumb
           items={[

@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import type { Metadata } from 'next';
 import { entityMetadata } from '@/lib/entityMetadata';
+import { reportSchema, toISODate } from '@/lib/schema';
+import JsonLd from '@/components/JsonLd';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
 import StatusBadge from '@/components/newmef/StatusBadge';
 import SectorTag from '@/components/newmef/SectorTag';
@@ -85,6 +87,14 @@ export default async function ResearchPage({
 
   return (
     <main>
+      <JsonLd
+        data={reportSchema({
+          name: data.hero.name,
+          description: data.hero.description,
+          slug,
+          datePublished: toISODate(data.hero.release_date),
+        })}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-12">
         <Breadcrumb
           items={[

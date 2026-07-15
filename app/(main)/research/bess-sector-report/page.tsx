@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/newmef/Breadcrumb';
+import JsonLd from '@/components/JsonLd';
+import { reportSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
   title: 'A Deep Dive Into Battery Energy Storage System',
@@ -434,6 +436,13 @@ export default function TesterPage() {
   const r = REPORT;
   return (
     <main style={{ backgroundColor: C.pageBg }}>
+      <JsonLd
+        data={reportSchema({
+          name: 'A Deep Dive Into Battery Energy Storage System',
+          description: r.caption,
+          slug: 'bess-sector-report',
+        })}
+      />
       {/* ── Masthead ── */}
       <section style={{ backgroundColor: C.heroBg, borderBottom: `1px solid ${C.border}` }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-6 pb-12">

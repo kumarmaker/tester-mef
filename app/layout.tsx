@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Oswald, Inter, Noto_Sans, Plus_Jakarta_Sans, Public_Sans } from "next/font/google";
 import { SITE_URL, IS_PREVIEW_DEPLOY } from "@/lib/site";
+import { organizationSchema, webSiteSchema } from "@/lib/schema";
+import JsonLd from "@/components/JsonLd";
 import "./globals.css";
 
 const oswald = Oswald({
@@ -51,6 +53,8 @@ export const metadata: Metadata = {
     siteName: "Massive Earth Foundation",
     type: "website",
     locale: "en_US",
+    // Default social-share image; individual pages can override.
+    images: [{ url: "/images/mef_programme_hero.webp", width: 1672, height: 941 }],
   },
 };
 
@@ -65,6 +69,8 @@ export default function RootLayout({
       className={`${oswald.variable} ${inter.variable} ${notoSans.variable} ${plusJakarta.variable} ${publicSans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-gray-900">
+        <JsonLd data={organizationSchema()} />
+        <JsonLd data={webSiteSchema()} />
         {children}
       </body>
     </html>
